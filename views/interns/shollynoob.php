@@ -24,7 +24,7 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Hello, I am your friend Olusola, an Android Developer and IT Enthusiast finding my way to frontend, I love to learn ML, and i tried to learn everything that interest my mind...<br> Let's get coding up, a little code here, a little code there! it building up.</p>
+                        <p>Hello, I am your friend Olusola, an Android Developer and IT Enthusiast finding my way to frontend, I love to learn ML, and i tried to learn everything that interest my mind...<br> Let's get coding up, a little code here, a little code there, it building up!</p>
                         <br />
                         <h6>Skills</h6>
                         <p>HTML | CSS | JavaScript</p>
