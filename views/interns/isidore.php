@@ -11,7 +11,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/isidoreek/image/upload/v1554386709/Isidore_s_Portrait.jpg" alt="Mark Essien">
+                        <img src="https://res.cloudinary.com/isidoreek/image/upload/v1554392314/rsz_isidores_portrait.jpg" alt="Mark Essien">
                         <h6>Isidore Ekeh</h6>
                         <p>Future Developer and UI/UX Designer</p>
                         <ul class="list">
