@@ -18,7 +18,7 @@
   $router = new Router;
   // Add the static routes
   $router->add([
-      '/godofspeed' => 'interns/godofspeed.php',
+      '/interns/godofspeed.php' => '/views/interns/godofspeed.php',
       '/' => 'index.php',
       '/support' => 'support.php',
       '/about' => 'about.php',
