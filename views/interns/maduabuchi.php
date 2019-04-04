@@ -27,7 +27,7 @@
                         <p>I am Data-Analyst, A software developer and a Machine leraning ethusiast. I believe that in future of Machine Learning</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>Sklearn | Tableau | Python</p>
+                        <p>Machine Learning | Tableau | Python</p>
                      </div>
                   </div>
                </div>
