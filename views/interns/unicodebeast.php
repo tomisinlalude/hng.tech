@@ -15,7 +15,7 @@
                         <h6>Olakanmi Vincent</h6>
                         <p>Fullstack Engineer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/@unicodebeast" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/@unicode_beast" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/unicodebeast" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
                            <li><a href="https://medium.com/@unicodebeast" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
@@ -25,13 +25,10 @@
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
                         <p>
-                        I am Olakanmi Vincent, an aspiring full stack developer and a Graphics Artist. I currently work with JavaSript, 
-                        CorelDraw, Adobe Photoshop and still advancing my skills and knowledge in different programming Languages. 
-                        <br>
-                        <br>  
-                        I am looking forward to working on different projects so as to enhance my knowledge and creativity for real life 
-                        scenerios thereby making our community and the world as a whole a better place.
-                         </p>
+                        I am Olakanmi Vincent, an aspiring full stack developer and a Graphics Artist. 
+                        I currently work with JavaSript, CorelDraw, Adobe Photoshop and still 
+                        advancing my skills and knowledge in different programming Languages. 
+                        </p>
                         <br />
                         <h6>Skills</h6>
                         <p>JavaScript | PHP | Node.js</p>
