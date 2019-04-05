@@ -13,7 +13,7 @@
                      <div class="intern-block border-blue">
                         <img src="https://res.cloudinary.com/dbpfc5tow/image/upload/v1554476656/mfonette.jpg" alt="Ette Mfon">
                         <h6>Ette Mfon</h6>
-                        <p>Front-end Developer</p>
+                        <p>Front-End developer</p>
                         <ul class="list">
                            <li><a href="https://github.com/mfonette" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/mfonette" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
@@ -24,10 +24,10 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am an intermediate Web developer with the passion to solve problems using web tools.</p>
+                        <p>I am an intermediate web developer with the passion to solve problems using web tools.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>| JavaScript |HMTL | CSS(bootstrap)</p>
+                        <p> JavaScript |HTML |CSS(Bootstrap)</p>
                      </div>
                   </div>
                </div>
