@@ -10,7 +10,7 @@
                      <div class="intern-block border-blue">
                         <img src="https://res.cloudinary.com/dwohmpvtk/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1554388728/B8937DD0-4778-4B52-8A39-E348FEEB43D9.jpg" alt="Azeez Biodun">
                         <h6>Azeez Biodun</h6>
-                        <p>Front-end Engineer</p>
+                        <p>Website Developer</p>
                         <ul class="list">
                            <li><a href="https://twitter.com/@herdiozy" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/herdiozyy" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
