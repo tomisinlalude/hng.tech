@@ -24,7 +24,7 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am new to web development with enthusiasm to for backend development, been involved in a few successful group projects working comfortably with basic HTML, CSS, and C#. I learn well, better and faster on the job and that is why I chose to be part of the HNG Internship.</p>
+                        <p>I am new to web development with enthusiasm too for backend development, been involved in a few successful group projects working comfortably with basic HTML, CSS, and C#. I learn well, better and faster on the job and that is why I chose to be part of the HNG Internship.</p>
                         <br />
                         <h6>Skills</h6>
                         <p>HTML | CSS | C#</p>
