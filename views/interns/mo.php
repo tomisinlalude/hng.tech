@@ -9,7 +9,7 @@
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
                         <img src="https://res.cloudinary.com/moyin/image/upload/v1554364710/FullSizeRender-5.jpg" alt="Ariyo Moyinoluwa">
-                        <h6>Mark Essien</h6>
+                        <h6>Moyin Ariyo</h6>
                         <p>Front-end Engineer</p>
                         <ul class="list">
                            <li><a href="https://twitter.com/ariyo_moyin" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
