@@ -11,7 +11,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/dr8hvxu4u/image/upload/v1554397957/azeez.jpg" alt="Abolade Eniseyin">
+                        <img src="https://res.cloudinary.com/dr8hvxu4u/image/upload/v1554423656/azeez.jpg" alt="Abolade Eniseyin">
                         <h6>Abolade Eniseyin</h6>
                         <p>Back-end Engineer</p>
                         <ul class="list">
