@@ -11,7 +11,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/phreecodes/image/upload/v1554324631/WhatsApp_Image_2019-03-30_at_1.07.35_AM.jpg" alt="Eyimenarolu Freedom">
+                        <img src="https://res.cloudinary.com/dbpfc5tow/image/upload/v1554476656/mfonette.jpg" alt="Ette Mfon">
                         <h6>Ette Mfon</h6>
                         <p>Front-end Developer</p>
                         <ul class="list">
