@@ -27,7 +27,7 @@
                         <p>I am very much passionate about tech.<br/><br/> I take responsibility for my personal development. I am always ready to learn, continually upgrading my programming skills with current and relevant technologies to stay at the cutting edge of technological development, to
                          be at par with world standard.</p>
                         <br />
-                        <h6>Skills</6>
+                        <h6>Skills</h6>
                         <p>JavaScript | Python | Shell Scripting</p>
                      </div>
                   </div>
