@@ -24,7 +24,7 @@
                         <p>My name is Eniola Erivona. I am a web developer. I have been learning to code since 2018, and i have worked on variety of projects since then, thereby enhancing my knowledge in the IT world.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>HTML | CSS| JavaScript | Java | Android </p>
+                        <p>HTML | CSS| JavaScript</p>
                      </div>
                   </div>
                </div>
