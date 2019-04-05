@@ -25,7 +25,7 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I'm Stephen Madubuike. I'm a Front-end Developer. I love writing code, sharing my knowledge with people and solving challenges. I'm also well at home with both Java and Python.</p>
+                        <p>I'm Stephen Madubuike. I'm a Back-end Developer. I love writing code, sharing my knowledge with people and solving challenges. I'm also well at home with both Java and Python.</p>
                         <br />
                         <h6>Skills</h6>
                         <p>Python | Java</p>
