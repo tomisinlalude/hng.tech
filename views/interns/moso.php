@@ -9,8 +9,8 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://i.ibb.co/NWqcCgH/1552402621548386.jpg" alt="Moso Akinyemi">
-                        <h6>Moso Akinyemi</h6>
+                        <img src="https://i.ibb.co/NWqcCgH/1552402621548386.jpg" alt="Mosolasi Akinyemi">
+                        <h6>Mosolasi Akinyemi</h6>
                         <p>Moblie Apps Developer</p>
                         <ul class="list">
                            <li><a href="#" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
