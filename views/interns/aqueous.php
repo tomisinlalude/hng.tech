@@ -11,13 +11,13 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/aqueousbobo/image/upload/v1554373811/download.png" alt="Idahosa Akioya">
+                        <img src="https://res.cloudinary.com/aqueousbobo/image/upload/v1554538580/download.png" alt="Idahosa Akioya">
                         <h6>Idahosa Akioya</h6>
                         <p>Front-end Developer/UI/UX Designer</p>
                         <ul class="list">
-                           <li><a href="#" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="#" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="#" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/donrozay" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/AqueousSolution" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@chrisyaks" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
