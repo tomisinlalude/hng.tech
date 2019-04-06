@@ -15,9 +15,9 @@
                         <h6>Olanrewaju A. Olaboye</h6>
                         <p>Node.JS Developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/BoyePanthera" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/WonderfulOlanrewaju" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@olaboyeolanrewajuakinola" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/BoyePanthera" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/WonderfulOlanrewaju" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@olaboyeolanrewajuakinola" target="_blank"><i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
