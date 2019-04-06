@@ -11,7 +11,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/donc/image/upload/v1554348690/don.jpg" alt="Donald Irebo">
+                        <img src="https://res.cloudinary.com/donc/image/upload/v1554525447/IMG_20170504_152320.jpg" alt="Donald Irebo">
                         <h6>Donald Irebo</h6>
                         <p>Back-End Engineer</p>
                         <ul class="list">
