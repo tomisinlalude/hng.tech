@@ -24,7 +24,6 @@
       '/interns' => 'interns.php',
       '/interns/current' => 'current.php',
       '/become-intern' => 'become-intern.php',
-      '/template' => 'interns/trucoder.php',
       '/template' => 'interns/template.php',
       '/test' => 'interns/test.php'
   ]);
