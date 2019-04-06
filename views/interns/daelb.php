@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/zicman/image/upload/v1554466652/zicpic.png" alt="Isaac Fadupin">
-                        <h6>Isaac Fadupin</h6>
-                        <p> Front-end Engineer</p>
+                        <img src="https://res.cloudinary.com/dael/image/upload/v1554462112/IMG_20171103_151409.jpg" alt="Binael Nchekwube">
+                        <h6>Binael Nchekwube</h6>
+                        <p>Potential Back-end Engineer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/IsaacFadupin" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/IsaacFadupin" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@isaacfadupin" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/binaelnchekwube" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/daelb" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@binaeln" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Hi, My name is Isaac,I'm a Tech Enthusiast who is passionate and intentional about every single thing he does. I'm into Software Development, Web Design and Motion Graphic Design.</p>
+                        <p>I am a tecno-enthusiast highly interested in IoT. For long have I envisioned a smarter power grid in Nigeria. I wish to contribute my strength in that direction.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>C# | SQL | Python</p>
+                        <p>Python</p>
                      </div>
                   </div>
                </div>

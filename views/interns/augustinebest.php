@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/zicman/image/upload/v1554466652/zicpic.png" alt="Isaac Fadupin">
-                        <h6>Isaac Fadupin</h6>
-                        <p> Front-end Engineer</p>
+                        <img src="https://res.cloudinary.com/wrightway/image/upload/v1554512025/IMG_-38mqfm.jpg" alt="Augustine Igwe">
+                        <h6>Augustine Igwe Uzochukwu</h6>
+                        <p>Mern Stack developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/IsaacFadupin" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/IsaacFadupin" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@isaacfadupin" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/augustus_best09" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/augustinebest" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/augustinebest" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Hi, My name is Isaac,I'm a Tech Enthusiast who is passionate and intentional about every single thing he does. I'm into Software Development, Web Design and Motion Graphic Design.</p>
+                        <p> Augustine is a MERN stack developer who writes and teaches JavaScript, I love drawing on papers as a means of expressing my inner feelings and also love meeting, networking and building scalable platforms that help solve the societal problems.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>C# | SQL | Python</p>
+                        <p>JavaScript | PHP | UI/UX</p>
                      </div>
                   </div>
                </div>
