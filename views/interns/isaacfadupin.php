@@ -24,7 +24,7 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Hi, My name is Isaac, a Tech Enthusiast who is passionate and intentional about every single thing he does. I'm into Software Development, Web Design and Motion Graphic Design.</p>
+                        <p>Hi, My name is Isaac,I'm a Tech Enthusiast who is passionate and intentional about every single thing he does. I'm into Software Development, Web Design and Motion Graphic Design.</p>
                         <br />
                         <h6>Skills</h6>
                         <p>C# | SQL | Python</p>
