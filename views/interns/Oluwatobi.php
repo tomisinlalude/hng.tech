@@ -24,7 +24,7 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Hi i'm Oluwatobi Oyejide a JavaScript proficient and a STEM enthusiast. Having my foundation in engineering, i am curently on a track to becoming a Full Stack Developer.</p>
+                        <p>Hi i'm Oluwatobi Oyejide a JavaScript proficient, STEM enthusiast and problem solver. Having my foundation in engineering, i am curently on a track to becoming a Full Stack Developer.</p>
                         <br />
                         <h6>Skills</h6>
                         <p>JavaScript | HTML & CSS </p>
