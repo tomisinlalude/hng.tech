@@ -11,7 +11,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/eddieglowada/image/upload/c_scale,h_500,w_500/v1554449954/profilepic.jpg" alt="Ada Glory">
+                        <img src="https://res.cloudinary.com/eddieglowada/image/upload/v1554554079/new-profile-pic.png" alt="Ada Glory">
                         <h6>Ada Glory</h6>
                         <p>Front-end Designer</p>
                         <ul class="list">
