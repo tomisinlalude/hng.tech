@@ -13,7 +13,7 @@
                      <div class="intern-block border-blue">
                         <img src="https://res.cloudinary.com/chidoziendukaku/image/upload/v1554438411/profile_pic.jpg" alt="Chidozie Ndukaku">
                         <h6>Chidozie Ndukaku</h6>
-                        <p>Front-end Engineer</p>
+                        <p>Fullstack web developer</p>
                         <ul class="list">
                            <li><a href="https://twitter.com/ChidozieNdukaku" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/ChidozieNdukaku" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
