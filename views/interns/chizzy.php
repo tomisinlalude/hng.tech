@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/iambeejayayo/image/upload/v1547954566/fav-500.png" alt="Mark Essien">
+                        <img src="https://res.cloudinary.com/chizzy/image/upload/v1554471030/C360_2018-09-30-07-48-20-602.png" alt="Chukwuoma Chizoba">
                         <h6>Chukwuoma Chizoba</h6>
-                        <p>Front-end developer</p>
+                        <p>Front-end Engineer</p>
                         <ul class="list">
-                           <li><a href="#" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="#" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="#" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/Classy_chizzy" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/classychizzy" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/chizoba-chukwuoma" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dicta, ipsam aliquam fugit voluptatum ad. Nihil sit ipsum consectetur nulla? Nesciunt illum mollitia repellat corrupti deleniti recusandae, repellendus eaque exercitationem?lore</p>
+                        <p>i'm a front-end engineer, i live in lagos nigeria.i have been coding for 6 months. i am proficient in html,css,  and javascript basics.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>html | css|javascript</p>
+                        <p>html | css | javascript</p>
                      </div>
                   </div>
                </div>
