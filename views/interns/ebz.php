@@ -3,6 +3,14 @@
 
 <html>
    <?php include 'partials/header.php';?>
+   <link rel="stylesheet" href="app/css/intern.css" type="text/css">
+   <link rel="stylesheet" href="app/css/template.css" type="text/css">
+   <link rel="stylesheet" href="app/css/doll.css" type="text/css">
+   <link rel="stylesheet" href="app/css/app.css" type="text/css">
+   <link rel="stylesheet" href="app/css/app.min.css" type="text/css">
+   <link rel="stylesheet" href="app/css/dum.css" type="text/css">   
+   <link rel="stylesheet" href="app/css/extra.css" type="text/css">
+        
    <body class=" pi">
       <?php include 'partials/navbar.php';?>
       <section class="main-section">
