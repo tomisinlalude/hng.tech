@@ -9,7 +9,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/iambeejayayo/image/upload/v1547954566/fav-500.png" alt="Ramadhani Sadick">
+                        <img src="https://res.cloudinary.com/madega99/image/upload/v1554657108/samples/20181202_170110.jpg" alt="Ramadhani Sadick">
                         <h6>Ramadhani Sadick Khamisi</h6>
                         <p>Back-end Engineer and Android application developer</p>
                         <ul class="list">
