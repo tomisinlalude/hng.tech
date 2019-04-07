@@ -8,7 +8,7 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://https://res.cloudinary.com/seamanb2k/image/upload/v1554617174/seunemmanuel.jpg" alt="seamanb2k">
+                        <img src="https://res.cloudinary.com/seamanb2k/image/upload/v1554617174/seunemmanuel.jpg" alt="seamanb2k">
                         <h6>Seun Emmanuel Faleti</h6>
                         <p>Front-end Developer</p>
                         <ul class="list">
