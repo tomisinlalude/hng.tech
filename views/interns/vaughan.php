@@ -15,9 +15,9 @@
                         <h6>Vaughan David</h6>
                         <p>Front-end developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/_a_maker" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/iemeka" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/myhnginternship/404-page-not-found-error-8949c7b6f319" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/Vaughanda_vid" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/oluwatunbi" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
