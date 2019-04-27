@@ -24,7 +24,7 @@
       '/interns' => 'interns.php',
       '/interns/current' => 'current.php',
       '/become-intern' => 'become-intern.php',
-      '/whizline' => 'interns/whizline.php',
+      '/whizline' => 'whizline.php',
       '/mfon' => 'interns/mfon.php',
       '/test' => 'interns/test.php'
   ]);
@@ -32,7 +32,6 @@
   if (strlen($request) > 1) {
     $request = rtrim($request, '/');
   }
-
   $view = $router->match($request);
   
   require $view;
