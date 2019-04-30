@@ -7,7 +7,7 @@ $about      = '../about';
 $interns    = '../interns';
 $support    ='../support';
 $becomeIntern ='../become-intern' ;
-$blog ='../blog' ;
+
 ?>
 
 
