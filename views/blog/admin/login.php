@@ -19,8 +19,6 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 <div id="login">
 
 	<?php
-	echo password_hash('dragonblade', PASSWORD_DEFAULT);
-
 	//process login form if submitted
 	if(isset($_POST['submit'])){
 

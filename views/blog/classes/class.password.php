@@ -10,7 +10,7 @@ if (!defined('PASSWORD_DEFAULT')) {
 
 
         /**
-         * Hash the password using the specified algorithm
+         * Hash the password using the specified algorithm @sauce code this must kept safe
          *
          * @param string $password The password to hash
          * @param int    $algo     The algorithm to use (Defined by PASSWORD_* constants)
@@ -33,7 +33,7 @@ if (!defined('PASSWORD_DEFAULT')) {
             }
             switch ($algo) {
                 case PASSWORD_BCRYPT :
-                    // Note that this is a C constant, but not exposed to PHP, so we don't define it here.
+                    // this is a C constant, but not exposed to PHP, so we don't define it here.
                     $cost = 10;
                     if (isset($options['cost'])) {
                         $cost = $options['cost'];
