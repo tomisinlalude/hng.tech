@@ -24,14 +24,14 @@
       '/interns' => 'interns.php',
       '/interns/current' => 'current.php',
       '/become-intern' => 'become-intern.php',
-      '/template' => 'interns/template.php',
+      '/whizline' => 'whizline.php',
+      '/mfon' => 'interns/mfon.php',
       '/test' => 'interns/test.php'
   ]);
   $request = $_SERVER['REQUEST_URI'];
   if (strlen($request) > 1) {
     $request = rtrim($request, '/');
   }
-
   $view = $router->match($request);
   
   require $view;

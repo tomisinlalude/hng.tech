@@ -11,23 +11,24 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/dvag8e5pw/image/upload/v1554309159/helewud.jpg" alt="Okikijesu Elewude">
-                        <h6>Okikijesu Elewude</h6>
+                        <img src="https://res.cloudinary.com/habeebability/image/upload/v1554381379/habeebability_pic.jpg" alt="Habeeb Awoyemi">
+                        <h6>Habeeb Awoyemi</h6>
                         <p>Front-end Developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/helewud" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/helewud" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@helewud" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/habeebability" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/habeebability" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@awoyemi.habeeb" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am a Computer Science Student that has interest in music, photography and fashion. I am a budding web developer fluent in HTML and CSS and graphic designer.</p>
+                        <p>Hi,
+                         My name is Habeeb Awoyemi, and i am aspiring to be a full stack developer, i am so passionate about coding and i am determined to make the best out of it, thanks to hngintership5.0 for bringing this project, this awesome challenges have made boosted our morales, thank you.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>HTML | CSS | Corel Draw</p>
+                        <p>JavaScript | HTML | CSS</p>
                      </div>
                   </div>
                </div>
