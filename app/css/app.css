@@ -235,6 +235,27 @@ pre {
       text-align: center;
       margin-bottom: 0; } }
 
+.error-main-footer {
+  background-color: #788996;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  clear: both;
+  padding: 3rem 0 2rem;
+  color: #ffffff; }
+  .error-main-footer p {
+    font-size: 16px;
+    line-height: 23px; }
+  .error-main-footer .container {
+    padding: 0; }
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .error-main-footer {
+      padding: 3rem 4rem 2rem; } }
+  @media only screen and (max-width: 600px) {
+    .error-main-footer {
+      padding: 3rem 4rem 2rem; } }
+
 .main-footer {
   background-color: #788996;
   padding: 3rem 0 2rem;
@@ -1764,43 +1785,36 @@ html, body {
     margin-bottom: 10px; }
 
 .error-page {
-  background-image: url("../img/error-page.svg");
-  min-height: 600px;
-  height: 100vh; }
+  background-image: url("../img/404-error.png");
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  }
   @media only screen and (max-width: 600px) {
     .error-page {
-      min-height: 100vh; } }
+      background-image: url("../img/404-error-small.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover, contain;
+      position: absolute;
+      height: 100vh;
+       } }
 
-.error-page-container {
-  margin-top: 15rem; }
-  .error-page-container h1 {
-    font-size: 35px;
-    line-height: 1.5;
-    max-width: 50%; }
-  .error-page-container h3, .error-page-container h4 {
-    line-height: 1.4;
-    max-width: 55%; }
-  .error-page-container h4 {
-    font-size: 18px; }
-  .error-page-container h3 {
-    font-size: 24px; }
-  @media only screen and (max-width: 600px) {
-    .error-page-container {
-      margin-top: 0rem;
-      text-align: center; }
-      .error-page-container h1, .error-page-container h3, .error-page-container h4 {
-        max-width: 80%;
-        margin: 1rem auto; }
-      .error-page-container h1 {
-        font-size: 28px; }
-      .error-page-container h3, .error-page-container h4 {
-        font-size: 18px; } }
-  @media only screen and (min-width: 601px) and (max-width: 991px) {
-    .error-page-container {
-      margin-top: 4rem; }
-      .error-page-container h1, .error-page-container h3, .error-page-container h4 {
-        max-width: 70%; } }
-
+.error-page-container a {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  margin-left: -50px;
+  padding: 10px;
+  left: 45%;
+  right: 50%;
+  position: absolute;
+  bottom: 0;
+  }
 .error-page-btn {
   display: block;
   background-color: #00aeff;
