@@ -46,7 +46,7 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 	<p><label>Password</label><input type="password" name="password" value=""  /></p>
 	<p><label></label><input type="submit" name="submit" value="Login"  /></p>
 	</form>
-
+ For access: Contact admin
 </div>
 
 </body>

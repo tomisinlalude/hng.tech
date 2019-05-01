@@ -1,4 +1,6 @@
 <?php require('includes/config.php'); 
+include 'partials/header.php';
+include 'partials/navbar.php';
 
 $stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate FROM blog_posts WHERE postID = :postID');
 $stmt->execute(array(':postID' => $_GET['id']));
@@ -6,7 +8,7 @@ $row = $stmt->fetch();
 
 //if post does not exists redirect user.
 if($row['postID'] == ''){
-	header('Location: ./');
+	header('Location: blog');
 	exit;
 }
 
@@ -23,9 +25,9 @@ if($row['postID'] == ''){
 
 	<div id="wrapper">
 
-		<h1>Blog</h1>
+		<h1>HNG Blog</h1>
 		<hr />
-		<p><a href="./">Post Index</a></p>
+		<p><a href="/blog">Post Index</a></p>
 
 
 		<?php	
