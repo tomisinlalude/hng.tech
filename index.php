@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<!-- <head>
@@ -24,6 +25,8 @@
       '/interns' => 'interns.php',
       '/interns/current' => 'current.php',
       '/become-intern' => 'become-intern.php',
+      '/whizline' => 'whizline.php',
+      '/mfon' => 'interns/mfon.php',
       '/template' => 'interns/template.php',
       '/test' => 'interns/test.php',
       '/blog' => 'blog.php'
@@ -37,5 +40,4 @@
   
   require $view;
 ?>
-
 </html>

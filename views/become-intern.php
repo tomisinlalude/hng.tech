@@ -88,6 +88,10 @@
 							<p class="h4 bi-stats-interns">4,000 <br>interns</p>
 							<p class="bi-stats-batch">BATCH 4</p>
 						</div>
+						<div class="count-text col-md-3">
+							<p class="h4 bi-stats-interns">5,700 <br>interns</p>
+							<p class="bi-stats-batch">BATCH 5</p>
+						</div>
 					</div>
 					<div class="bi-stats-infos">
 						<div class="bi-stats-info">
@@ -111,6 +115,7 @@
 					</div>
 				</div>
 			</div>
+		
 		</div>
 		<div class="">
 			<div class="container">
