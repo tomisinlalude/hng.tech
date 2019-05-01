@@ -235,6 +235,46 @@ pre {
       text-align: center;
       margin-bottom: 0; } }
 
+
+
+.main-footer1 {
+  background-color: #788996;
+  padding: 3rem 0 2rem;
+  color: #ffffff; }
+.form-text{
+  border-radius:4px;
+  width:480px;
+  height:53px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-text1{
+   border-radius:4px;
+  width:480px;
+  height:175px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-group{
+  width:480px;
+  margin-top:30px;
+}
+label{
+  font-size:18px;
+  color:black;
+  
+}
+
 .error-main-footer {
   background-color: #788996;
   height: auto;
@@ -256,6 +296,7 @@ pre {
     .error-main-footer {
       padding: 3rem 4rem 2rem; } }
 
+
 .main-footer {
   background-color: #788996;
   padding: 3rem 0 2rem;
@@ -270,7 +311,18 @@ pre {
       padding: 3rem 4rem 2rem; } }
   @media only screen and (max-width: 600px) {
     .main-footer {
-      padding: 3rem 4rem 2rem; } }
+      padding: 3rem 4rem 2rem; } 
+    .form-group{
+      width:95%;
+     
+    }
+    .form-text{
+      width:95%;
+    }
+    .form-text1{
+      width:95%;
+    }
+      }
 
 .main-footer-content {
   display: flex;
@@ -505,6 +557,13 @@ html, body {
 .hp-header {
   font-size: 24px;
   font-weight: 400; }
+
+  .hp-header1 {
+  font-size: 36px;
+  font-weight: bold;
+  color:#084482;
+  font-family:Lato;
+  }
 
 .hp-subheader {
   margin-bottom: 40px; }
