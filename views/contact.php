@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-    <div class="main-footer" style="margin-top:100px;">
+    <div class="main-footer1" style="margin-top:100px;">
 		<div class="container">
 			<div class="main-footer-content">
 				<p class="">© <?php echo date("Y"); ?> HNG internship . All Rights Reserved. HNG Group</p>
