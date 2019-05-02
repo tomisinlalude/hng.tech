@@ -19,13 +19,13 @@
 			<a href="#">
 
 				<div class="jumbotron product col-lg-4 col-md-6 text-center">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:80%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:70%;">
 
 				</div>
 			</a>
 			<a href="#">
 				<div class="jumbotron product col-lg-4 col-md-6">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:40%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:30%;">
 				</div>
 			</div>
 		</a>
@@ -33,20 +33,20 @@
 			<a href="#">
 				<div class="jumbotron product col-lg-4 col-md-6" >
 					
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556545120/apoe_logo.png" alt="apoe4_logo" class="row center-block" style="width:50%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556806436/Kidslogo.png" alt="apoe4_logo" class="row center-block" style="width:50%;">
 
 				</div>
 			</a>
 			<a href="#">
 
 				<div class="jumbotron product col-lg-4 col-md-6 text-center">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:80%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:70%;">
 
 				</div>
 			</a>
 			<a href="#">
 				<div class="jumbotron product col-lg-4 col-md-6">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:40%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:30%;">
 				</div>
 			</div>
 		</a>
@@ -60,13 +60,13 @@
 			<a href="#">
 
 				<div class="jumbotron product col-lg-4 col-md-6 text-center">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:80%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="row center-block" style="width:70%;">
 
 				</div>
 			</a>
 			<a href="#">
 				<div class="jumbotron product col-lg-4 col-md-6">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:40%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert_logo" class="row center-block" style="width:30%;">
 				</div>
 			</div>
 		</a>
