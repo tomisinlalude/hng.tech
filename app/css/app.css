@@ -1816,3 +1816,80 @@ html, body {
   .error-page-btn:hover {
     color: white;
     background-color: #008bcc; }
+
+/* CSS for Join Now Page - HNG 5.0 May 2019 */
+/* 
+
+.join-container {
+  width: 90%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.join-form {
+  width: 65%;
+  
+}
+
+.join-row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-input {
+  width: 100%;
+  height: 53px;
+  background: #FDFDFD;
+  border: 1px solid rgba(191, 184, 184, 0.5);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #B8B8B8;
+
+}
+
+.join-input-left {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.join-input-right {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+} */
+
+.join-labels {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.join-now-img {
+  margin-top: 100px;
+  padding-right: 40px;
+}
+
+.join-footer {
+  margin-top: 70px;
+}
+
+.join-btn {
+  float: right;
+  margin: 10px 15px 20px 0px;
+}
+
+.join-header {
+  color: #084482;
+  margin-left: 15px;
+}
