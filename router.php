@@ -59,7 +59,7 @@ class Router
             return $this->getViewPath().$this->routes[$url];
         }
 
-        preg_match('/(.*\/(.*))/', $url, $matches);
+        preg_match('/(.*\/(.*))/', $url, $matches); 
         foreach ($this->viewPaths as $path) {
             if (@file_exists($matchedPath = $this->getViewPath($path).$path.end($matches).'.php')) {
                 return $matchedPath;
