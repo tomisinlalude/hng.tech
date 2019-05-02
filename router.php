@@ -15,7 +15,8 @@ class Router
     protected $viewPaths = [
       '',
       'interns/'
-    ];
+    
+];
     /**
      * Create an instance of the router.
      *
@@ -75,5 +76,6 @@ class Router
     protected function getViewPath()
     {
         return $this->basePath.'views/';
+        
     }
 }
