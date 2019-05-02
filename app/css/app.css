@@ -282,6 +282,7 @@ label{
   width: 100%;
   position: absolute;
   top: 100%;
+  margin-top: 3rem;
   clear: both;
   padding: 3rem 0 2rem;
   color: #ffffff; }
