@@ -1849,7 +1849,7 @@ html, body {
   background-image: url("../img/404-error.png");
   background-repeat: no-repeat;
   background-size: cover, contain;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
