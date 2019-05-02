@@ -25,12 +25,12 @@ if($row['postID'] == ''){
 
 	<div id="wrapper">
 	<div style="display: flex; justify-content: flex-start; align-items: center">
-		<div style="height: 60px; width:60px; border-radius: 50px; margin-right: 10px">
+		<div style="height: 60px; width:60px; border-radius: 5px; margin-right: 10px">
 			<img src="../app/img/Rectangle 2.png" alt="">
 		</div>
 		<div>
-			<h2>Alphaihh</h2>
-			<p>Updated on 349u4u9</p>
+			<h2 style="margin: 0">Sauce codee</h2>
+			<p style="margin-top: 0">Updated on 2nd May 2019</p>
 		</div>
 	</div>
 		
@@ -60,5 +60,8 @@ if($row['postID'] == ''){
        </div>
 </div>
 
+<?php 
+	include 'partials/footer.php';
+?>
 </body>
 </html>
