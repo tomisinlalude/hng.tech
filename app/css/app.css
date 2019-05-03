@@ -1892,6 +1892,32 @@ html, body {
     color: white;
     background-color: #008bcc; }
 
+
+/* CSS for Join Now Page - HNG 5.0 May 2019 */
+
+.join-labels {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.join-now-img {
+  margin-top: 100px;
+  padding-right: 40px;
+}
+
+.join-footer {
+  margin-top: 70px;
+}
+
+.join-btn {
+  float: right;
+  margin: 10px 15px 20px 0px;
+}
+
+.join-header {
+  color: #084482;
+  margin-left: 15px;
+}
   .product{
     height: 212px;
     width: 331px;
@@ -1918,3 +1944,4 @@ html, body {
     display:none;
     
   }*/
+
