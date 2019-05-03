@@ -16,11 +16,11 @@
                 </div>
                 <div class="form-group">
                   <label for="Email-Address">Email-Address</label>
-                  <input type="email" class="form-text form-control" name="visitor_email" placeholder="you@Example.com" pattern=[A-Z\sa-z]{3,20} required/>
+                  <input type="email" class="form-text form-control" name="visitor_email" placeholder="you@Example.com"  required/>
                 </div>
                 <div class="form-group">
                   <label for="Message">Message</label>
-                  <textarea name="visitor_message" rows="5"  cols="10" class="form-text1 form-control" placeholder="Message" pattern=[A-Z\sa-z]{3,20} required></textarea>
+                  <textarea name="visitor_message" rows="5"  cols="10" class="form-text1 form-control" placeholder="Message"  required></textarea>
                 </div>
                 <div class="form-group">
                   <p class="form-group text-right"><input type="submit" class="btn btn-info" value="Submit"/></p>
