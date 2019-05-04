@@ -28,7 +28,7 @@
                   <textarea name="visitor_message" rows="5"  cols="10"   class="form-text1 form-control" placeholder="Message"></textarea>
                 </div>
                 <div class="form-group">
-                  <p class="form-group text-right"><input type="submit" class="btn btn-info"  data-target="msg-container" value="Submit"/></p>
+                  <p class="form-group text-right"><input type="submit" class="btn btn-info"   value="Submit"/></p>
                 </div>
               </form>
 						</div>
