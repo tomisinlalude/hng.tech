@@ -297,6 +297,15 @@ label{
       padding: 3rem 4rem 2rem; } }
 
 
+.section-head{
+  font-size:36px;
+  font-family:lato;
+}
+.paragraph1{
+  font-size:16px;
+  line-height:30px;
+  font-family:Lato;
+}
 .main-footer {
   background-color: #788996;
   padding: 3rem 0 2rem;
@@ -314,7 +323,7 @@ label{
       padding: 3rem 4rem 2rem; } 
     .form-group{
       width:95%;
-     
+    
     }
     .form-text{
       width:95%;
