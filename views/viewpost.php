@@ -22,7 +22,7 @@ if($row['postID'] == ''){
     <link rel="stylesheet" href="../app/css/main.css">
 </head>
 <body>
-<p><a href="./blog.php">Return Back</a></p>
+
 	<div id="wrapper">
 
 		<div style="display: flex; justify-content: flex-start; align-items: center">
@@ -38,9 +38,9 @@ if($row['postID'] == ''){
 		
 
 
-		<h1>HNG Blog</h1>
+		<h3>HNG Blog</h3>
 		<hr />
-		<p><a href="/blog">Post Index</a></p>
+		<p><a href="/blog" style="color:#990033">Return Back</a></p>
 
 
 		<?php	
