@@ -7,7 +7,7 @@
 	<div class="container gridContainer">
 		<div class="">
 			<a href="#" class="productLink" id="productAnime">
-				<div class="jumbotron product col-lg-4 col-md-6 ">
+				<div class="jumbotron product col-lg-3 col-md-6 ">
 					
 					
 					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556545120/apoe_logo.png" alt="apoe4_logo" class="imgCenter center-block" style="width:50%;">
@@ -25,9 +25,9 @@
 
 				<div class="jumbotron product  col-lg-4 col-md-6 text-center">
 					
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="imgCenter center-block" style="width:70%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557047975/ziki_color.svg" alt="ziki_logo" class="imgCenter center-block" style="width:20%;">
 					<div id="extra">
-						<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="" class=" centre-block" style="width:70%; margin: 50px 0px 0px 0px;">
+						<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557047974/ziki_white.svg" alt="" class=" centre-block" style="width:20%; margin: 50px 0px 0px 0px;">
 						<p class="text-center detail">
 						The Ultimate LightWeight Content Platform. Ziki was built on the premise that ownership and privacy is about respect and that it is your right.</p>
 						<div class="text-center">
@@ -72,7 +72,7 @@
 			<a href="#" class="productLink" id="ziki2">
 
 				<div class="jumbotron product col-lg-4 col-md-6 text-center">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="imgCenter center-block" style="width:70%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557047975/ziki_color.svg" alt="ziki_logo" class="imgCenter center-block" style="width:20%;">
 					<div id="extra">
 						<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="" class=" centre-block" style="width:70%">
 					</div>
@@ -102,7 +102,7 @@
 			<a href="#">
 
 				<div class="jumbotron product col-lg-4 col-md-6 text-center">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="ziki_logo" class="imgCenter center-block" style="width:70%;">
+					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557047975/ziki_color.svg" alt="ziki_logo" class="imgCenter center-block" style="width:20%;">
 					<div id="extra">
 						<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556546640/zikilogo.png" alt="" class="row centre-block" style="width:70%">
 					</div>

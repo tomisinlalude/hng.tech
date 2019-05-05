@@ -195,12 +195,55 @@ pre {
       display: block;
       text-align: center;
       margin-bottom: 0; } }
+
+
+
+.main-footer1 {
+  background-color: #788996;
+  padding: 3rem 0 2rem;
+  color: #ffffff; }
+.form-text{
+  border-radius:4px;
+  width:480px;
+  height:53px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-text1{
+   border-radius:4px;
+  width:480px;
+  height:175px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-group{
+  width:480px;
+  margin-top:30px;
+}
+label{
+  font-size:18px;
+  color:black;
+  
+}
+
+
 .error-main-footer {
   background-color: #788996;
   height: auto;
   width: 100%;
   position: absolute;
   top: 100%;
+  margin-top: 3rem;
   clear: both;
   padding: 3rem 0 2rem;
   color: #ffffff; }
@@ -215,6 +258,10 @@ pre {
   @media only screen and (max-width: 600px) {
     .error-main-footer {
       padding: 3rem 4rem 2rem; } }
+
+
+
+
 .main-footer {
   background-color: #788996;
   padding: 3rem 0 2rem;
@@ -229,7 +276,21 @@ pre {
       padding: 3rem 4rem 2rem; } }
   @media only screen and (max-width: 600px) {
     .main-footer {
+
       padding: 3rem 4rem 2rem; } }
+  
+    .form-group{
+      width:95%;
+     
+    }
+    .form-text{
+      width:95%;
+    }
+    .form-text1{
+      width:95%;
+    }
+
+
 .main-footer-content {
   display: flex;
   justify-content: space-between; }
@@ -423,6 +484,17 @@ html, body {
 .hp-header {
   font-size: 24px;
   font-weight: 400; }
+
+
+
+  .hp-header1 {
+  font-size: 36px;
+  font-weight: bold;
+  color:#084482;
+  font-family:'Lato', sans-serif;
+  }
+
+
 .hp-subheader {
   margin-bottom: 40px; }
 .hp-header-text {
@@ -501,7 +573,11 @@ html, body {
   align-items: center;
   padding: 50px 0px; }
   @media (max-width: 991px) {
-    .ap-banner-container {
+    .ap-banner-
+
+
+
+     {
       padding-top: 2rem; } }
   @media (max-width: 767px) {
     .ap-banner-container {
@@ -1559,7 +1635,7 @@ html, body {
   background-image: url("../img/404-error.png");
   background-repeat: no-repeat;
   background-size: cover, contain;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
@@ -1598,16 +1674,45 @@ html, body {
   margin-top: 2rem;
   transition: background-color 0.3s ease-in-out; }
   .error-page-btn:hover {
-    color: white;
+    color: #ffffff;
     background-color: #008bcc; }
 
+
+
+/* CSS for Join Now Page - HNG 5.0 May 2019 */
+
+.join-labels {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.join-now-img {
+  margin-top: 100px;
+  padding-right: 40px;
+}
+
+.join-footer {
+  margin-top: 70px;
+}
+
+.join-btn {
+  float: right;
+  margin: 10px 15px 20px 0px;
+}
+
+.join-header {
+  color: #084482;
+  margin-left: 15px;
+}
+
 /*products section*/
+
   .product{
     height: 212px;
     width: 331px;
     border-radius: 0px !important;
     padding: 15px;
-      border: 1px rgb(190,190,190) solid;
+      border: 1px #bebebe solid;
       margin:20px;
   }
   .productsHeader{
@@ -1616,27 +1721,22 @@ html, body {
   }
   .gridContainer{
     padding-left:50px;
-    
+    padding-bottom: 70px;
   }
   .imgCenter{
     margin-top:50px;
   }
-/*.productLink{
-  z-index: 1;
-}
-.productLink:hover{
-  z-index: 1;
-}*/
+
 #extra{
   position: absolute;
-  background: rgb(0, 174, 255);
+  background: #00aeff;
   visibility: hidden;
   opacity: 0;
   top: 0;
   left: 0;
     width: 100%;
   height: 400px;
-  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
   z-index: 1000;
 }
 #productAnime{
@@ -1656,16 +1756,16 @@ visibility: visible;
   font-size: 1em !important;
   line-height: 30px;
   padding: 20px 20px;
-  color: white;
+  color: #ffffff;
 }
 .btn-custom{
-  color: white;
-  border: 2px solid white;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   background: none;
 }
 .btn-custom:hover, .btn-custom:active, .btn-custom:focus{
-  color: black;
-  background: white; 
+  color: #000000;
+  background: #ffffff;
 }
 @media only screen and (max-width: 1199px) and (min-width: 992px){
   .gridContainer{
@@ -1677,3 +1777,6 @@ visibility: visible;
   margin-right: 0;
  }
 }
+
+
+
