@@ -1,6 +1,7 @@
 <html>
     <?php include 'partials/header.php';?>
     <body>
+        <div class="jumbotron-fluid">
         <div class="error-page">
             <?php include 'partials/navbar.php';?>
             <div class="container error-page-container"> 
@@ -16,5 +17,6 @@
                     </div>
                 </div>
             </div>
+        </div>
     </body>
 </html>

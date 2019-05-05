@@ -24,42 +24,35 @@ if($row['postID'] == ''){
 <body>
 
 	<div id="wrapper">
+
 		<p><a href="./blog.php">Return Back</a></p>
 	<div style="display: flex; justify-content: flex-start; align-items: center">
 		<div style="height: 60px; width:60px; border-radius: 50px; margin-right: 10px">
 			<img src="../app/img/Rectangle 2.png" alt="">
 		</div>
 		<div>
-			<h2>Alphaihh</h2>
-			<p>Updated on 349u4u9</p>
+			<h2>Lekia</h2>
+			<p>Updated on May, 05 2019</p>
 		</div>
 	</div>
 		
+
+
+		<h1>HNG Blog</h1>
+		<hr />
+		<p><a href="/blog">Post Index</a></p>
+
+
+
 		<?php	
 			echo '<div>';
-				// echo '<h1>'.$row['postTitle'].'</h1>';
-				// echo '<p>Posted on '.date('jS M Y', strtotime($row['postDate'])).'</p>';
-				echo '<a>'.$row['postCont'].'</a>';				
+				echo '<h1>'.$row['postTitle'].'</h1>';
+				echo '<p>Posted on '.date('jS M Y', strtotime($row['postDate'])).'</p>';
+				echo '<p>'.$row['postCont'].'</p>';				
 			echo '</div>';
 		?>
 
-		<img width="100%" src="../app/img/Rectangle 2.png" alt="">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste architecto consectetur, hic explicabo enim dicta debitis. Dolorem delectus sed aut! Dolorem animi voluptatibus cumque velit nisi et sequi, labore debitis!</p>
-
 	</div>
-	
-
-	<div class="main-recommended" style="background: #f1f1f1; padding: 30px 0">
-       	<div id="wrapper">
-			<div class="top-recommended">
-			<h1>Recommended</h1>
-			<span>view all blog post</span>
-			</div>
-			<div class="card">
-		</div>
-       </div>
-</div>
 
 </body>
 
