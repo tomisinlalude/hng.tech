@@ -15,20 +15,20 @@
               		<div id="messages_content"></div>
             		</div>
 							<form action="contact.php" id="form" method="post" class="form-vertical" role="form">
-                <div class="form-group">
+                <div class="form-group form-contact">
                   <label for="Full Name">Full Name</label>
                   <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Za-z]{3,20}"  required/>
                 </div>
-                <div class="form-group">
+                <div class="form-group form-contact">
                   <label for="Email-Address">Email-Address</label>
                   <input type="email" class="form-text form-control"   name="visitor_email" placeholder="you@Example.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
                 </div>
-                <div class="form-group">
+                <div class="form-group form-contact">
                   <label for="Message">Message</label>
                   <textarea name="visitor_message" rows="5"  cols="10"   class="form-text1 form-control" placeholder="Message"></textarea>
                 </div>
-                <div class="form-group">
-                  <p class="form-group text-right"><input type="submit" class="btn btn-info"   value="Submit"/></p>
+                <div class="form-group form-contact">
+                  <p class="form-contact text-right"><input type="submit" class="btn btn-info"   value="Submit"/></p>
                 </div>
               </form>
 						</div>
