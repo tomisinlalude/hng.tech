@@ -1600,6 +1600,7 @@ html, body {
   .error-page-btn:hover {
     color: white;
     background-color: #008bcc; }
+
 /*products section*/
   .product{
     height: 212px;
@@ -1617,15 +1618,15 @@ html, body {
     padding-left:50px;
     
   }
-  .center-block{
+  .imgCenter{
     margin-top:50px;
   }
-.productLink{
+/*.productLink{
   z-index: 1;
 }
 .productLink:hover{
   z-index: 1;
-}
+}*/
 #extra{
   position: absolute;
   background: rgb(0, 174, 255);
