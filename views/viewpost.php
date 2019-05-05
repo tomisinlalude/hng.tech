@@ -22,27 +22,35 @@ if($row['postID'] == ''){
     <link rel="stylesheet" href="../app/css/main.css">
 </head>
 <body>
-
+<p><a href="./blog.php">Return Back</a></p>
 	<div id="wrapper">
+
 		<div style="display: flex; justify-content: flex-start; align-items: center">
 			<div class="auth_img">
 				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
 			</div>
 			<div >
 				<h2 style="margin: 0">Sauce codee</h2>
-				<p style="margin-top: 0">Updated on <?php echo date('jS M Y', strtotime($row['postDate'])) ?></p>
+				<p style="margin-top: 0">Posted on <?php echo date('jS M Y', strtotime($row['postDate'])) ?></p>
 			</div>
+
 		</div>
 		
+
+
+		<h1>HNG Blog</h1>
+		<hr />
+		<p><a href="/blog">Post Index</a></p>
+
+
 		<?php	
 			echo '<div>';
 				echo '<a>'.$row['postCont'].'</a>';				
+
+					
+
 			echo '</div>';
 		?>
-
-		<img width="100%" src="../app/img/Rectangle 2.png" alt="">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste architecto consectetur, hic explicabo enim dicta debitis. Dolorem delectus sed aut! Dolorem animi voluptatibus cumque velit nisi et sequi, labore debitis!</p>
 
 	</div>
 	
@@ -104,8 +112,7 @@ if($row['postID'] == ''){
 		</div>
 </div>
 
-<?php 
-	include 'partials/footer.php';
-?>
 </body>
+
+<?php include 'partials/footer.php'?>;
 </html>
