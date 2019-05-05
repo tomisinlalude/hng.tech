@@ -41,7 +41,6 @@ include 'partials/navbar.php';
 		?>
 
 	</div>
-
-
+	<?php include 'partials/footer.php'?>;
 </body>
 </html>

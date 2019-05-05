@@ -25,9 +25,23 @@ if($row['postID'] == ''){
 
 	<div id="wrapper">
 
+		<p><a href="./blog.php">Return Back</a></p>
+	<div style="display: flex; justify-content: flex-start; align-items: center">
+		<div style="height: 60px; width:60px; border-radius: 50px; margin-right: 10px">
+			<img src="../app/img/Rectangle 2.png" alt="">
+		</div>
+		<div>
+			<h2>Lekia</h2>
+			<p>Updated on May, 05 2019</p>
+		</div>
+	</div>
+		
+
+
 		<h1>HNG Blog</h1>
 		<hr />
 		<p><a href="/blog">Post Index</a></p>
+
 
 
 		<?php	
@@ -41,4 +55,6 @@ if($row['postID'] == ''){
 	</div>
 
 </body>
+
+<?php include 'partials/footer.php'?>;
 </html>
