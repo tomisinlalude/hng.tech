@@ -23,6 +23,10 @@ if(isset($_GET['delpost'])){
   <title>Admin</title>
   <link rel="stylesheet" href="../style/normalize.css">
   <link rel="stylesheet" href="../style/main.css">
+
+
+
+
   <script language="JavaScript" type="text/javascript">
   function delpost(id, title)
   {

@@ -15,7 +15,7 @@ include 'partials/navbar.php';
 
 	<div id="wrapper">
 
-		<h1>HNG Blog</h1>
+		<h3>HNG Blog</h3>
 		<h1><a href="views/admin/login.php">Post to Blog</a></h1>
 		
 		<hr />
@@ -28,7 +28,7 @@ include 'partials/navbar.php';
 					
 					echo '<div>';
 						echo '<h1><a href="views/viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></h1>';
-						echo '<p>Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).'</p>';
+						echo '<p style="color:#990033">Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).'</p>';
 						echo '<p>'.$row['postDesc'].'</p>';				
 						echo '<p><a href="views/viewpost.php?id='.$row['postID'].'">Read More</a></p>';				
 					echo '</div>';
@@ -41,7 +41,6 @@ include 'partials/navbar.php';
 		?>
 
 	</div>
-
-
+	<?php include 'partials/footer.php'?>;
 </body>
 </html>
