@@ -14,6 +14,7 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
   <link rel="stylesheet" href="../style/normalize.css">
   <link rel="stylesheet" href="../style/main.css">
 
+
 <style>
 	
 /* Bordered form */
@@ -92,14 +93,13 @@ span.psw {
 </style>
 
 
+
 </head>
 <body>
 
 <div id="login">
 
 	<?php
-	//echo password_hash('dragonblade', PASSWORD_DEFAULT);
-
 	//process login form if submitted
 	if(isset($_POST['submit'])){
 
@@ -120,8 +120,8 @@ span.psw {
 	}//end if submit
 
 	if(isset($message)){ echo $message; }
-
 	?>
+
 
 	
 <form action="" method ="post">
@@ -148,6 +148,7 @@ span.psw {
     <!-- <span class="psw">Not a Member? <a href="#">Signup</a></span> -->
   </div>
 </form>
+
 
 
 </div>
