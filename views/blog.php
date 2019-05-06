@@ -16,19 +16,20 @@ include 'partials/navbar.php';
 	<div id="wrapper">
 
 		<h3>HNG Blog</h3>
-		<h1><a href="views/admin/login.php">Post to Blog</a></h1>
+		<button style="position: absolute; right:80px; top:109px; border-radius: 5px; border-style:none; background-color: #6666cc"><a href="views/admin/login.php" style="color: white">Post to Blog</a></button>
 		
 		<hr />
 
 		<?php
 			try {
 
-				$stmt = $db->query('SELECT postID, postTitle, postDesc, postDate FROM blog_posts ORDER BY postID DESC');
+				$stmt = $db->query('SELECT blog_posts.postID, blog_posts.postTitle, blog_posts.postDesc, blog_posts.postDate, blog_members.username FROM blog_posts, blog_members WHERE blog_posts.memberID = blog_members.memberID ORDER BY postID DESC');
 				while($row = $stmt->fetch()){
 					
 					echo '<div>';
 						echo '<h1><a href="views/viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></h1>';
-						echo '<p style="color:#990033">Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).'</p>';
+						echo '<p style="color:#990033">Posted on '.date('jS M Y', strtotime($row['postDate']));
+						echo '<p>  By '.$row['username'].'</p>';
 						echo '<p>'.$row['postDesc'].'</p>';				
 						echo '<p><a href="views/viewpost.php?id='.$row['postID'].'">Read More</a></p>';				
 					echo '</div>';

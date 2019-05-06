@@ -19,6 +19,7 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
+  height: 300px;
 }
 
 /* Full-width inputs */
@@ -122,11 +123,7 @@ span.psw {
 
 	?>
 
-	<!-- <form action="" method="post">
-	<p><label>Username</label><input type="text" name="username" value=""  /></p>
-	<p><label>Password</label><input type="password" name="password" value=""  /></p>
-	<p><label></label><input type="submit" name="submit" value="Login"  /></p>
-	</form> -->
+	
 <form action="" method ="post">
   <!-- <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -140,14 +137,15 @@ span.psw {
     <input type="password" placeholder="Enter Password" name="password" required>
 
     <button type="submit" name="submit" value="Login">Login</button>
-    <label>
-    <!--   <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+   <!--  <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label> -->
+     <span class="psw">Not a member? <a href="#">Signup</a></span>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span> -->
+    <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+    <!-- <span class="psw">Not a Member? <a href="#">Signup</a></span> -->
   </div>
 </form>
 

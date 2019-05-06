@@ -2,7 +2,7 @@
 include 'partials/header.php';
 include 'partials/navbar.php';
 
-$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate FROM blog_posts WHERE postID = :postID');
+$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate, username FROM blog_posts, blog_members WHERE postID = :postID');
 $stmt->execute(array(':postID' => $_GET['id']));
 $row = $stmt->fetch();
 
@@ -29,7 +29,7 @@ if($row['postID'] == ''){
 				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
 			</div>
 			<div >
-				<h2 style="margin: 0">Sauce codee</h2>
+				<h2 style="margin: 0"> <?php echo $row['username'];?> </h2>
 				<p style="margin-top: 0">Posted on <?php echo date('jS M Y', strtotime($row['postDate'])) ?></p>
 			</div>
 
@@ -44,11 +44,11 @@ if($row['postID'] == ''){
 
 		<?php	
 			echo '<div>';
-				echo '<a>'.$row['postCont'].'</a>';
+				echo '<a style="text-align: justify">'.$row['postCont'].'</a>';
 			echo '</div>';
 		?>
 
-		<div style="display:flex; justify-content:center; margin-bottom:20px">
+		<!-- <div style="display:flex; justify-content:center; margin-bottom:20px">
 			<div class="post-auth">
 				<img src="../app/img/Rectangle 2.png" alt="">
 				written by
@@ -58,7 +58,7 @@ if($row['postID'] == ''){
 		</div>
 		
 	</div>
-	
+	 -->
 
 	<div class="main-recommended" style="background: #f1f1f1; padding: 30px 0">
 		<div id="wrapper">
