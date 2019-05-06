@@ -17,7 +17,7 @@
 							<form action="contact.php" id="form" method="post" class="form-vertical" role="form">
                 <div class="form-group form-contact">
                   <label for="Full Name">Full Name</label>
-                  <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Za-z]{3,20}"  required/>
+                  <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Z\sa-z]{3,20}"  required/>
                 </div>
                 <div class="form-group form-contact">
                   <label for="Email-Address">Email-Address</label>
