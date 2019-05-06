@@ -2,7 +2,7 @@
 include 'partials/header.php';
 include 'partials/navbar.php';
 
-$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate FROM blog_posts WHERE postID = :postID');
+$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate, username FROM blog_posts, blog_members WHERE postID = :postID');
 $stmt->execute(array(':postID' => $_GET['id']));
 $row = $stmt->fetch();
 
@@ -24,6 +24,18 @@ if($row['postID'] == ''){
 <body>
 
 	<div id="wrapper">
+	<!-- <p><a href="./blog.php">Return Back</a></p> -->
+		<div style="display: flex; justify-content: flex-start; align-items: center">
+			<div class="auth_img">
+				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
+			</div>
+			<div >
+				<h2 style="margin: 0"> <?php echo $row['username'];?> </h2>
+				<p style="margin-top: 0">Posted on <?php echo date('jS M Y', strtotime($row['postDate'])) ?></p>
+			</div>
+
+
+	<div id="wrapper">
 	<div style="display: flex; justify-content: flex-start; align-items: center">
 		<div style="height: 60px; width:60px; border-radius: 5px; margin-right: 10px">
 			<img src="../app/img/Rectangle 2.png" alt="">
@@ -36,18 +48,22 @@ if($row['postID'] == ''){
 		
 		<?php	
 			echo '<div>';
-				// echo '<h1>'.$row['postTitle'].'</h1>';
-				// echo '<p>Posted on '.date('jS M Y', strtotime($row['postDate'])).'</p>';
-				echo '<a>'.$row['postCont'].'</a>';				
+				echo '<a style="text-align: justify">'.$row['postCont'].'</a>';
 			echo '</div>';
 		?>
 
-		<img width="100%" src="../app/img/Rectangle 2.png" alt="">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste architecto consectetur, hic explicabo enim dicta debitis. Dolorem delectus sed aut! Dolorem animi voluptatibus cumque velit nisi et sequi, labore debitis!</p>
+		<!-- <div style="display:flex; justify-content:center; margin-bottom:20px">
+			<div class="post-auth">
+				<img src="../app/img/Rectangle 2.png" alt="">
+				written by
+				<span style="color:#222; font-weight:600; margin:0 5px"> Sauce code </span> in
+				<span style="color:#1fbdef; font-weight:600; margin:0 5px"> Design </span>
+			</div>
+		</div>
+		
 
 	</div>
-	
+	 -->
 
 	<div class="main-recommended" style="background: #f1f1f1; padding: 30px 0">
        	<div id="wrapper">
