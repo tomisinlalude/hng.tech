@@ -64,3 +64,82 @@ table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; f
 table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
 table tr.alt td {background-color:#E2E2E2;}
 table tr:hover {background-color:#F0F0F0; color:#000;}
+
+.auth_img{
+	margin-right: 10px;
+}
+
+.auth_img img {
+	border-radius: 100%
+}
+
+.top-recommended{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-recommended span{
+	color: #1fbdef;
+	font-size: 1.2rem;
+}
+
+.top-recommended h1{
+	font-size: 1.4rem;
+}
+
+.more-post-card{
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+}
+
+.more-post-card > img{
+	height: 150px
+}
+
+.more-post-card .card-body{
+	padding: 20px;
+}
+
+.more-post-card .card-body h1, .more-post-card .card-body h3{
+	margin:0 0 10px 0;
+}
+
+.more-post-card .card-body h3{
+	color: #1fbdef;
+}
+.card-auth{
+	font-size: 0.7rem;
+}
+
+.post-auth{
+	font-size: 0.9rem;
+}
+
+.card-auth img, .post-auth img{
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+.post-auth{
+	display:flex;
+	align-items: center;
+}
+
+.post-auth img{
+	height: 50px;
+	width: 50px;
+}
+
+@media screen and (max-width: 900px){
+	#wrapper{
+		width: 100vw;
+		padding: 0 10px;
+	}
+
+	.more-post-card{
+		margin-top: 15px;	
+	}
+}
