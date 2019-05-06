@@ -41,11 +41,10 @@
 				</li>
 				<li class="nav-item <?php if($url == 'become-intern'){echo 'active';}?>">
 					<a class=" navbar-link nav-text" href="<?php echo $becomeIntern ?>">BECOME AN INTERN</a>
-				</li>
-				<li class="nav-item <?php if($url == 'blog'){echo 'active';}?>">
+					<li class="nav-item <?php if($url == 'blog'){echo 'active';}?>">
 					<a class=" navbar-link nav-text" href="<?php echo $blog ?>">BLOG</a>
 				</li>
-				
+				</li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
