@@ -1683,11 +1683,13 @@ html, body {
 .join-labels {
   font-size: 18px;
   padding-bottom: 6px;
+  padding-top: 25px;
+  font-weight: normal;
 }
 
 .join-now-img {
   margin-top: 100px;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 
 .join-footer {
@@ -1696,12 +1698,19 @@ html, body {
 
 .join-btn {
   float: right;
-  margin: 10px 15px 20px 0px;
+  margin: 30px 0px 50px 0px;
 }
 
 .join-header {
   color: #084482;
-  margin-left: 15px;
+}
+
+.join-input {
+  background: #FDFDFD;
+  border: 1px solid rgba(191, 184, 184, 0.5);
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 53px;
 }
 
 /*products section*/
