@@ -1848,7 +1848,7 @@ html, body {
 .error-page {
   background-image: url("../img/404-error.png");
   background-repeat: no-repeat;
-  background-size: cover, contain;
+  background-size: 100% auto;
   position: relative;
   top: 0;
   left: 0;
@@ -1860,7 +1860,7 @@ html, body {
       background-image: url("../img/404-error-small.png");
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-size: cover, contain;
+      background-size: auto;
       position: absolute;
       height: 100vh;
        } }
@@ -1891,6 +1891,111 @@ html, body {
   .error-page-btn:hover {
     color: white;
     background-color: #008bcc; }
+
+/* MEET OUR INTERN STYLING START HERE */
+
+li.active a {
+    background: #fff;
+    border-top: 3px solid #0076f7;
+    color: #0076f7;
+}
+
+li.active a:hover {
+    color: #0077f746;
+    text-decoration: none;
+}
+
+.nav-pills a:hover {
+    text-decoration: none;
+}
+
+.nav-pills a {
+    padding: 10px 20px;
+    display: inline-block;
+    background: #e7e7e5a4;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 3px solid #fff;
+}
+
+.intern-content {
+    position: relative;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+}
+
+.intern-content img {
+    width: 50%;
+    border-radius: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-bottom: 18px
+}
+
+.intern-content h5 {
+    font-size: 20px;
+}
+
+.intern-content p {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.pagination-link {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a.intern-link {
+    color: #5c5c5ba4;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color .4s;
+}
+
+a.intern-link:hover {
+    text-decoration: none;
+}
+
+a.intern-link.active {
+    background-color: #0076f7;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.intern-section {
+    position: relative;
+    padding: 60px;
+}
+
+header.meet-intern {
+    margin: 0 auto;
+    padding: 2rem 7rem;
+}
+
+#meet-intern-text h1 {
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    justify-items: center;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+}
+
+/* MEET OUR INTERN STYLING ENDS HERE */
+
 
 
 /* CSS for Join Now Page - HNG 5.0 May 2019 */
