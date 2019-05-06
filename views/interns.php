@@ -438,6 +438,17 @@
 
 			</div>
 		</section>
+<div class="container-fluid sub-footer" style="background-color:#e5e5e5;margin-bottom:60px;border-top:none;">
+	<div class="col-md-12 ">
+		<h3 class="text-center section-head ">Meet our Interns</h3>
+			<p class="text-center paragraph1">Here comes the list of out interns from 1.0 till date, 
+					<br>kindly click the link below to see more
+			</p>
+			<p class="text-center" style="margin-top:20px">
+				<a href="/views/meet-our-interns.php" class="btn btn-info" >See More</a>
+			</p>
+	</div>
+</div>
 	</body>
 
 	<?php include 'partials/footer.php';?>
