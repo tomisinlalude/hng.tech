@@ -23,48 +23,43 @@ if($row['postID'] == ''){
 </head>
 <body>
 	<div id="wrapper">
-	<!-- <p><a href="./blog.php">Return Back</a></p> -->
 		<div style="display: flex; justify-content: flex-start; align-items: center">
 			<div class="auth_img">
 				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
 			</div>
 			<div >
-				<h2 style="margin: 0"> <?php echo $row['username'];?> </h2>
+				<h2 style="margin: 0"><?php echo $row['username']?></h2>
 				<p style="margin-top: 0">Posted on <?php echo date('jS M Y', strtotime($row['postDate'])) ?></p>
 			</div>
 
 		</div>
-		
-
-
-		<!-- <h1>HNG Blog</h1> -->
-		<!-- <hr /> -->
-		<!-- <p><a href="/blog">Post Index</a></p> -->
-
 
 		<?php	
 			echo '<div>';
-				echo '<a style="text-align: justify">'.$row['postCont'].'</a>';
+				echo '<a>'.$row['postCont'].'</a>';
 			echo '</div>';
 		?>
 
-		<!-- <div style="display:flex; justify-content:center; margin-bottom:20px">
+		<div style="display:flex; justify-content:center; margin-bottom:20px">
 			<div class="post-auth">
 				<img src="../app/img/Rectangle 2.png" alt="">
 				written by
-				<span style="color:#222; font-weight:600; margin:0 5px"> Sauce code </span> in
+				<span style="color:#222; font-weight:600; margin:0 5px"> <?php echo $row['username']?> </span> in
 				<span style="color:#1fbdef; font-weight:600; margin:0 5px"> Design </span>
 			</div>
 		</div>
 		
 	</div>
-	 -->
+	
 
 	<div class="main-recommended" style="background: #f1f1f1; padding: 30px 0">
 		<div id="wrapper">
 			<div class="top-recommended">
 				<h1>Recommended</h1>
-				<a href="<?php echo $blog ?>"><span>view all blog post</span></a>
+				<a href="<?php echo $blog ?>">
+					<span>view all blog post</span>
+					<span class="fa fa-chevron-right"></span>
+				</a>
 			</div>
 
 			<div class="row">
@@ -100,7 +95,7 @@ if($row['postID'] == ''){
 				</div>
 				<div class="col-sm-4">
 					<div class="card more-post-card">
-						<img class="card-img-top" height="90%" width="80%"  src="../app/img/Rectangle 2.png" alt="Card image cap">
+						<img class="card-img-top" height="100%" width="100%"  src="../app/img/Rectangle 2.png" alt="Card image cap">
 						<div class="card-body">
 							<h3>Category</h3>
 							<h1>The main title here for 2018 HNG</h1>
@@ -120,6 +115,5 @@ if($row['postID'] == ''){
 
 </body>
 
-
-</html>
 <?php include 'partials/footer.php'?>;
+</html>
