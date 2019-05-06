@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/dvag8e5pw/image/upload/v1554309159/helewud.jpg" alt="Okikijesu Elewude">
-                        <h6>Okikijesu Elewude</h6>
-                        <p>Front-end Developer</p>
+                        <img src="https://res.cloudinary.com/zendus/image/upload/v1554327552/images/1e65368f-7dd6-4d14-ad18-64429cc5dd7f.jpg" alt="Mark Essien">
+                        <h6>Uzendu johnmicheal</h6>
+                        <p>Front-end Engineer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/helewud" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/helewud" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@helewud" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/zendus69" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/zendus" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@zendus" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am a Computer Science Student that has interest in music, photography and fashion. I am a budding web developer fluent in HTML and CSS and graphic designer.</p>
+                        <p>Am a front end developer with basic knowledge of javascript, html and css. i also have interest in machine learning</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>HTML | CSS | Corel Draw</p>
+                        <p>JavaScript | c++ | Python</p>
                      </div>
                   </div>
                </div>

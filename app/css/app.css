@@ -110,6 +110,7 @@ pre {
   color: #ffffff;
   font-size: 16px; }
   .primary-button:hover, .primary-button:focus {
+    color: #ffffff;
     background-color: #084482; }
 
 @media (min-width: 1200px) {
@@ -140,7 +141,7 @@ pre {
       margin-bottom: 1rem; } }
 
 .navbar-nav li {
-  padding-right: 20px; }
+  padding-right: 10px; }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar-nav li {
       padding-right: 7px; } }
@@ -235,6 +236,69 @@ pre {
       text-align: center;
       margin-bottom: 0; } }
 
+
+
+.main-footer1 {
+  background-color: #788996;
+  padding: 3rem 0 2rem;
+  color: #ffffff; }
+.form-text{
+  border-radius:4px;
+  width:480px;
+  height:53px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-text1{
+   border-radius:4px;
+  width:480px;
+  height:175px;
+  background-color:#FDFDFD;
+  color:#BFB8B8;
+  font-size:16px;
+  padding:10px;
+  
+  font-family:Lato;
+  border-color:none;
+}
+.form-group{
+  width:480px;
+  margin-top:30px;
+}
+label{
+  font-size:18px;
+  color:black;
+  
+}
+
+.error-main-footer {
+  background-color: #788996;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  margin-top: 3rem;
+  clear: both;
+  padding: 3rem 0 2rem;
+  color: #ffffff; }
+  .error-main-footer p {
+    font-size: 16px;
+    line-height: 23px; }
+  .error-main-footer .container {
+    padding: 0; }
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .error-main-footer {
+      padding: 3rem 4rem 2rem; } }
+  @media only screen and (max-width: 600px) {
+    .error-main-footer {
+      padding: 3rem 4rem 2rem; } }
+
+
 .main-footer {
   background-color: #788996;
   padding: 3rem 0 2rem;
@@ -249,7 +313,18 @@ pre {
       padding: 3rem 4rem 2rem; } }
   @media only screen and (max-width: 600px) {
     .main-footer {
-      padding: 3rem 4rem 2rem; } }
+      padding: 3rem 4rem 2rem; } 
+    .form-group{
+      width:95%;
+     
+    }
+    .form-text{
+      width:95%;
+    }
+    .form-text1{
+      width:95%;
+    }
+      }
 
 .main-footer-content {
   display: flex;
@@ -484,6 +559,13 @@ html, body {
 .hp-header {
   font-size: 24px;
   font-weight: 400; }
+
+  .hp-header1 {
+  font-size: 36px;
+  font-weight: bold;
+  color:#084482;
+  font-family:Lato;
+  }
 
 .hp-subheader {
   margin-bottom: 40px; }
@@ -1272,7 +1354,7 @@ html, body {
 
 .sp-intro-img {
   display: block;
-  margin-top: -15rem; }
+  margin-top: 2.5rem; }
   @media (max-width: 991px) {
     .sp-intro-img {
       margin-top: 4rem; } }
@@ -1764,43 +1846,36 @@ html, body {
     margin-bottom: 10px; }
 
 .error-page {
-  background-image: url("../img/error-page.svg");
-  min-height: 600px;
-  height: 100vh; }
+  background-image: url("../img/404-error.png");
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  }
   @media only screen and (max-width: 600px) {
     .error-page {
-      min-height: 100vh; } }
+      background-image: url("../img/404-error-small.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover, contain;
+      position: absolute;
+      height: 100vh;
+       } }
 
-.error-page-container {
-  margin-top: 15rem; }
-  .error-page-container h1 {
-    font-size: 35px;
-    line-height: 1.5;
-    max-width: 50%; }
-  .error-page-container h3, .error-page-container h4 {
-    line-height: 1.4;
-    max-width: 55%; }
-  .error-page-container h4 {
-    font-size: 18px; }
-  .error-page-container h3 {
-    font-size: 24px; }
-  @media only screen and (max-width: 600px) {
-    .error-page-container {
-      margin-top: 0rem;
-      text-align: center; }
-      .error-page-container h1, .error-page-container h3, .error-page-container h4 {
-        max-width: 80%;
-        margin: 1rem auto; }
-      .error-page-container h1 {
-        font-size: 28px; }
-      .error-page-container h3, .error-page-container h4 {
-        font-size: 18px; } }
-  @media only screen and (min-width: 601px) and (max-width: 991px) {
-    .error-page-container {
-      margin-top: 4rem; }
-      .error-page-container h1, .error-page-container h3, .error-page-container h4 {
-        max-width: 70%; } }
-
+.error-page-container a {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  margin-left: -50px;
+  padding: 10px;
+  left: 45%;
+  right: 50%;
+  position: absolute;
+  bottom: 0;
+  }
 .error-page-btn {
   display: block;
   background-color: #00aeff;
@@ -1816,3 +1891,57 @@ html, body {
   .error-page-btn:hover {
     color: white;
     background-color: #008bcc; }
+
+
+/* CSS for Join Now Page - HNG 5.0 May 2019 */
+
+.join-labels {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.join-now-img {
+  margin-top: 100px;
+  padding-right: 40px;
+}
+
+.join-footer {
+  margin-top: 70px;
+}
+
+.join-btn {
+  float: right;
+  margin: 10px 15px 20px 0px;
+}
+
+.join-header {
+  color: #084482;
+  margin-left: 15px;
+}
+  .product{
+    height: 212px;
+    width: 331px;
+    border-radius: 0px !important;
+    padding: 15px;
+      border: 1px #000000 solid;
+      margin:20px;
+      z-index: 0;
+  }
+  .productsHeader{
+    color: #084482;
+    margin-top: 100px;
+  }
+  .gridContainer{
+    padding-left:50px;
+  }
+  .center-block{
+    margin-top:50px;
+  }
+/*  .detail{
+    background: rgba(8, 68, 130, 0.73);
+    height: 421px;
+    width: 340px;
+    display:none;
+    
+  }*/
+
