@@ -70,12 +70,14 @@
                                 <input type="text" name="phone_number" class="form-control join-input" id="phone_number" placeholder="Phone number">
                             </div>
                             <div class="col-md-6">
-                                <label class="join-labels" for="tech_interest">Technologies Interested In</label>
+                                <label class="join-labels" for="tech_interest">Learning Track</label>
                                 <select name="tech_interest" class="form-control join-input" id="tech_interest">
                                     <option selected>Choose...</option>
                                     <option value="1">Web Development</option>
                                     <option value="2">Mobile Development</option>
                                     <option value="3">Machine Learning</option>
+                                    <option value="4">UI/UX Design</option>
+                                    <option value="5">Digital Marketing</option>
                                 </select>
                             </div>
                         </div>
@@ -83,11 +85,23 @@
                         <div class="form-row row">
                             <div class="col-md-6">
                                 <label class="join-labels" for="experience">What Is Your Experience So Far?</label>
-                                <textarea type="text" name="experience" class="form-control join-text-input" id="experience" placeholder="Type your text area"></textarea>
+                                <select name="experience" class="form-control join-input" id="experience">
+                                    <option selected>Choose...</option>
+                                    <option value="1">Less than 1 year</option>
+                                    <option value="2">1 - 2 years</option>
+                                    <option value="3">Above 2 years</option>
+                                </select>
                             </div>
                             <div class="col-md-6">
                                 <label class="join-labels" for="internship_reason">Why Choose HNG Internship?</label>
-                                <textarea type="text" name="internship_reason" class="form-control join-text-input" id="internship_reason" placeholder="Your answer"></textarea>
+                                <select name="internship_reason" class="form-control join-input" id="internship_reason">
+                                    <option selected>Choose...</option>
+                                    <option value="1">To gain work experience</option>
+                                    <option value="2">To improve my skills</option>
+                                    <option value="3">To make a career switch</option>
+                                    <option value="4">To learn</option>
+                                    <option value="5">I heard it is dope!</option>
+                                </select>
                             </div>
                         </div>
                         <div class="btn-container">
