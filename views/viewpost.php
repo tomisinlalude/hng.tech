@@ -22,9 +22,8 @@ if($row['postID'] == ''){
     <link rel="stylesheet" href="../app/css/main.css">
 </head>
 <body>
-
 	<div id="wrapper">
-
+	<!-- <p><a href="./blog.php">Return Back</a></p> -->
 		<div style="display: flex; justify-content: flex-start; align-items: center">
 			<div class="auth_img">
 				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
@@ -38,20 +37,26 @@ if($row['postID'] == ''){
 		
 
 
-		<h3>HNG Blog</h3>
-		<hr />
-		<p><a href="/blog" style="color:#990033">Return Back</a></p>
+		<!-- <h1>HNG Blog</h1> -->
+		<!-- <hr /> -->
+		<!-- <p><a href="/blog">Post Index</a></p> -->
 
 
 		<?php	
 			echo '<div>';
-				echo '<a>'.$row['postCont'].'</a>';				
-
-					
-
+				echo '<a>'.$row['postCont'].'</a>';
 			echo '</div>';
 		?>
 
+		<div style="display:flex; justify-content:center; margin-bottom:20px">
+			<div class="post-auth">
+				<img src="../app/img/Rectangle 2.png" alt="">
+				written by
+				<span style="color:#222; font-weight:600; margin:0 5px"> Sauce code </span> in
+				<span style="color:#1fbdef; font-weight:600; margin:0 5px"> Design </span>
+			</div>
+		</div>
+		
 	</div>
 	
 
@@ -59,8 +64,9 @@ if($row['postID'] == ''){
 		<div id="wrapper">
 			<div class="top-recommended">
 				<h1>Recommended</h1>
-				<span>view all blog post</span>
+				<a href="<?php echo $blog ?>"><span>view all blog post</span></a>
 			</div>
+
 			<div class="row">
   				<div class="col-sm-4">
 					<div class="card more-post-card">
@@ -110,7 +116,7 @@ if($row['postID'] == ''){
 				
 			</div>
 		</div>
-</div>
+	</div>
 
 </body>
 
