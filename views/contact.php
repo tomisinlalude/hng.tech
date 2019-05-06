@@ -7,28 +7,23 @@
 
 				<div class="container">
 					<div class="row">
-					
 						<div class="about-text col-md-6">
 							<h1 class="hp-header1">Contact Us</h1>
-								<div id="messages" class="hide" role="alert">
-              		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              		<div id="messages_content"></div>
-            		</div>
-							<form action="contact.php" id="form" method="post" class="form-vertical" role="form">
-                <div class="form-group form-contact">
+							<form action="contact.php" method="post" class="form-vertical" role="form">
+                <div class="form-group">
                   <label for="Full Name">Full Name</label>
-                  <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Z\sa-z]{3,20}"  required/>
+                  <input type="text" class="form-text form-control" name="visitor_name" placeholder="Your Name" pattern="[A-Za-z]{3,20}"  required/>
                 </div>
-                <div class="form-group form-contact">
+                <div class="form-group">
                   <label for="Email-Address">Email-Address</label>
-                  <input type="email" class="form-text form-control"   name="visitor_email" placeholder="you@Example.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+                  <input type="email" class="form-text form-control" name="visitor_email" placeholder="you@Example.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
                 </div>
-                <div class="form-group form-contact">
+                <div class="form-group">
                   <label for="Message">Message</label>
-                  <textarea name="visitor_message" rows="5"  cols="10"   class="form-text1 form-control" placeholder="Message"></textarea>
+                  <textarea name="visitor_message" rows="5"  cols="10" class="form-text1 form-control" placeholder="Message"></textarea>
                 </div>
-                <div class="form-group form-contact">
-                  <p class="form-contact text-right"><input type="submit" class="btn btn-info"   value="Submit"/></p>
+                <div class="form-group">
+                  <p class="form-group text-right"><input type="submit" class="btn btn-info" value="Submit"/></p>
                 </div>
               </form>
 						</div>
@@ -63,9 +58,6 @@
   </div>
 </div>-->
 
-<script src="http://code.jquery.com/jquery.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 
 	<script src="../app/js/app.js"> </script>
 	<script type="text/javascript">
@@ -81,14 +73,7 @@
 		document.getElementById("mySidenav").style.width = "0";
 		$(".navbar-toggler").prop('disabled',false); 
 	}
-	$('#form').submit(function(e) {
-                $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-                $('#messages_content').html('<h4>Success! You will get a feedback soon</h4>');
-                $('#modal').modal('show');
-								$("#form")[0].reset();
-                e.preventDefault();
-            });
-	
+
 	</script>
 	</body>
 </html>
