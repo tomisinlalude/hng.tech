@@ -5,13 +5,13 @@
             
             <!-- <div class="join-container"> -->
                 <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-5">
 
-                        <div class="join-now-img ">
-                            <img src="../app/img/join-now-laptop.png" class="">
+                            <div class="join-now-img ">
+                                <img src="../app/img/join-now-laptop.png" class="">
+                            </div>
                         </div>
-                    </div>
 
                 <!-- <form id="join-form" class="join-form">
 
@@ -53,25 +53,25 @@
 				            <h1 class="h1">Join Now</h1>
 			            </header>
                     <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                            <label class="join-labels" for="name">Full Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Full Name">
+                        <div class="form-row row">
+                            <div class=" col-md-6">
+                                <label class="join-labels" for="full_name">Full Name</label>
+                                <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Full Name">
                             </div>
-                            <div class="form-group col-md-6">
-                            <label class="join-labels" for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <div class=" col-md-6">
+                                <label class="join-labels" for="email">Email</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                            <label class="join-labels" for="phone_no">Phone Number</label>
-                            <input type="text" class="form-control" id="phone_no" placeholder="Phone Number">
+                                <label class="join-labels" for="phone_number">Phone Number</label>
+                                <input type="text" name="phone_number" class="form-control" id="phone_number" placeholder="Phone Number">
                             </div>
                             <div class="form-group col-md-6">
-                            <label class="join-labels" for="technology">Technologies interested in</label>
-                                <select class="form-control" id="technology">
+                                <label class="join-labels" for="tech_interest">Technologies Interested In</label>
+                                <select name="tech_interest" class="form-control" id="tech_interest">
                                     <option selected>Choose...</option>
                                     <option value="1">Web Development</option>
                                     <option value="2">Mobile Development</option>
@@ -83,21 +83,22 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label class="join-labels" for="experience">What Is Your Experience So Far?</label>
-                                <textarea type="text" class="form-control" id="experience" placeholder="Type your text area"></textarea>
+                                <textarea type="text" name="experience" class="form-control" id="experience" placeholder="Type your text area"></textarea>
                             </div>
                             <div class="form-group col-md-6">
-                                <label class="join-labels" for="reason">Why choose HNG Internship?</label>
-                                <textarea type="email" class="form-control" id="reason" placeholder="Your answer"></textarea>
+                                <label class="join-labels" for="internship_reason">Why Choose HNG Internship?</label>
+                                <textarea type="text" name="internship_reason" class="form-control" id="internship_reason" placeholder="Your answer"></textarea>
                             </div>
-                        </div class="">
+                        </div>
                         <div class="btn-container">
 			                <a  href="" class="primary-button join-btn" style="padding: 14px 30px">Submit</a>
 		                </div>
                     </form>
                 </div>
 
-</div>
-            </div>
+            </div> 
+        </div>
+        
             <footer class="join-footer">
                 <div class="main-footer mt-5">
                     <div class="container">
