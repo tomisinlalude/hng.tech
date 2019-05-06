@@ -30,7 +30,7 @@ include 'partials/navbar.php';
 						echo '<h1><a href="views/viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></h1>';
 						echo '<p style="color:#990033">Posted on '.date('jS M Y', strtotime($row['postDate']));
 						echo '<p>  By '.$row['username'].'</p>';
-						echo '<p>'.$row['postDesc'].'</p>';				
+						echo '<p style = "text-align:justify">'.$row['postDesc'].'</p>';				
 						echo '<p><a href="views/viewpost.php?id='.$row['postID'].'">Read More</a></p>';				
 					echo '</div>';
 

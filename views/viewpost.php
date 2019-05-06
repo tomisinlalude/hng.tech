@@ -23,6 +23,8 @@ if($row['postID'] == ''){
 </head>
 <body>
 	<div id="wrapper">
+		<a href="views/admin/login.php" style="color: #990066; position: absolute; right:80px; top:109px;">return back</a>
+		
 		<div style="display: flex; justify-content: flex-start; align-items: center">
 			<div class="auth_img">
 				<img height="50px" width="50px" src="../app/img/Rectangle 2.png" alt="">
@@ -36,7 +38,7 @@ if($row['postID'] == ''){
 
 		<?php	
 			echo '<div>';
-				echo '<a>'.$row['postCont'].'</a>';
+				echo '<a style = "text-align: justify">'.$row['postCont'].'</a>';
 			echo '</div>';
 		?>
 
