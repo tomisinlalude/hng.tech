@@ -39,7 +39,7 @@ if(isset($_GET['deluser'])){
   </script>
 </head>
 <body>
-
+		<h2 style="text-align: center; font-family: verdana">Users</h2>
 	<div id="wrapper">
 
 	<?php include('menu.php');?>

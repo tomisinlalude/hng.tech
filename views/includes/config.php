@@ -309,4 +309,5 @@ class User extends Password{
 
 
 $user = new User($db); 
+include('functions.php');
 ?>

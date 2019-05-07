@@ -8,8 +8,13 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 //show message from add / edit page
 if(isset($_GET['delpost'])){ 
 
-	$stmt = $db->prepare('DELETE FROM blog_posts WHERE postID = :postID') ;
+	$stmt = $db->prepare('DELETE FROM blog_posts_seo WHERE postID = :postID') ;
 	$stmt->execute(array(':postID' => $_GET['delpost']));
+
+	//delete post categories (Justed added this to upgrade site). 
+	$stmt = $db->prepare('DELETE FROM blog_post_cats WHERE postID = :postID');
+	$stmt->execute(array(':postID' => $_GET['delpost']));
+
 
 	header('Location: index.php?action=deleted');
 	exit;
@@ -34,7 +39,7 @@ if(isset($_GET['delpost'])){
   </script>
 </head>
 <body>
-
+			<h2 style="text-align: center; font-family: verdana">Admin Dashboard</h2>
 	<div id="wrapper">
 
 	<?php include('menu.php');?>
