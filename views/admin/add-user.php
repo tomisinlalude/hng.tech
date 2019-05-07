@@ -17,7 +17,7 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 <div id="wrapper">
 
 	<?php include('menu.php');?>
-	<p><a href="users.php">User Admin Index</a></p>
+	<p><a href="users.php">Go to Dashboard</a></p>
 
 	<h2>Add User</h2>
 
