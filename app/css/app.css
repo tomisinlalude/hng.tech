@@ -1717,19 +1717,17 @@ html, body {
 
   .product{
     height: 212px;
-    width: 331px;
+    width: 300px;
     border-radius: 0px !important;
-    padding: 15px;
       border: 1px #bebebe solid;
-      margin:20px;
-  }
+      margin-top: 50px;
+ }
   .productsHeader{
     color: #084482;
     margin-top: 100px;
   }
   .gridContainer{
-    padding-left:50px;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
   }
   .imgCenter{
     margin-top:50px;
@@ -1775,16 +1773,15 @@ visibility: visible;
   color: #000000;
   background: #ffffff;
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px){
+/*@media only screen and (max-width: 1199px) and (min-width: 992px){
   .gridContainer{
-    padding-left: 120px;
   }
 }
 @media only screen and (max-width: 991px){
  .container{
   margin-right: 0;
  }
-}
+}*/
 
 
 
