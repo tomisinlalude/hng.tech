@@ -1,3 +1,4 @@
+<p>Logged in as <?=$_SESSION['username'];?></p>
 <!-- <h1>Blog</h1>
 <ul id='adminmenu'>
 	<li><a href=''>Blog</a></li>
@@ -30,11 +31,21 @@
                             Users
                         </span>
                     </a>
+
+                </li>
+
+                <li class="has-subnav">
+                    <a href="categories.php">
+                       <i class="fa fa-list fa-2x"></i>
+                        <span class="nav-text">
+                            Categories
+                        </span>
+                    </a>
                     
                 </li>
                 <li class="has-subnav">
                     <a href="/../blog" target="_blank">
-                       <i class="fa fa-list fa-2x"></i>
+                       <i class="fa fa-eye fa-2x"></i>
                         <span class="nav-text">
                             View Blog
                         </span>

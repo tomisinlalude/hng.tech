@@ -2,6 +2,7 @@
 include 'partials/header.php';
 include 'partials/navbar.php';
  ?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
