@@ -34,7 +34,7 @@ if(isset($_GET['delpost'])){
   </script>
 </head>
 <body>
-
+			<h2 style="text-align: center; font-family: verdana">Admin Dashboard</h2>
 	<div id="wrapper">
 
 	<?php include('menu.php');?>

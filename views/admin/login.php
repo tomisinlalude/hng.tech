@@ -10,7 +10,7 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Admin Login</title>
+  <title>Blog Admin Login</title>
   <link rel="stylesheet" href="../style/normalize.css">
   <link rel="stylesheet" href="../style/main.css">
 
@@ -95,10 +95,11 @@ span.psw {
 
 
 </head>
+
 <body>
 
 <div id="login">
-
+<h3 style="text-align: center; font-family: verdana">Blog Admin Login</h3>
 	<?php
 	//process login form if submitted
 	if(isset($_POST['submit'])){
@@ -121,8 +122,6 @@ span.psw {
 
 	if(isset($message)){ echo $message; }
 	?>
-
-
 	
 <form action="" method ="post">
   <!-- <div class="imgcontainer">
@@ -135,12 +134,12 @@ span.psw {
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="password" required>
-
+<br/>
     <button type="submit" name="submit" value="Login">Login</button>
    <!--  <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label> -->
-     <span class="psw">Not a member? <a href="#">Signup</a></span>
+     <span class="psw">For access <a>contact Admin</a></span>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
