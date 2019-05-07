@@ -2,6 +2,7 @@
 include 'partials/header.php';
 include 'partials/navbar.php';
  ?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +17,7 @@ include 'partials/navbar.php';
 	<div id="wrapper">
 
 		<h3>HNG Blog</h3>
-		<button style="position: absolute; right:80px; top:109px; border-radius: 5px; border-style:none; background-color: #6666cc"><a href="views/admin/login.php" style="color: white">Post to Blog</a></button>
+		<button style="position: absolute; right:80px; top:109px; border-radius: 5px; border-style:none; background-color: #6666cc"><a href="views/admin/login.php" style="color: white" target="blank">Post to Blog</a></button>
 		
 		<hr />
 

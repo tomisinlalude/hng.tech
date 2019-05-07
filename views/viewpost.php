@@ -23,7 +23,7 @@ if($row['postID'] == ''){
 </head>
 <body>
 	<div id="wrapper">
-		<a href= "../blog" style="color: #990066; position: absolute; right:80px; top:109px;">return back</a>
+		<!-- <a href= "../blog" style="color: #990066; position: absolute; right:80px; top:109px;">Return back</a> -->
 		
 		<div style="display: flex; justify-content: flex-start; align-items: center">
 			<div class="auth_img">

@@ -92,7 +92,7 @@
               		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               		<div id="messages_content"></div>
             		</div>
-							<form action="contact.php" id="form" method="post" class="form-vertical" role="form">
+							<form action="process" id="form" method="post" class="form-vertical" role="form">
                 <div class="form-group form-contact">
                   <label for="Full Name">Full Name</label>
                   <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Z\sa-z]{3,20}"  required/>
@@ -100,6 +100,9 @@
                 <div class="form-group form-contact">
                   <label for="Email-Address">Email-Address</label>
                   <input type="email" class="form-text form-control"   name="visitor_email" placeholder="you@Example.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+                </div>
+								<div class="form-group form-contact"> 
+                  <input type="hidden" name="contactus">
                 </div>
                 <div class="form-group form-contact">
                   <label for="Message">Message</label>
