@@ -1,5 +1,6 @@
 <html>
 	<?php include 'partials/header.php';?>
+    <
 	<body>
 		<?php include 'partials/navbar.php';?>
             
@@ -52,26 +53,26 @@
                         <header class="join-header">
 				            <h1 class="h1">Join Now</h1>
 			            </header>
-                    <form>
+                    <form action="" id="join-form" method="post">
                         <div class="form-row row">
                             <div class=" col-md-6">
                                 <label class="join-labels" for="full_name">Full Name</label>
-                                <input type="text" name="full_name" class="form-control join-input" id="full_name" placeholder="Full name">
+                                <input type="text" name="full_name" class="form-control join-input" id="full_name" placeholder="Full name" required>
                             </div>
                             <div class=" col-md-6">
                                 <label class="join-labels" for="email">Email</label>
-                                <input type="email" name="email" class="form-control join-input" id="email" placeholder="Email">
+                                <input type="email" name="email" class="form-control join-input" id="email" placeholder="you@example.com" required>
                             </div>
                         </div>
 
                         <div class="form-row row">
                             <div class="col-md-6">
                                 <label class="join-labels" for="phone_number">Phone Number</label>
-                                <input type="text" name="phone_number" class="form-control join-input" id="phone_number" placeholder="Phone number">
+                                <input type="text" name="phone_number" class="form-control join-input" id="phone_number" placeholder="Phone number" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="join-labels" for="tech_interest">Learning Track</label>
-                                <select name="tech_interest" class="form-control join-input" id="tech_interest">
+                                <select name="tech_interest" class="form-control join-input" id="tech_interest" required>
                                     <option selected>Choose...</option>
                                     <option value="1">Web Development</option>
                                     <option value="2">Mobile Development</option>
@@ -85,7 +86,7 @@
                         <div class="form-row row">
                             <div class="col-md-6">
                                 <label class="join-labels" for="experience">What Is Your Experience So Far?</label>
-                                <select name="experience" class="form-control join-input" id="experience">
+                                <select name="experience" class="form-control join-input" id="experience" required>
                                     <option selected>Choose...</option>
                                     <option value="1">Less than 1 year</option>
                                     <option value="2">1 - 2 years</option>
@@ -94,7 +95,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="join-labels" for="internship_reason">Why Choose HNG Internship?</label>
-                                <select name="internship_reason" class="form-control join-input" id="internship_reason">
+                                <select name="internship_reason" class="form-control join-input" id="internship_reason" required>
                                     <option selected>Choose...</option>
                                     <option value="1">To gain work experience</option>
                                     <option value="2">To improve my skills</option>
