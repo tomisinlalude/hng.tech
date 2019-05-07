@@ -92,7 +92,7 @@
               		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               		<div id="messages_content"></div>
             		</div>
-							<form action="contact.php" id="form" method="post" class="form-vertical" role="form">
+							<form action="process" id="form" method="post" class="form-vertical" role="form">
                 <div class="form-group form-contact">
                   <label for="Full Name">Full Name</label>
                   <input type="text" class="form-text form-control"  name="visitor_name" placeholder="Your Name" pattern="[A-Z\sa-z]{3,20}"  required/>
