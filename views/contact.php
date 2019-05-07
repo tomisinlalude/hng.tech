@@ -101,6 +101,9 @@
                   <label for="Email-Address">Email-Address</label>
                   <input type="email" class="form-text form-control"   name="visitor_email" placeholder="you@Example.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
                 </div>
+								<div class="form-group form-contact"> 
+                  <input type="hidden" name="contactus">
+                </div>
                 <div class="form-group form-contact">
                   <label for="Message">Message</label>
                   <textarea name="visitor_message" rows="5"  cols="10"   class="form-text1 form-control" placeholder="Message"></textarea>
