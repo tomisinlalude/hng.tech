@@ -1,78 +1,43 @@
 <html>
 	<?php include 'partials/header.php';?>
+    <
 	<body>
 		<?php include 'partials/navbar.php';?>
             
-            <!-- <div class="join-container"> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
 
-                            <div class="join-now-img ">
-                                <img src="../app/img/join-now-laptop.png" class="">
+                        <div class="join-now-img ">
+                            <img src="../app/img/join-now-laptop.png" class="">
                             </div>
                         </div>
-
-                <!-- <form id="join-form" class="join-form">
-
-                    <div class="join-header-align">
-                        <header class="join-header">
-				            <h1 class="h1">Join Now</h1>
-			            </header>
-                    </div>
-
-                    <div class="join-row">
-
-                        <div class="join-input-left">
-                            <div class="join-labelss">
-                                <label class="join-labels" id="join-name-label">
-                                    Full Name
-                                </label>
-                            </div>
-                            <div class="join-input-align">
-                                <input type="text" name="name" placeholder="Full name" id="name" class="join-input" required>
-                            </div>                         
-                        </div>
-                        
-                        <div class="join-input-right">
-                            <div class="join-labelss">
-                                <label class="join-labels" id="join-email-label">
-                                    Email
-                                </label>
-                            </div>
-                            <div class="join-input-align">
-                                <input type="text" name="name" placeholder="Email" id="email" required class="join-input">
-                            </div>                         
-                        </div>
-
-                     </div>
-
-                </form> -->
+       
                 <div class="col-md-7">
                         <header class="join-header">
 				            <h1 class="h1">Join Now</h1>
 			            </header>
-                    <form>
+                    <form action="" id="join-form" method="post">
                         <div class="form-row row">
                             <div class=" col-md-6">
                                 <label class="join-labels" for="full_name">Full Name</label>
-                                <input type="text" name="full_name" class="form-control join-input" id="full_name" placeholder="Full name">
+                                <input type="text" name="full_name" class="form-control join-input" id="full_name" placeholder="Full name" pattern="[A-Z\sa-z]{3,20}" required>
                             </div>
                             <div class=" col-md-6">
                                 <label class="join-labels" for="email">Email</label>
-                                <input type="email" name="email" class="form-control join-input" id="email" placeholder="Email">
+                                <input type="email" name="email" class="form-control join-input" id="join-email" placeholder="you@example.com" required>
                             </div>
                         </div>
 
                         <div class="form-row row">
                             <div class="col-md-6">
                                 <label class="join-labels" for="phone_number">Phone Number</label>
-                                <input type="text" name="phone_number" class="form-control join-input" id="phone_number" placeholder="Phone number">
+                                <input type="tel" name="phone_number" class="form-control join-input" id="phone_number" placeholder="Phone number"  pattern=" (+)[0-9]" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="join-labels" for="tech_interest">Learning Track</label>
-                                <select name="tech_interest" class="form-control join-input" id="tech_interest">
-                                    <option selected>Choose...</option>
+                                <select name="tech_interest" class="form-control join-input" id="tech_interest" required>
+                                    <option selected disabled>Choose...</option>
                                     <option value="1">Web Development</option>
                                     <option value="2">Mobile Development</option>
                                     <option value="3">Machine Learning</option>
@@ -85,8 +50,8 @@
                         <div class="form-row row">
                             <div class="col-md-6">
                                 <label class="join-labels" for="experience">What Is Your Experience So Far?</label>
-                                <select name="experience" class="form-control join-input" id="experience">
-                                    <option selected>Choose...</option>
+                                <select name="experience" class="form-control join-input" id="experience" required>
+                                    <option selected disabled>Choose...</option>
                                     <option value="1">Less than 1 year</option>
                                     <option value="2">1 - 2 years</option>
                                     <option value="3">Above 2 years</option>
@@ -94,8 +59,8 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="join-labels" for="internship_reason">Why Choose HNG Internship?</label>
-                                <select name="internship_reason" class="form-control join-input" id="internship_reason">
-                                    <option selected>Choose...</option>
+                                <select name="internship_reason" class="form-control join-input" id="internship_reason" required>
+                                    <option selected disabled>Choose...</option>
                                     <option value="1">To gain work experience</option>
                                     <option value="2">To improve my skills</option>
                                     <option value="3">To make a career switch</option>
@@ -105,7 +70,7 @@
                             </div>
                         </div>
                         <div class="btn-container">
-			                <a  href="" class="primary-button join-btn" style="padding: 14px 30px">Submit</a>
+			                <button class="primary-button join-btn" name="submit" id="sumbit" style="padding: 14px 30px">Submit</button>
 		                </div>
                     </form>
                 </div>
