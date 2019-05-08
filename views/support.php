@@ -121,7 +121,7 @@
 				</div>
 				<div class="sp-partners-container">
 					<div class=""><img src="../app/img/hng.svg"></div>
-					<div class=""><img src="../app/img/akwa.svg"></div>
+					<div class=""><img src="../app/img/akwa-ibom.png" style="width:100px;"></div>
 					<div class=""><img src="../app/img/oracle.svg"></div>
 					<div class=""><img src="../app/img/figma.svg"></div>
 					<div class=""><img src="../app/img/bluechip.svg"></div>
