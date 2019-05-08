@@ -214,13 +214,19 @@
 
           <?php 
 
-          $getInterns = opendir('interns/');
-          while ($interns=readdir($getInterns)) {
+          if($getInterns = opendir('interns/')){
+          while (false !== ($interns=readdir($getInterns)))
+           {
 
-
+                if ($interns != 'interns/' &&  strtolower(substr($interns, strrpos($interns, '.') + 1))=='php')
+                {
 echo file_get_contents('interns/'.$interns);
 
-  }  
+  } 
+
+}
+  closedir($getInterns); 
+}
                 ?>
 
 
