@@ -8,6 +8,7 @@ $interns    = '../interns';
 $support    ='../support';
 $becomeIntern ='../become-intern' ;
 $blog ='../blog' ;
+$products = '../products';
 
 ?>
 

@@ -11,27 +11,25 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/dhffhmum8/image/upload/v1554482000/IMG_3918_1.jpg" alt="Mark Essien">
-                        <h6>Muhammad Maigari</h6>
-                        <p>Software Engineer</p>
+                        <img src="https://res.cloudinary.com/habeebability/image/upload/v1554381379/habeebability_pic.jpg" alt="Habeeb Awoyemi">
+                        <h6>Habeeb Awoyemi</h6>
+                        <p>Front-end Developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/ImamMaigaree" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/ImamMaigaree" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@ImamMaigaree" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/habeebability" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/habeebability" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@awoyemi.habeeb" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>   
-                           A Computer Science student connecting the dots between software engineering, computer networking and entrepreneurship.
-                        </p>
+                        <p>Hi,
+                         My name is Habeeb Awoyemi, and i am aspiring to be a full stack developer, i am so passionate about coding and i am determined to make the best out of it, thanks to hngintership5.0 for bringing this project, this awesome challenges have made boosted our morales, thank you.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>JavaScript | PHP | CCNA </p>
+                        <p>JavaScript | HTML | CSS</p>
                      </div>
-                     
                   </div>
                </div>
             </div>
