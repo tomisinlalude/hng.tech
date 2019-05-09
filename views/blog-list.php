@@ -12,9 +12,9 @@
 
 			<!-- Blog navigation starts -->
 	        <div class="blogNavSection">
-	            <div class="blogNavSectionInner">
-	                <ul class="blogNavList">
-	                    <li class='active nav-list'><a href="#">All</a></li>
+	            <div class="blogNavSectionInner" >
+	                <ul class="blogNavList" id="navContainer">
+	                    <li class="nav-list active"><a href="#">All</a></li>
 	                    <li id='test' class="nav-list"><a href="#">Intern Stories</a></li>
 	                    <li class="nav-list"><a href="#">Design</a></li>
 	                    <li class="nav-list"><a href="#">Frontend</a></li>
@@ -183,11 +183,18 @@
       </div>
    </div>
    		<script>
-   			//const navButton = document.querySelector('.nav-list');
-   			function addActive() {
-   				//const navButton = document.getElementByid('test');
-				li.classList.add('active')		
-   			}
+   			let btnContainer = document.getElementById("navContainer");
+
+   			let btns = btnContainer.getElementsByClassName("nav-list");
+
+   			for (const i in btns ) {
+			  btns[i].addEventListener("click", function() {
+			    let currentBtn = document.getElementsByClassName("active");
+			    currentBtn[0].className = currentBtn[0].className.replace(" active", "");
+			    this.className += " active";
+			  });
+			}
+
 
    		</script>
 	</body>

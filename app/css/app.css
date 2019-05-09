@@ -2950,9 +2950,9 @@ ul.blogNavList {
     display: flex;
     justify-content: space-between;    
 }
-ul.blogNavList li {
-}
-ul.blogNavList li.active {
+/*ul.blogNavList li {
+}*/
+ul.blogNavList li.active, .nav-list:hover {
     background-color: #fff;
     border-top: #00AEFF solid 4px;
 }
@@ -3058,6 +3058,7 @@ span.articleAuthorName a {
     display: flex;
     padding: 27px 12px;
     border: #E5E5E5 solid 1px;
+    cursor: pointer;
 }
 .topPostsArticle img {
     height: 59px;
