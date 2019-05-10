@@ -11,9 +11,9 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/enwankwo/image/upload/v1554310907/IMG_20181217_134058_8_2.jpg" alt="Emmanuel Nwankwo">
+                        <img src="https://res.cloudinary.com/enwankwo/image/upload/v1557408681/Pic_1555087882725.png" alt="Emmanuel Nwankwo">
                         <h6>Emmanuel Nwankwo</h6>
-                        <p>Back-end Developer</p>
+                        <p>Backend Developer</p>
                         <ul class="list">
                            <li><a href="https://twitter.com/EmmaNwankwom" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/emmanuelnwankwo" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
@@ -24,10 +24,10 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>A freelancer developer with a keen passion for using software technology to provide solutions to life needs.</p>
+                        <p>I build for the web and beyond. I am keenly passionate about using software technology to provide solutions to human needs.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>JavaScript | C#(.Net)</p>
+                        <p>JavaScript | NodeJs | C#</p>
                      </div>
                   </div>
                </div>
