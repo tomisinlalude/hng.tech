@@ -2,7 +2,7 @@
 include 'partials/header.php';
 include 'partials/navbar.php';
 
-$stmt = $db->prepare('SELECT postID, postTitle, postCont, postDate, username FROM blog_posts, blog_members WHERE postID = :postID');
+$stmt = $db->prepare('SELECT blog_posts.postID, blog_posts.postTitle, blog_posts.postDesc, blog_posts.postCont, blog_posts.postDate, blog_members.username FROM blog_posts, blog_members WHERE blog_posts.memberID = blog_members.memberID AND postID =:postID ORDER BY postID DESC');
 $stmt->execute(array(':postID' => $_GET['id']));
 $row = $stmt->fetch();
 

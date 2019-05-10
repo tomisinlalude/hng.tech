@@ -218,6 +218,7 @@
           while (false !== ($interns=readdir($getInterns)))
            {
 
+
                 if ($interns != 'interns/' &&  strtolower(substr($interns, strrpos($interns, '.') + 1))=='php')
                 {
 echo file_get_contents('interns/'.$interns);
@@ -226,12 +227,15 @@ echo file_get_contents('interns/'.$interns);
 
 }
   closedir($getInterns); 
-}
+
+// }
+
+
+
                 ?>
 
 
 
-                </div>
                 <div class="pagination-link">
                     <a class="intern-link" href="#">&larr;</a>
                     <a class="intern-link active" href="#">1</a>
@@ -245,7 +249,11 @@ echo file_get_contents('interns/'.$interns);
         </div>
     			
     	</div>
+        
+    <?php 
+    include 'partials/footer.php';
+
+    ?>
     </body>
 
-	<?php include 'partials/footer.php';?>
 </html>
