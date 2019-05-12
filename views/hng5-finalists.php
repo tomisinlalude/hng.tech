@@ -151,5 +151,7 @@
 			<div class="ap-footer">
 				<?php include 'partials/footer.php'; ?>
 			</div>
+			<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+			<script src="../app/js/finalist5.js"> </script>
 		</main>
 		</body>
