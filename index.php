@@ -29,7 +29,8 @@ $router->add([
   '/mfon' => 'interns/mfon.php',
   '/template' => 'interns/template.php',
   '/test' => 'interns/test.php',
-  '/blog' => 'blog.php'
+  '/blog' => 'blog.php',
+  '/hng5/finalists' => 'hng5-finalists.php'
 ]);
 $request = $_SERVER['REQUEST_URI'];
 if (strlen($request) > 1) {
