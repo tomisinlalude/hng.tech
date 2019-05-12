@@ -445,7 +445,7 @@
 					<br>kindly click the link below to see more
 			</p>
 			<p class="text-center" style="margin-top:20px">
-				<a href="/views/meet-our-interns.php" class="btn btn-info" >See More</a>
+				<a href="/views/hng5-finalista.php" class="btn btn-info" >See More</a>
 			</p>
 	</div>
 </div>
