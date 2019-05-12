@@ -10,7 +10,7 @@
         </header>
 
         <section class="hng-track">
-            <h1>Designers</h1>
+            <h1 class="hng-first-track">Designers</h1>
             <h3>Designers</h3>
         </section>
 		
@@ -580,7 +580,6 @@
 		  </div>
 		</div>
 		</div>
-		<hr>
         <div class="ap-footer">
             <?php include 'partials/footer.php';?>
         </div>

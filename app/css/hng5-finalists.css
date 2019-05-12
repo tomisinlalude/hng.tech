@@ -27,6 +27,10 @@ body {
     margin: -2em 0 0 2.5em;
 }
 
+.hng-track .hng-first-track {
+  color: #ABE0D4 !important;
+}
+
 .hng-track h1 {
     color: #F4F4F4;
     font-size: 63px;
