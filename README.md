@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.org/timolinn/hng.tech.svg?branch=master)](https://travis-ci.org/timolinn/hng.tech)
+
 <div align="center">
-  
+
 ![hng](https://res.cloudinary.com/iambeejayayo/image/upload/v1554240066/brand-logo.png)
 
 <br>
@@ -19,12 +21,19 @@
 ```bash
 git clone https://github.com/hnginternship5/hng.tech.git
 ```
+
 ```bash
 cd hng.tech
 ```
+
+```bash
+cp .env.example .env
+```
+
 ```bash
 php -S localhost:8000
 ```
+
 ```bash
 Visit localhost:8000 in your browser
 ```
@@ -34,13 +43,15 @@ Visit localhost:8000 in your browser
 ```bash
 git checkout staging
 ```
+
 The template for your profile page can be found here
 `views/interns/template.php`
+
 - Copy the contents of that file
 - Create a new file with your slack username, e.g `mark.php`
 - Paste the contents there
 - Now your page should be assesible via `localhost:8000/interns/mark`
-![hng profile](https://res.cloudinary.com/iambeejayayo/image/upload/v1554302765/download.png)
+  ![hng profile](https://res.cloudinary.com/iambeejayayo/image/upload/v1554302765/download.png)
 - Edit the contents of the file to your profile details
 - Push to `staging` branch and open a pull request
 - Wait for review

@@ -1,12 +1,15 @@
 <?php
 error_reporting(-1);
 $url        = $_SERVER['REQUEST_URI'];
-$url        = str_replace('/','',$url);
+$url        = str_replace('/', '', $url);
 $logo       = '../app/img/brand-logo.png';
 $about      = '../about';
 $interns    = '../interns';
-$support    ='../support';
-$becomeIntern ='../become-intern' ;
+$support    = '../support';
+$becomeIntern = '../become-intern';
+$blog = '../blog';
+$products = '../products';
+
 ?>
 
 
@@ -20,10 +23,8 @@ $becomeIntern ='../become-intern' ;
 	<link rel="stylesheet" href="../app/css/app.css" type="text/css"/>
 	<link rel="stylesheet" href="../app/css/hng5-finalists.css" type="text/css"/>
 	<link rel="shortcut icon" type="image/png" href="../app/img/fav.png" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 
 
 </head>
-
-
