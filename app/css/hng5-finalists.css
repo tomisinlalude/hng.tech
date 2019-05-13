@@ -58,6 +58,7 @@ body {
   height: 250px;
   min-width: 250px;
   perspective: 1000px;
+  -moz-perspective: 1000px;
 }
 
 .intern-card-inner {
@@ -67,10 +68,13 @@ body {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  -moz-transition: transform 0.6s;
+  -moz-transform-style: preserve-3d;
 }
 
 .intern-card:hover .intern-card-inner {
   transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
 }
 
 .intern-card-front, .intern-card-back {
@@ -78,6 +82,7 @@ body {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
 }
 
 .intern-card-front {
@@ -86,9 +91,9 @@ body {
   border-radius: 10px;
 }
 
-.intern-card-front .card-image-bg {
+/* .intern-card-front .card-image-bg {
 	background: #FBFBFB;
-}
+} */
 
 .intern-card-front .intern-image {
 	width: 100px;
@@ -113,6 +118,7 @@ body {
   transform: rotateY(180deg);
   z-index: 1;
   border-radius: 10px;
+  -moz-transform: rotateY(180deg);
 }
 
 .intern-card-back  p:first-of-type {
