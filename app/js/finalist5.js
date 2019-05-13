@@ -48,29 +48,31 @@ axios.get('https://cors-anywhere.herokuapp.com/https://spreadsheets.google.com/f
   console.log(finalist);
     output += `
     <div class="intern-card">
-      <div class="intern-card-front">
-        <div class="card-image-bg">
-          <div class="intern-image">
-            <img src="${finalist.gsx$image.$t}" alt="Intern Image" /></div>
+      <div class="intern-card-inner">
+        <div class="intern-card-front">
+          <div class="card-image-bg">
+            <div class="intern-image">
+              <img src="${finalist.gsx$image.$t}" alt="Intern Image" /></div>
+            </div>
+            <p>${finalist.gsx$name.$t}</p>
+            <p class="intern-desc">${finalist.gsx$role.$t}</p>
+            <p>${finalist.gsx$stacks.$t}</p>
           </div>
-          <p>${finalist.gsx$name.$t}</p>
-          <p class="intern-desc">${finalist.gsx$role.$t}</p>
-          <p>${finalist.gsx$stacks.$t}</p>
+          <div class="intern-card-back">
+          <p>${finalist.gsx$name.$t}</p> 
+          <p>${finalist.gsx$role.$t}</p> 
+          <button><a href="${finalist.gsx$portfolio.$t}">View Portfolio</a></button>
+          <div class="social-links">
+            <a href=""><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
+            <a href=""><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
+            <a href=""><img src="../app/img/github icon.png" alt="social link" title="Github"></a>
+            <a href=""><img src="../app/img/twitter icon.png" alt="social link" title="Twitter"></a>
+            <a href=""><img src="../app/img/dribbble icon.png" alt="social link" title="Dribbble"></a>
+            <a href=""><img src="../app/img/behance icon.png" alt="social link" title="Behance"></a>
+          </div>
         </div>
-        <div class="intern-card-back">
-        <p>${finalist.gsx$name.$t}</p> 
-        <p>${finalist.gsx$role.$t}</p> 
-        <button><a href="${finalist.gsx$portfolio.$t}">View Portfolio</a></button>
-        <div class="social-links">
-          <a href=""><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
-          <a href=""><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
-          <a href=""><img src="../app/img/github icon.png" alt="social link" title="Github"></a>
-          <a href=""><img src="../app/img/twitter icon.png" alt="social link" title="Twitter"></a>
-          <a href=""><img src="../app/img/dribbble icon.png" alt="social link" title="Dribbble"></a>
-          <a href=""><img src="../app/img/behance icon.png" alt="social link" title="Behance"></a>
         </div>
-      </div>
-      </div>
+       </div> 
     </div>`;
     const finalistsContainer = document.querySelector('.marketers-container');
     finalistsContainer.innerHTML = output;
