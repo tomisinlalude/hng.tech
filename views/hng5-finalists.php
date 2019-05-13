@@ -16,140 +16,287 @@
 		
 		<div class="card-container">
 
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="card-image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
 				</div>
 			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-			  </div>
-			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
-				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-			  </div>
-			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
-				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-			  </div>
-			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+		
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
+		
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
 		</div>
+
+		<section class="hng-track">
+            <h1>Digital Marketers</h1>
+            <h3>Digital Marketers</h3>
+        </section>
+		
+		<div class="card-container">
+
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
+				</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
 		</div>
 		
 	<section class="hng-track">
@@ -159,140 +306,140 @@
 		
 		<div class="card-container">
 
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		</div>
 		
 	<section class="hng-track">
@@ -302,140 +449,140 @@
 		
 		<div class="card-container">
 
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		</div>
 		
 	<section class="hng-track">
@@ -445,140 +592,140 @@
 		
 		<div class="card-container">
 
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		
-		<div class="intern-card">
-		  <div class="intern-card-inner">
-			<div class="intern-card-front">
-			<div class="image-bg">
-				<div class="intern-image">	
-				  <img src="" alt="Intern Image">
+			<div class="intern-card">
+			  <div class="intern-card-inner">
+				<div class="intern-card-front">
+				<div class="card-image-bg">
+					<div class="intern-image">	
+					  <img src="" alt="Intern Image">
+					</div>
 				</div>
-			</div>
-			    <p> Mark Essien </p>
-			    <p class="intern-desc"> Product Designer </p>
-			    <p> PHP, Node.js </p>
-			</div>
-			<div class="intern-card-back">
-			  <p>Mark Essien</p> 
-			  <p>Product Designer</p> 
-			  <button><a href="">View Portfolio</a></button>
-			  <div class="social-links">
-				  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-				  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+				  <p>Mark Essien</p> 
+				  <p>Product Designer</p> 
+				  <button><a href="">View Portfolio</a></button>
+				  <div class="social-links">
+					  <a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+					  <a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
+				  </div>
+				</div>
 			  </div>
 			</div>
-		  </div>
-		</div>
 		</div>
         <div class="ap-footer">
             <?php include 'partials/footer.php';?>

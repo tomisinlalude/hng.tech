@@ -38,12 +38,14 @@ body {
 }
 
 .card-container {
-	display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .intern-card {
   width: 200px;
   height: 200px;
+  min-width: 35%;
   perspective: 1000px;
   margin: 4em 0 0 7em;
 }
