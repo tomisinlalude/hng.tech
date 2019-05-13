@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.0.6",
+            "version": "v6.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "8190d73eb5def11a43cfb020b7f36db65330698c"
+                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/8190d73eb5def11a43cfb020b7f36db65330698c",
-                "reference": "8190d73eb5def11a43cfb020b7f36db65330698c",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
+                "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2018-11-16T00:41:32+00:00"
+            "time": "2019-02-01T15:04:28+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -124,16 +124,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.28.0",
+            "version": "v6.34.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "e15127f0f56a0bf2d4ef454df75ea08265e9b2c7"
+                "reference": "124fafb57c287cf6e13830bcf329cac160a6afe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/e15127f0f56a0bf2d4ef454df75ea08265e9b2c7",
-                "reference": "e15127f0f56a0bf2d4ef454df75ea08265e9b2c7",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/124fafb57c287cf6e13830bcf329cac160a6afe8",
+                "reference": "124fafb57c287cf6e13830bcf329cac160a6afe8",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,8 @@
             "require-dev": {
                 "php-coveralls/php-coveralls": "1.*",
                 "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "squizlabs/php_codesniffer": "~2.0",
+                "symfony/process": "~2.8"
             },
             "type": "library",
             "extra": {
@@ -175,7 +176,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-01-03T18:40:20+00:00"
+            "time": "2019-05-07T00:56:15+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

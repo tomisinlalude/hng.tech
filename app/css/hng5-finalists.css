@@ -21,11 +21,17 @@ body {
 }
 
 .hng-track {
+  margin-top: -4em;
   padding: 4em 0 1em 0;
 }
 
 .hng-track h3 {
   margin: -2em 0 0 2.5em;
+}
+
+.hng-track .hng-first-track {
+  color: #ABE0D4 !important;
+  opacity: 0.3;
 }
 
 .hng-track h1 {
@@ -35,14 +41,23 @@ body {
 }
 
 .card-container {
-  display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.card-container > .intern-card {
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 1em;
 }
 
 .intern-card {
-  min-width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  min-width: 250px;
   perspective: 1000px;
-  margin: 4em 0 0 7em;
 }
 
 .intern-card-inner {
@@ -58,8 +73,7 @@ body {
   transform: rotateY(180deg);
 }
 
-.intern-card-front,
-.intern-card-back {
+.intern-card-front, .intern-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -67,72 +81,88 @@ body {
 }
 
 .intern-card-front {
-  color: black;
+  color: #000000;
   z-index: 2;
   border-radius: 10px;
 }
 
 .intern-card-front .card-image-bg {
-  background: #fbfbfb;
+	background: #FBFBFB;
 }
 
 .intern-card-front .intern-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
 }
 
 .intern-card-front p {
-  font-size: 12px;
+  font-size: 16px;
+  margin: 0.2em;
 }
 
 .intern-card-front .intern-desc {
-  color: #00aeff;
+  color: #00AEFF;
 }
 
 .intern-card-back {
-  background-color: #00aeff;
-  color: white;
+  background-color: #00AEFF;
+  color: #FFFFFF;
   transform: rotateY(180deg);
   z-index: 1;
-  font-size: 14px;
   border-radius: 10px;
 }
 
-.intern-card-back p:first-of-type {
-  padding-top: 1em;
+.intern-card-back  p:first-of-type {
+	padding: 2em;
 }
 
-.intern-card-back button {
-  background: #00aeff;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  text-align: center;
-  font-size: 12px;
-  margin: 2em;
+.intern-card-back  button {
+	background: #00AEFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	text-align: center;
+	margin: 2em;
 }
 
-.intern-card-back button a {
-  text-decoration: none;
-  color: #ffffff;
+.intern-card-back  button a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 13px;
 }
 
-.intern-card-back button:hover {
-  background: #ffffff;
-  color: #00aeff;
+.intern-card-back  button:hover {
+	background: #FFFFFF;
+	color: #00AEFF;
 }
 
-.intern-card-back button a:hover {
-  text-decoration: none;
-  color: #00aeff;
+.intern-card-back  button a:hover{
+	text-decoration: none;
+	color: #00AEFF;
 }
 
-.intern-card-back .social-links {
-  margin: 1em 0 0 1em;
+.intern-card-back  .social-links {
+	margin: 1em 0 0 1em;
 }
 
-.intern-card-back .social-links img {
-  padding: 0.3em;
+.intern-card-back  .social-links img {
+	padding: 0.3em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+.hng-track {
+  margin: 0 auto !important;
+  font-size: 22px !important;
+}
+
+.hng-track h1 {
+  display: none;
+}
+
+.intern-card {
+  margin: 10px auto !important;
+}
 }
