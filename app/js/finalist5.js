@@ -168,7 +168,7 @@ axios.get('https://cors-anywhere.herokuapp.com/https://spreadsheets.google.com/f
   window._meetup = response.data.feed.entry;
   let output = '';
   response.data.feed.entry.forEach((finalist) => {
-  console.log(finalist);
+  //console.log(finalist);
   output += `
   <div class="intern-card">
     <div class="intern-card-inner">
