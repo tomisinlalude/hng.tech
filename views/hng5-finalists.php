@@ -15,143 +15,118 @@
 			</section>
 
 			<div class="card-container">
-				<div class="intern-card">
-					<div class="intern-card-inner">
-						<div class="intern-card-front">
-							<div class="image-bg">
-								<div class="intern-image">
-									<img src="" alt="Intern Image">
-								</div>
-							</div>
-							<p> Mark Essien </p>
-							<p class="intern-desc"> Product Designer </p>
-							<p> PHP, Node.js </p>
+			</div>
+	</div>
+
+	<section class="hng-track">
+		<h1>Machine Learning</h1>
+		<h3>Machine Learning</h3>
+	</section>
+
+	<div class="card-container">
+
+		<div class="intern-card">
+			<div class="intern-card-inner">
+				<div class="intern-card-front">
+					<div class="image-bg">
+						<div class="intern-image">
+							<img src="" alt="Intern Image">
 						</div>
-						<div class="intern-card-back">
-							<p>Mark Essien</p>
-							<p>Product Designer</p>
-							<button><a href="">View Portfolio</a></button>
-							<div class="social-links">
-								<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-							</div>
-						</div>
+					</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+					<p>Mark Essien</p>
+					<p>Product Designer</p>
+					<button><a href="">View Portfolio</a></button>
+					<div class="social-links">
+						<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
-			<section class="hng-track">
-				<h1>Machine Learning</h1>
-				<h3>Machine Learning</h3>
-			</section>
+	<section class="hng-track">
+		<h1>Mobile Developers</h1>
+		<h3>Mobile Developers</h3>
+	</section>
 
-			<div class="card-container">
+	<div class="card-container">
 
-				<div class="intern-card">
-					<div class="intern-card-inner">
-						<div class="intern-card-front">
-							<div class="image-bg">
-								<div class="intern-image">
-									<img src="" alt="Intern Image">
-								</div>
-							</div>
-							<p> Mark Essien </p>
-							<p class="intern-desc"> Product Designer </p>
-							<p> PHP, Node.js </p>
+		<div class="intern-card">
+			<div class="intern-card-inner">
+				<div class="intern-card-front">
+					<div class="image-bg">
+						<div class="intern-image">
+							<img src="" alt="Intern Image">
 						</div>
-						<div class="intern-card-back">
-							<p>Mark Essien</p>
-							<p>Product Designer</p>
-							<button><a href="">View Portfolio</a></button>
-							<div class="social-links">
-								<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-							</div>
-						</div>
+					</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+					<p>Mark Essien</p>
+					<p>Product Designer</p>
+					<button><a href="">View Portfolio</a></button>
+					<div class="social-links">
+						<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
-			<section class="hng-track">
-				<h1>Mobile Developers</h1>
-				<h3>Mobile Developers</h3>
-			</section>
+	<section class="hng-track">
+		<h1>Web Developers</h1>
+		<h3>Web Developers</h3>
+	</section>
 
-			<div class="card-container">
+	<div class="card-container">
 
-				<div class="intern-card">
-					<div class="intern-card-inner">
-						<div class="intern-card-front">
-							<div class="image-bg">
-								<div class="intern-image">
-									<img src="" alt="Intern Image">
-								</div>
-							</div>
-							<p> Mark Essien </p>
-							<p class="intern-desc"> Product Designer </p>
-							<p> PHP, Node.js </p>
+		<div class="intern-card">
+			<div class="intern-card-inner">
+				<div class="intern-card-front">
+					<div class="image-bg">
+						<div class="intern-image">
+							<img src="" alt="Intern Image">
 						</div>
-						<div class="intern-card-back">
-							<p>Mark Essien</p>
-							<p>Product Designer</p>
-							<button><a href="">View Portfolio</a></button>
-							<div class="social-links">
-								<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-							</div>
-						</div>
+					</div>
+					<p> Mark Essien </p>
+					<p class="intern-desc"> Product Designer </p>
+					<p> PHP, Node.js </p>
+				</div>
+				<div class="intern-card-back">
+					<p>Mark Essien</p>
+					<p>Product Designer</p>
+					<button><a href="">View Portfolio</a></button>
+					<div class="social-links">
+						<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
+						<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
 					</div>
 				</div>
 			</div>
-
-			<section class="hng-track">
-				<h1>Web Developers</h1>
-				<h3>Web Developers</h3>
-			</section>
-
-			<div class="card-container">
-
-				<div class="intern-card">
-					<div class="intern-card-inner">
-						<div class="intern-card-front">
-							<div class="image-bg">
-								<div class="intern-image">
-									<img src="" alt="Intern Image">
-								</div>
-							</div>
-							<p> Mark Essien </p>
-							<p class="intern-desc"> Product Designer </p>
-							<p> PHP, Node.js </p>
-						</div>
-						<div class="intern-card-back">
-							<p>Mark Essien</p>
-							<p>Product Designer</p>
-							<button><a href="">View Portfolio</a></button>
-							<div class="social-links">
-								<a href=""><img src="../app/img/linkedin icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/github icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/twitter icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/dribbble icon.png" alt="social link"></a>
-								<a href=""><img src="../app/img/behance icon.png" alt="social link"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<hr>
-			<div class="ap-footer">
-				<?php include 'partials/footer.php'; ?>
-			</div>
-			<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
-			<script src="../app/js/finalist5.js"> </script>
-		</main>
-		</body>
+		</div>
+	</div>
+	<hr>
+	<div class="ap-footer">
+		<?php include 'partials/footer.php'; ?>
+	</div>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+	<script src="../app/js/finalist5.js"> </script>
+	</main>
+	</body>
