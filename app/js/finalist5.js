@@ -168,34 +168,36 @@ axios.get('https://cors-anywhere.herokuapp.com/https://spreadsheets.google.com/f
   window._meetup = response.data.feed.entry;
   let output = '';
   response.data.feed.entry.forEach((finalist) => {
-  //console.log(finalist);
-    output += `
-    <div class="intern-card">
+  console.log(finalist);
+  output += `
+  <div class="intern-card">
+    <div class="intern-card-inner">
       <div class="intern-card-front">
         <div class="card-image-bg">
           <div class="intern-image">
-            <img src="${finalist.gsx$image.$t ? finalist.gsx$image.$t : 'https://via.placeholder.com/150/000000/FFFFFF/?text=HNG_5.0'}" alt="Intern Image" /></div>
-          </div>
-          <p>${finalist.gsx$name.$t}</p>
+          <img src="${finalist.gsx$image.$t ? finalist.gsx$image.$t : 'https://via.placeholder.com/150/000000/FFFFFF/?text=HNG_5.0'}" alt="Intern Image" /></div>
+        </div>
+        <p>${finalist.gsx$name.$t}</p>
           <p class="intern-desc">${finalist.gsx$role.$t}</p>
           <p>${finalist.gsx$stacks.$t}</p>
         </div>
         <div class="intern-card-back">
-        <p>${finalist.gsx$name.$t}</p> 
-        <p>${finalist.gsx$role.$t}</p> 
-        <button><a href="${finalist.gsx$portfolio.$t}">View Portfolio</a></button>
+          <p>${finalist.gsx$name.$t}</p> 
+          <p>${finalist.gsx$role.$t}</p> 
+          <button><a href="${finalist.gsx$portfolio.$t}">View Portfolio</a></button>
         <div class="social-links">
           <a href="${finalist.gsx$linkedin.$t}"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
           <a href="${finalist.gsx$medium.$t}"><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
           <a href="${finalist.gsx$github.$t}"><img src="../app/img/github icon.png" alt="social link" title="Github"></a>
-          <a href="${finalist.gsx$twitter.$t}"><img src="../app/img/twitter icon.png" alt="social link" title="Twitter"></a>
+          <a href="${finalist.gsx$twitter.$t}"><img src="../app/img/twitter icon.png" alt="social link" title="Twitter"></a
         </div>
       </div>
-      </div>
-    </div>`;
-    const finalistsContainer = document.querySelector('.marketers-container');
-    finalistsContainer.innerHTML = output;
-  })
+    </div>
+   </div>  
+  </div>`;
+  const finalistsContainer = document.querySelector('.marketers-container');
+  finalistsContainer.innerHTML = output;
+})
 })
 .catch(error => console.log(error));
 
