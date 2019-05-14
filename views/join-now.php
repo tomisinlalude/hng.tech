@@ -26,9 +26,9 @@
                             <div>
                                <a href="index" class="">Go to Home Page<a>
                             </div>
-                            <div>
+                            <!-- <div>
                                 <a href="blog" class="primary-button join-btn">Read Intern Stories<a>
-                            </div>
+                            </div> -->
                         </div>
 
                     <?php
