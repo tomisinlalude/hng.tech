@@ -16,9 +16,9 @@
 				</div>
 			</div>
 			<div class="jumbotron product col-sm-6  col-lg-4  col-lg-offset-1 col-md-4 text-center" id="productAnime">
-				<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557750049/lucid2.png" alt="Lucid-logo-color" class="imgCenter center-block" style="width:80%;">
+				<img src="app/img/lucid.png" alt="Lucid-logo-color" class="imgCenter center-block" style="width:80%;">
 				<div id="extra">
-					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557750049/lucid2.png" alt="Lucid-logo-white" class=" centre-block" style="width:80%; margin: 50px 0px 0px 0px;">
+					<img src="app/img/lucidwhite.png" alt="Lucid-logo-white" class=" centre-block" style="width:80%; margin: 50px 0px 0px 0px;">
 					<p class="text-center detail">
 					The Ultimate LightWeight Content Platform. LUCID was built on the premise that ownership and privacy is about respect and that it is your right.</p>
 					<div class="text-center">
