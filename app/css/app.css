@@ -2849,19 +2849,19 @@ header.meet-intern {
     height: 212px;
     width: 300px;
     border-radius: 0px !important;
-      border: 1px #bebebe solid;
-      margin-top: 50px;
- }
-  .productsHeader{
+    border: 1px #bebebe solid;
+    margin-top: 50px;
+}
+.productsHeader{
     color: #084482;
     margin-top: 100px;
-  }
-  .gridContainer{
+}
+.gridContainer{
     padding-bottom: 240px;
-  }
-  .imgCenter{
+}
+.imgCenter{
     margin-top:50px;
-  }
+}
 
 #extra{
   position: absolute;
@@ -2870,7 +2870,7 @@ header.meet-intern {
   opacity: 0;
   top: 0;
   left: 0;
-    width: 100%;
+  width: 100%;
   height: 400px;
   transition: all .4s ease-in-out;
   z-index: 1000;
@@ -2880,7 +2880,7 @@ header.meet-intern {
 }
 #productAnime:hover  #extra{
   position: absolute;
-visibility: visible;
+  visibility: visible;
   width: 100%;
   height: 440px;
   z-index: 1000;
@@ -2889,7 +2889,7 @@ visibility: visible;
 .detail{
   font-family: 'Lato', sans-serif;
   padding-top: 50px;
-  font-size: 1em !important;
+  font-size: 16px !important;
   line-height: 30px;
   padding: 20px 20px;
   color: #ffffff;
@@ -2908,64 +2908,56 @@ visibility: visible;
 
 @media only screen and (max-width: 330px){
   .gridContainer{
-  padding-left: 10px;
-}
+      padding-left: 10px;
+  }
 }
 
 
 @media only screen and (min-width: 650px) and (max-width: 767px){
 
-.gridContainer{
-  padding-left: 200px;
-}
+    .gridContainer{
+      padding-left: 200px;
+  }
 }
 @media only screen and (min-width: 616px) and (max-width: 649px){
 
-.gridContainer{
-  padding-left: 180px;
-}
+    .gridContainer{
+      padding-left: 180px;
+  }
 }
 @media only screen and (min-width: 570px) and (max-width: 615px){
 
-.gridContainer{
-  padding-left: 140px;
-}
+    .gridContainer{
+      padding-left: 140px;
+  }
 }
 @media only screen and (min-width: 530px) and (max-width: 569px){
 
-.gridContainer{
-  padding-left: 120px;
-}
+    .gridContainer{
+      padding-left: 120px;
+  }
 }
 @media only screen and (min-width: 490px) and (max-width: 529px){
 
-.gridContainer{
-  padding-left: 100px;
-}
+    .gridContainer{
+      padding-left: 100px;
+  }
 }
 @media only screen and (min-width: 401px) and (max-width: 485px){
 
-.gridContainer{
-  padding-left: 70px;
-}
+    .gridContainer{
+      padding-left: 70px;
+  }
 }
 @media only screen and (min-width: 380px) and (max-width: 400px){
 
-.gridContainer{
-  padding-left: 55px;
-}
+    .gridContainer{
+      padding-left: 55px;
+  }
 }
 @media only screen and (min-width: 350px) and (max-width: 379px){
 
-/*@media only screen and (max-width: 1199px) and (min-width: 992px){
-    .gridContainer{
-    }
-  }
-  @media only screen and (max-width: 991px){
-   .container{
-    margin-right: 0;
-   }
-  }*/
+    /*products section end*/
 
 
 /*
@@ -2980,7 +2972,7 @@ h1#header {
     color: #084482;
     font-weight: 400; 
     font-size: 36px;
-    }
+}
 
 .blogNavSection {
     width: 100%;
@@ -2991,53 +2983,53 @@ h1#header {
 ul.blogNavList {
     list-style: none;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 /*ul.blogNavList li {
-}*/
-ul.blogNavList li.active, .nav-list:hover {
-    background-color: #fff;
-    border-top: #00AEFF solid 4px;
-}
-ul.blogNavList li.active a{
-    color: #00AEFF;
-}
-ul.blogNavList li a {
-    text-decoration: none;
-    color: #616262;
-}
+    }*/
+    ul.blogNavList li.active, .nav-list:hover {
+        background-color: #fff;
+        border-top: #00AEFF solid 4px;
+    }
+    ul.blogNavList li.active a{
+        color: #00AEFF;
+    }
+    ul.blogNavList li a {
+        text-decoration: none;
+        color: #616262;
+    }
 
-/* Blog nav ends */
+    /* Blog nav ends */
 
-/* article css*/
+    /* article css*/
 
-.imageContainer {
-    border-right: solid #00AFFF 5px;
-}
-.articleDetails {
-    margin-left: 20px;
-}
-.articleCategory {
-    font-weight: 16px;
-    color: #00AFFF;
-}
-.articleTitle {
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 9px;
-    margin-bottom: 7px;
-}
-.articleSummary {
-    margin-bottom: 11px;
-    line-height: 180%;
-}
+    .imageContainer {
+        border-right: solid #00AFFF 5px;
+    }
+    .articleDetails {
+        margin-left: 20px;
+    }
+    .articleCategory {
+        font-weight: 16px;
+        color: #00AFFF;
+    }
+    .articleTitle {
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 9px;
+        margin-bottom: 7px;
+    }
+    .articleSummary {
+        margin-bottom: 11px;
+        line-height: 180%;
+    }
 
-p.articleSummary {
-  font-size: 16px;
-}
+    p.articleSummary {
+      font-size: 16px;
+  }
 
-.articleInfo {
+  .articleInfo {
     display: flex;
     align-items: center;
 }
@@ -3131,13 +3123,14 @@ span.articleAuthorName a {
 .blog-link {
   margin: 100px 0px;
 }
+
 @media screen and (max-width: 1024px) {
   .blogNavSection {
       overflow-x: scroll;
   }
 
-.gridContainer{
-  padding-left: 45px;
-}
+  .gridContainer{
+      padding-left: 45px;
+  }
 
 }
