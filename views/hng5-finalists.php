@@ -56,6 +56,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 								<p><?= $web['Name'] ?></p>
 								<p><?= $web['Role'] ?></p>
 								<button><a href="<?= $web['Portfolio'] ?>">View Portfolio</a></button>
+								<p><?= $web['Email'] ?></p>
 								<div class="social-links">
 									<a href="<?= $web['LinkedIn'] ?>"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
 									<a href="<?= $web['GitHub'] ?>"><img src="../app/img/github icon.png" alt="social link" title="Github"></a>
@@ -91,6 +92,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 								<p><?= $designer['Name'] ?></p>
 								<p><?= $designer['Role'] ?></p>
 								<button><a href="<?= $designer['Portfolio'] ?>">View Portfolio</a></button>
+								<p><?= $designer['Email'] ?></p>
 								<div class="social-links">
 									<a href="<?= $designer['LinkedIn'] ?>"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
 									<a href="<?= $designer['Medium'] ?>"><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
@@ -127,6 +129,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 								<p><?= $mobile['Name'] ?></p>
 								<p><?= $mobile['Role'] ?></p>
 								<button><a href="<?= $mobile['Portfolio'] ?>">View Portfolio</a></button>
+								<p><?= $mobile['Email'] ?></p>
 								<div class="social-links">
 									<a href="<?= $mobile['LinkedIn'] ?>"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
 									<a href="<?= $mobile['Medium'] ?>"><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
@@ -163,6 +166,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 								<p><?= $ml['Name'] ?></p>
 								<p><?= $ml['Role'] ?></p>
 								<button><a href="<?= $ml['Portfolio'] ?>">View Portfolio</a></button>
+								<p><?= $ml['Email'] ?></p>
 								<div class="social-links">
 									<a href="<?= $ml['LinkedIn'] ?>"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
 									<a href="<?= $ml['Medium'] ?>"><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
@@ -198,6 +202,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 								<p><?= $marketer['Name'] ?></p>
 								<p><?= $marketer['Role'] ?></p>
 								<button><a href="<?= $marketer['Portfolio'] ?>">View Portfolio</a></button>
+								<p><?= $marketer['Email'] ?></p>
 								<div class="social-links">
 									<a href="<?= $marketer['LinkedIn'] ?>"><img src="../app/img/linkedin icon.png" alt="social link" title="LinkedIn"></a>
 									<a href="<?= $marketer['Medium'] ?>"><img src="../app/img/medium icon.png" alt="social link" title="Medium"></a>
