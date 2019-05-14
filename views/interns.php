@@ -5,10 +5,9 @@
 	<?php include 'partials/navbar.php'; ?>
 	<div class="container">
 		<header class="pi-header">
-			<h1 class="h1">Our Interns and the Impact They Have Made</h1>
-
-			<div class="container">
+			<h1 class="h1">Our Interns and the Impact They Have Made</h1>			
 		</header>
+
 
 		<section class="row pi-banner">
 			<div class="col-md-9">
@@ -437,7 +436,8 @@
 
 			</div>
 		</section>
-<div class="container-fluid sub-footer" style="background-color:#e5e5e5;margin-bottom:60px;border-top:none;">
+	</div>
+<div class="container-fluid sub-footer" style="background-color:#e5e5e5;border-top:none;">
 	<div class="col-md-12 ">
 		<h3 class="text-center section-head ">Meet our Finalists</h3>
 			<p class="text-center paragraph1">Meet all our finalists from design to machine learning, programming and more 
