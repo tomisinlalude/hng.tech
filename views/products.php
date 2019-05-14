@@ -11,7 +11,7 @@
 					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557018690/apoewhite.png" alt="apoe4_logo" class=" centre-block" style="width:50%; margin:50px 0px 0px 75px;">
 					<p class="text-center detail" >An exciting new app that helps people with history of Apoe4 gene that are culpable to Alhzemier. This product helps users monitor their daily activities and provide tips from our medical researchers.</p>
 					<div class="text-center">
-						<a href="https://apoe4.app"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
+						<a href="https://apoe4.app" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 					<p class="text-center detail">
 					The Ultimate LightWeight Content Platform. LUCID was built on the premise that ownership and privacy is about respect and that it is your right.</p>
 					<div class="text-center">
-						<a href="https://getlucid.app"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
+						<a href="https://getlucid.app" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556547608/devalertlogo.jpg" alt="devalert-logo" class=" centre-block" style="width:30%; margin:50px 0px 0px 105px;">
 					<p class="text-center detail" >DevAlert is a Platform that provides services for African Software Developers by compiling the list of remote jobs from around the world and curating them for African developers living in the continent.</p>
 					<div class="text-center">
-						<a href="https://devalert.me"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
+						<a href="https://devalert.me" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@
 					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556806436/Kidslogo.png" alt="" class=" centre-block" style="width:50%; margin: 50px 0px 0px 0px;">
 					<p class="text-center detail" >This beautiful short kid stories would help your children sleep peacefully. A great resource for parents, babysitters, aunts, uncles, grandparents, or anyone in love with classic bedtime stories.</p>
 					<div class="text-center">
-						<a href="https://kidstories.app"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
+						<a href="https://kidstories.app" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
 				</div>
 			</div>

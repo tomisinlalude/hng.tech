@@ -5,10 +5,9 @@
 	<?php include 'partials/navbar.php'; ?>
 	<div class="container">
 		<header class="pi-header">
-			<h1 class="h1">Our Interns and the Impact They Have Made</h1>
-
-			<div class="container">
+			<h1 class="h1">Our Interns and the Impact They Have Made</h1>			
 		</header>
+
 
 		<section class="row pi-banner">
 			<div class="col-md-9">
@@ -436,17 +435,16 @@
 				</div>
 
 			</div>
-
+		</section>
 	</div>
-	</section>
-	<div class="container-fluid sub-footer" style="background-color:#e5e5e5;margin-bottom:60px;border-top:none;">
-		<div class="col-md-12 ">
-			<h3 class="text-center section-head ">Meet our Interns</h3>
-			<p class="text-center paragraph1">Here comes the list of out interns from 1.0 till date,
-				<br>kindly click the link below to see more
-			</p>
+<div class="container-fluid sub-footer" style="background-color:#e5e5e5;border-top:none;">
+	<div class="col-md-12 ">
+		<h3 class="text-center section-head ">Meet our Finalists</h3>
+			<p class="text-center paragraph1">Meet all our finalists from design to machine learning, programming and more 
+                    <br>kindly click the link below to see more interns
+            </p>
 			<p class="text-center" style="margin-top:20px">
-				<a href="/hng5/finalists" class="btn btn-info">See More</a>
+				<a href="hng5-finalists" class="bi-btn primary-button" >See More</a>
 			</p>
 		</div>
 	</div>
