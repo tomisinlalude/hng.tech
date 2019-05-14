@@ -65,7 +65,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 							</div>
 						</div>
 					</div>
-					
+
 				<?php } ?>
 			</div>
 
@@ -87,7 +87,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 									<p class="intern-desc"><?= $designer['Role'] ?></p>
 									<p><?= $designer['Stacks'] ?></p>
 								</div>
-							</div>	
+							</div>
 							<div class="intern-card-back">
 								<p><?= $designer['Name'] ?></p>
 								<p><?= $designer['Role'] ?></p>
@@ -197,7 +197,7 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 									<p class="intern-desc"><?= $marketer['Role'] ?></p>
 									<p><?= $marketer['Stacks'] ?></p>
 								</div>
-							</div>	
+							</div>
 							<div class="intern-card-back">
 								<p><?= $marketer['Name'] ?></p>
 								<p><?= $marketer['Role'] ?></p>
@@ -209,15 +209,15 @@ $webs->parse(__DIR__ . '/storage/web.csv');
 									<a href="<?= $marketer['GitHub'] ?>"><img src="../app/img/github icon.png" alt="social link" title="Github"></a>
 									<a href="<?= $marketer['Twitter'] ?>"><img src="../app/img/twitter icon.png" alt="social link" title="Twitter"></a>
 								</div>
-							</div>		
+							</div>
 						</div>
 					</div>
 				<?php } ?>
 			</div>
 		</main>
-			<div class="ap-footer">
-				<?php include 'partials/footer.php'; ?>
-			</div>
+		<div class="ap-footer">
+			<?php include 'partials/footer.php'; ?>
+		</div>
 		<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
 		                                    <script src="../app/js/finalist5.js"> </script> -->
 		</body>
