@@ -1,5 +1,9 @@
 <html>
-<?php include 'partials/header.php'; ?>
+<?php
+include 'partials/header.php';
+$csv = array_map('str_getcsv', file('storage/webdevelopers.csv'));
+print_r($csv);
+?>
 <div class=" jumbotron-fluid">
 	<div class="JumbHeaderImg">
 		<?php include 'partials/navbar.php'; ?>
@@ -52,6 +56,6 @@
 				<?php include 'partials/footer.php'; ?>
 			</div>
 		</main>
-		<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
-		<script src="../app/js/finalist5.js"> </script>
+		<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+		<script src="../app/js/finalist5.js"> </script> -->
 		</body>
