@@ -3,7 +3,7 @@
 <div class=" jumbotron-fluid">
 	<div class="JumbHeaderImg">
 		<?php include 'partials/navbar.php'; ?>
-		<main>
+		<main class="container">
 			<header class="hng-finalists-header">
 				<h2>Our HNG 5.0 Finalists</h2>
 				<h3>Here are our finalists from the just concluded internship</h3>
@@ -46,12 +46,11 @@
 			</section>
 
 			<div class="card-container marketers-container">
-			</div>
-
-			<div class="ap-footer">
-				<?php include 'partials/footer.php'; ?>
-			</div>
+			</div>		
 		</main>
+		<div class="ap-footer">
+			<?php include 'partials/footer.php'; ?>
+		</div>
 		<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
 		<script src="../app/js/finalist5.js"> </script>
 </body>
