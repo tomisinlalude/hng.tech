@@ -21,7 +21,7 @@
 			<a class="navbar-link nav-text" href="<?php echo $products ?>">PRODUCTS</a>
 			<a class="navbar-link nav-text" href="<?php echo $support ?>">SUPPORT THE MISSION</a>
 			<a class="navbar-link nav-text" href="<?php echo $becomeIntern ?>">BECOME AN INTERN</a>
-			<a class="navbar-link nav-text" href="<?php echo $blog ?>">BLOG</a>
+			<!-- <a class="navbar-link nav-text" href="<?php echo $blog ?>">BLOG</a> -->
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,8 +41,8 @@
 				</li>
 				<li class="nav-item <?php if($url == 'become-intern'){echo 'active';}?>">
 					<a class=" navbar-link nav-text" href="<?php echo $becomeIntern ?>">BECOME AN INTERN</a>
-					<li class="nav-item <?php if($url == 'blog'){echo 'active';}?>">
-					<a class=" navbar-link nav-text" href="<?php echo $blog ?>">BLOG</a>
+					<!-- <li class="nav-item <?php if($url == 'blog'){echo 'active';}?>">
+					<a class=" navbar-link nav-text" href="<?php echo $blog ?>">BLOG</a> -->
 				</li>
 				</li>
 			</ul>
