@@ -18,6 +18,8 @@ class ComposerStaticInit7bc2405df7b26e1636a5354bc6c4887c
         ),
         'P' => 
         array (
+            'ParseCsv\\extensions\\' => 20,
+            'ParseCsv\\' => 9,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
         'D' => 
@@ -34,6 +36,14 @@ class ComposerStaticInit7bc2405df7b26e1636a5354bc6c4887c
         'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'ParseCsv\\extensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/extensions',
+        ),
+        'ParseCsv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (
