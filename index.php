@@ -11,8 +11,8 @@
 	</head> -->
 
 <?php
-require_once('config.php');
 require_once('router.php');
+require_once('config.php');
 // We'll first create a router instance and then register our
 // static routes with the router. Next, we'll try to parse the
 //request url and match it against routes in the collection.
