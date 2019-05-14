@@ -2889,7 +2889,7 @@ visibility: visible;
 .detail{
   font-family: 'Lato', sans-serif;
   padding-top: 50px;
-  font-size: 1em !important;
+  font-size: 16px !important;
   line-height: 30px;
   padding: 20px 20px;
   color: #ffffff;
@@ -2956,16 +2956,6 @@ visibility: visible;
 }
 }
 @media only screen and (min-width: 350px) and (max-width: 379px){
-
-/*@media only screen and (max-width: 1199px) and (min-width: 992px){
-    .gridContainer{
-    }
-  }
-  @media only screen and (max-width: 991px){
-   .container{
-    margin-right: 0;
-   }
-  }*/
 
 
 /*

@@ -8,13 +8,13 @@
 				<h2>Our HNG 5.0 Finalists</h2>
 				<h3>Here are our finalists from the just concluded internship</h3>
 			</header>
-			<!-- <section class="hng-track">
+			<section class="hng-track">
 				<h1>Web Developers</h1>
 				<h3>Web Developers</h3>
 			</section>
 
 			<div class="card-container web-dev-container">
-			</div> -->
+			</div>
 
 			<section class="hng-track">
 				<h1 class="hng-first-track">Designers</h1>
@@ -24,7 +24,7 @@
 			<div class="card-container designers-container">
 			</div>
 
-			<!-- <section class="hng-track">
+			<section class="hng-track">
 				<h1>Mobile Developers</h1>
 				<h3>Mobile Developers</h3>
 			</section>
@@ -38,7 +38,7 @@
 			</section>
 
 			<div class="card-container ML-container">
-			</div> -->
+			</div>
 
 			<section class="hng-track">
 				<h1>Digital Marketers</h1>
@@ -54,4 +54,4 @@
 		</main>
 		<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
 		<script src="../app/js/finalist5.js"> </script>
-		</body>
+</body>
