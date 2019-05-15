@@ -59,7 +59,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<!-- <div class="col-md-3 col-xs-6">
 						<div class="sp-contribute-box">
 							<div class="sp-contribute-img">
 								<img src="../app/img/coin.svg" alt="HNG coin" class="">
@@ -71,7 +71,7 @@
 								</svg>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
@@ -125,6 +125,7 @@
 					<div class=""><img src="../app/img/oracle.svg"></div>
 					<div class=""><img src="../app/img/figma.svg"></div>
 					<div class=""><img src="../app/img/bluechip.svg"></div>
+					<div class=""><img src="../app/img/verifi_logo.svg" style="width:100px;"></div>
 				</div>
 			</div>
 		</section>
