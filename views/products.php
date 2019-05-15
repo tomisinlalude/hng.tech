@@ -9,7 +9,7 @@
 				<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1556545120/apoe_logo.png" alt="apoe4_logo" class="imgCenter center-block" style="width:50%;">
 				<div id="extra">
 					<img src="https://res.cloudinary.com/dx6ol2ale/image/upload/v1557018690/apoewhite.png" alt="apoe4_logo" class=" centre-block" style="width:50%; margin:50px 0px 0px 75px;">
-					<p class="text-center detail" >A innovative app that helps people with history of Apoe4 gene that are culpable to Alhzemier. This product helps users monitor their daily activities and provide tips from our medical researchers.</p>
+					<p class="text-center detail" >An innovative app that helps people with history of Apoe4 gene that are culpable to Alhzemier. This product helps users monitor their daily activities and provide tips from our medical researchers.</p>
 					<div class="text-center">
 						<a href="https://apoe4.app" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
