@@ -1680,6 +1680,7 @@ body {
 
 .pi-anakle img {
     height: 100%;
+
 }
 
 .pi-paga,
@@ -1715,7 +1716,7 @@ body {
     .pi-interns {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 }
 
@@ -1793,6 +1794,8 @@ body {
 @media only screen and (max-width: 600px) {
     .pi-partner .pi-partner-interns {
         display: flex;
+        justify-content: left;
+        height:  40%;
         flex-direction: row;
         flex-flow: row wrap;
     }
