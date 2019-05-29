@@ -1699,6 +1699,7 @@ body {
 .pi-paylater {
     background-color: #3DB98A;
     height: 220px;
+    max-width: 400px;
 }
 
 .pi-sih .pi-block-text {
