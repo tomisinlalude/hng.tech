@@ -13,7 +13,7 @@
                      <div class="intern-block border-blue">
                         <img src="https://res.cloudinary.com/lekia/image/upload/v1554320457/Lekia.png" alt="Gospel Lekia">
                         <h6>Gospel Lekia</h6>
-                        <p>Back-end Developer</p>
+                        <p>BackEnd Developer</p>
                         <ul class="list">
                            <li><a href="https://twitter.com/goslek" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
                            <li><a href="https://github.com/yigaue" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
@@ -24,10 +24,10 @@
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am a Back-end developer . I take pleasure in learning new things. I love meeting new people, and working in a team. I code in PHP, Laravel framework, HTML. I look forward to improving my skills</p>
+                        <p>I am a Passionate Back-end developer, an advocate of clean code. I take pleasure in learning new things, and I love to meet people.  I code in PHP, Laravel framework, HTML with a bit of Javascript. I look forward to improving my skills. I write when away from coding</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>HTML | PHP | CSS</p>
+                        <p>HTML | PHP | CSS|LARAVEL</p>
                      </div>
                   </div>
                </div>

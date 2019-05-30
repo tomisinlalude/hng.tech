@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="http://fantasticfoluwa.me/images/avatar.png" alt="AKINTOLA moronfoluwaakintola">
-                        <h6>AKIINTOLA MORONFOLUWA</h6>
-                        <p>Full Stack Developer</p>
+                        <img src="https://res.cloudinary.com/mrexcel/image/upload/v1554408070/crop_1.png" alt="Mr Excel">
+                        <h6>Mr Excel</h6>
+                        <p>Front-end and Back-end Engineer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/fantasticfoluwa" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/foluwa" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@moronfoluwaakintola" target="_blank"><i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/Mrexcel153" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/mrexcel153" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="#" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>To be a world class individual and leader capable of influencing my community positively and utilise my analytical, organizational, and leadership skills, while attaining excellence and creating value within my organisation.</p>
+                        <p>A developer that has more interest in becoming full stack JavaScript programmer. Wants to understand the full power of JavaScript. Has interest in using codes to solve different problems surrounding humans.</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>JavaScript | Dart | Python</p>
+                        <p>JavaScript | NODE | REACT</p>
                      </div>
                   </div>
                </div>

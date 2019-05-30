@@ -11,23 +11,23 @@
                <div class="col-md-12 col-sm-6 col-xs-12">
                   <div class="col-md-6 col-xs-12">
                      <div class="intern-block border-blue">
-                        <img src="https://res.cloudinary.com/dvag8e5pw/image/upload/v1554309159/helewud.jpg" alt="Okikijesu Elewude">
-                        <h6>Okikijesu Elewude</h6>
-                        <p>Front-end Developer</p>
+                        <img src="https://res.cloudinary.com/evansinho/image/upload/v1554363007/IMG_20170117_190021_317_-_Copy.jpg" alt="evanson igiri">
+                        <h6>EVANSON IGIRI</h6>
+                        <p>full-Stack Developer</p>
                         <ul class="list">
-                           <li><a href="https://twitter.com/helewud" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
-                           <li><a href="https://github.com/helewud" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
-                           <li><a href="https://medium.com/@helewud" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
+                           <li><a href="https://twitter.com/@iamsinho1304" target="_blank"<i class="fab fa-twitter fa-2x"></i></a></li>
+                           <li><a href="https://github.com/evansinho" target="_blank"<i class="fab fa-github fa-2x"></i></a></li>
+                           <li><a href="https://medium.com/@igiri.evanson" target="_blank"<i class="fab fa-medium fa-2x"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-xs-12 align-items-center">
                      <div class="intern-bio border-blue">
                         <h6>About me</h6>
-                        <p>I am a Computer Science Student that has interest in music, photography and fashion. I am a budding web developer fluent in HTML and CSS and graphic designer.</p>
+                        <p>Hey, Evanson is an working and ambitous developer</p>
                         <br />
                         <h6>Skills</h6>
-                        <p>HTML | CSS | Corel Draw</p>
+                        <p>JavaScript | HTML | CSS</p>
                      </div>
                   </div>
                </div>
