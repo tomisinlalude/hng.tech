@@ -132,10 +132,10 @@
             </select>
             <select class="select-css">
                 <option>Stack</option>
-                <option>Apples</option>
-                <option>Bananas</option>
-                <option>Grapes</option>
-                <option>Oranges</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+                <option>Designer</option>
             </select>
             <select class="select-css">
                 <option>Internship</option>
@@ -245,9 +245,10 @@
 
         
 	</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 	<?php include 'partials/footer.php'; ?>
 
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
