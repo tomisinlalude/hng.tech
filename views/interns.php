@@ -16,8 +16,8 @@
 
             <!--Controls-->
             <div class="controls-top">
-              <a class="black-text" href="#logo-carousel" data-slide="prev"> <img src="./arrow-left.svg" alt="left-scroll"> </a>
-              <a class="black-text" href="#logo-carousel" data-slide="next"><img src="./arrow-right.svg" alt="left-scroll"></a>
+              <a class="black-text" href="#logo-carousel" data-slide="prev"> <img src="../app/img/interns/arrow-left.svg" alt="left-scroll"> </a>
+              <a class="black-text" href="#logo-carousel" data-slide="next"><img src="../app/img/interns/arrow-right.svg" alt="left-scroll"></a>
             </div>
             
             <!--/.Controls-->
@@ -30,35 +30,35 @@
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="./app/img/Tizeti.png"
+                    <img class="img-fluid" src="../app/img/interns/Tizeti.png"
                       alt="Tizeti logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="andela.png"
+                    <img class="img-fluid" src="../app/img/interns/andela.png"
                       alt="andela logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="sprinble.png"
+                    <img class="img-fluid" src="../app/img/interns/sprinble.png"
                       alt="sprinble logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="hotels.ng.png"
+                    <img class="img-fluid" src="../app/img/interns/hotels.ng.png"
                       alt="hotels.ng logo">
                   </div>
                 </div>
     
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="gloopro.svg"
+                    <img class="img-fluid" src="../app/img/interns/gloopro.svg"
                       alt="gloopro logo">
                   </div>
                 </div>
@@ -71,35 +71,35 @@
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="brainspace.png"
+                    <img class="img-fluid" src="../app/img/interns/brainspace.png"
                       alt="brainspace logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="ivo-logo.svg"
+                    <img class="img-fluid" src="../app/img/interns/ivo-logo.svg"
                       alt="ivo thinking logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="freeme.png"
+                    <img class="img-fluid" src="../app/img/interns/freeme.png"
                       alt="freeme logo">
                   </div>
                 </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="kodehauz-logo.png"
+                    <img class="img-fluid" src="../app/img/interns/kodehauz-logo.png"
                       alt="kodehauz-logo">
                   </div>
                 </div>
     
                 <div class="col-md-3 mb-3">
                   <div class="card">
-                    <img class="img-fluid" src="Tizeti.png"
+                    <img class="img-fluid" src="../app/img/interns/Tizeti.png"
                       alt="Tizeti logo">
                   </div>
                 </div>
