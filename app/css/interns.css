@@ -104,7 +104,7 @@ h3 {
     -webkit-appearance: none;
     appearance: none;
     background-color: #fff;
-    background-image: url('./down-arrow.svg'),
+    background-image: url('../app/img/interns/down-arrow.svg'),
     linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
     background-repeat: no-repeat, repeat;
     background-position: right .7em top 50%, 0 0;
