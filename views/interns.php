@@ -18,77 +18,77 @@
         <ul class="carousel" data-target="carousel">
           <li class="card" data-target="card">
                 <a href="https://www.hotels.ng">
-                    <img src="hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="andela.png" alt="andela logo" target="_blank" >
+                    <img src="../app/img/interns/andela.png" alt="andela logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="freeme.png" alt="freeme logo" target="_blank" >
+                    <img src="../app/img/interns/freeme.png" alt="freeme logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="kodehauz-logo.png" alt="kodehauz-logo" target="_blank" >
+                    <img src="../app/img/interns/kodehauz-logo.png" alt="kodehauz-logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="sprinble.png" alt="sprinble logo" target="_blank" >
+                    <img src="../app/img/interns/sprinble.png" alt="sprinble logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="Tizeti.png" alt="Tizeti logo" target="_blank" >
+                    <img src="../app/img/interns/Tizeti.png" alt="Tizeti logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://www.hotels.ng">
-                    <img src="hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="andela.png" alt="andela logo" target="_blank" >
+                    <img src="../app/img/interns/andela.png" alt="andela logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="freeme.png" alt="freeme logo" target="_blank" >
+                    <img src="../app/img/interns/freeme.png" alt="freeme logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="kodehauz-logo.png" alt="kodehauz-logo" target="_blank" >
+                    <img src="../app/img/interns/kodehauz-logo.png" alt="kodehauz-logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="sprinble.png" alt="sprinble logo" target="_blank" >
+                    <img src="../app/img/interns/sprinble.png" alt="sprinble logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
-                    <img src="Tizeti.png" alt="Tizeti logo" target="_blank" >
+                    <img src="../app/img/interns/Tizeti.png" alt="Tizeti logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
               <a href="https://hotels.ng">
-                <img src="hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
               </a>
           </li>
           <li class="card" data-target="card">
               <a href="https://hotels.ng">
-                <img src="hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
               </a>
           </li>
           <li class="card" data-target="card">
               <a href="https://hotels.ng">
-                <img src="hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
               </a>
           </li>
         </ul>
