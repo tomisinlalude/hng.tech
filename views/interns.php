@@ -13,12 +13,12 @@
         </header>
 
         <!-- Logo Slider  -->
-        <div class="container">
+        <div >
         <div class="wrapper">
         <ul class="carousel" data-target="carousel">
           <li class="card" data-target="card">
                 <a href="https://www.hotels.ng">
-                    <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/freeme.png" alt="hotels.ng logo" target="_blank" >
                 </a>
           </li>
           <li class="card" data-target="card">
@@ -88,7 +88,7 @@
           </li>
           <li class="card" data-target="card">
               <a href="https://hotels.ng">
-                <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                <img src="../app/img/interns/freeme.png" alt="hotels.ng logo" target="_blank" >
               </a>
           </li>
         </ul>
