@@ -89,7 +89,7 @@ h3 {
     }
     .carousel img {
         height: 15px;
-        max-width: 80%;
+        max-width: 100%;
         /* margin: 0 3%; */
     }
     .button-wrapper button {
@@ -113,7 +113,7 @@ h3 {
     height: 180px;
 }
 .intern .name {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 8px;
     margin-bottom: -4px;
 }
@@ -123,7 +123,7 @@ h3 {
 
 @media (max-width: 425px) {
     .intern {
-        width: 45vw;
+        width: 45%;
     }
     .intern .name {
         font-size: 12px;

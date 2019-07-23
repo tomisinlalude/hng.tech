@@ -141,7 +141,7 @@
   foreach($interns as $intern){
 
     echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
-    <p class='stack'>".$intern->stack."<br />".$intern->role."<br /> @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+    <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
 
   }
 ?>
