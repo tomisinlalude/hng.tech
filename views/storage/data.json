@@ -314,6 +314,28 @@
     "company":"Africastalking",
     "company_url":"#"
 }
+,{
+	"name": "Seyi Onifade",
+    "stack": "PHP/Laravel/NodeJS/PM",
+    "role":"Program Manager",
+    "picture":"https://miro.medium.com/max/3150/1*nOFu8sYcQbOaHa8561LloA.jpeg",
+    "company":"HNG Tech",
+    "company_url":"https://hng.tech"
+},{
+	"name": "Thelma Dike",
+    "stack": "",
+    "role":"",
+    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "company":"softcom",
+    "company_url":""
+},{
+	"name": "Jeffrey Ogah",
+	"stack": "ReactJS/Gatsby",
+	"role": "Front-end Developer",
+	"picture": "https://res.cloudinary.com/jeffogah/image/upload/v1563876250/new-dp.png",
+	"company": "",
+	"company_url": ""
+}
 
 
 

@@ -60,18 +60,6 @@
 ?>
 
            
-<!--            
-           
-            <div class="intern">
-                <img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/gorge/image/upload/e_grayscale/v1557841999/FullSizeRender-8.jpg" alt="Card image cap">
-                <p class="name">Iruene  Adokiye</p>
-                <p class="stack">Full Stack Developer</p>
-            </div>
-            <div class="intern">
-                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
-                <p class="name">Stephen Afam Osemene</p>
-                <p class="stack"> Software Engineer <br />@Africastalking</p>
-            </div> -->
 
         </div>
 
