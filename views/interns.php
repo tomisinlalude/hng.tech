@@ -15,10 +15,10 @@
     <div id="logo-carousel" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
             <!--Controls-->
-            <div class="controls-top">
+            <!-- <div class="controls-top">
               <a class="black-text" href="#logo-carousel" data-slide="prev"> <img src="../app/img/interns/arrow-left.svg" alt="left-scroll"> </a>
               <a class="black-text" href="#logo-carousel" data-slide="next"><img src="../app/img/interns/arrow-right.svg" alt="left-scroll"></a>
-            </div>
+            </div> -->
             
             <!--/.Controls-->
           
@@ -27,14 +27,7 @@
           
               <!--First slide-->
               <div class="carousel-item active">
-          
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" src="../app/img/interns/Tizeti.png"
-                      alt="Tizeti logo">
-                  </div>
-                </div>
-          
+                    
                 <div class="col-md-3 mb-3">
                   <div class="card">
                     <img class="img-fluid" src="../app/img/interns/andela.png"
@@ -42,12 +35,6 @@
                   </div>
                 </div>
           
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" src="../app/img/interns/sprinble.png"
-                      alt="sprinble logo">
-                  </div>
-                </div>
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
@@ -68,20 +55,7 @@
           
               <!--Second slide-->
               <div class="carousel-item">
-          
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" src="../app/img/interns/brainspace.png"
-                      alt="brainspace logo">
-                  </div>
-                </div>
-          
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" src="../app/img/interns/ivo-logo.svg"
-                      alt="ivo thinking logo">
-                  </div>
-                </div>
+               
           
                 <div class="col-md-3 mb-3">
                   <div class="card">
@@ -97,12 +71,7 @@
                   </div>
                 </div>
     
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" src="../app/img/interns/Tizeti.png"
-                      alt="Tizeti logo">
-                  </div>
-                </div>
+              
           
               </div>
               <!--/.Second slide-->
@@ -118,7 +87,7 @@
           <!--/.Carousel Wrapper-->
 
         <!-- Filters -->
-        <div class="row filters">
+        <!-- <div class="row filters">
             <select class="select-css">
                 <option>Company</option>
                 <option>Andela</option>
@@ -147,18 +116,20 @@
             </select>
 
 
-        </div>
+        </div> -->
+        
         <div class="row cards interns">
             <div class="intern">
                 <img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/gabumoh/image/upload/e_grayscale/v1557903161/gabumoh_rmmy8z.jpg" alt="Card image cap">
                 <p class="name">Gabriel Umoh</p>
-                <p class="stack">Full Stack Developer</p>
+                <p class="stack">Backend / DevOps / PM</p>
                 <!-- <p>Internship 3</p> -->
             </div>
             <div class="intern">
                 <div class="img"><img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/djvzkeset/image/upload/e_grayscale/v1558225291/IMG_2550.jpg" alt="Card image cap"></div>
                 <p class="name">Oluwabukola Ajishebiyawo</p>
-                <p class="stack">Full Stack Developer</p>
+                <p class="stack">Backend Developer<br />@Tizani</p>
+                
             </div>
             <div class="intern">
                 <img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/opheus/image/upload/e_grayscale/v1558065110/_BLE6686.jpg" alt="Card image cap">
@@ -231,16 +202,153 @@
                 <p class="stack">Front End Developer</p>
             </div>
             <div class="intern">
-                <img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/djvzkeset/image/upload/e_grayscale/v1558225291/IMG_2550.jpg" alt="Card image cap">
-                <p class="name">Oluwabukola Ajishebiyawo</p>
-                <p class="stack">Full Stack Developer</p>
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Osumgba Chiamaka</p>
+                <p class="stack">Software Developer <br />@ighubafrica</p>
             </div>
             <div class="intern">
-                <img class="card-img-top" style=" object-fit: cover" src="https://res.cloudinary.com/dvggqzsvj/image/upload/e_grayscale/v1549669716/potrait_flkkue.jpg" alt="Card image cap">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
                 <p class="name">Ikechukwu Nwakanma</p>
                 <p class="stack">Back end Developer</p>
             </div>
+
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Vincent Nwonah</p>
+                <p class="stack">Software Engineer (dotnet)</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Oluwatomisin Lalude</p>
+                <p class="stack">Front End Web Developer<br />@Kessintech Technologies Ltd</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Albert</p>
+                <p class="stack">Mobile developer<br />@verifi.ng</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Chinedu Ebinim</p>
+                <p class="stack">BackEnd Developer<br />@verifi.ng</p>
+            </div>
             
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Ephraim Aigbefo</p>
+                <p class="stack">Software developer<br />@True Identity Company</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Oghenero Paul-Ejukorlem</p>
+                <p class="stack">Software Engineer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Gift John </p>
+                <p class="stack">Frontend Developer <br />@Codekago Interactive</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">David Kuforiji</p>
+                <p class="stack">Mobile Developer <br />@Enterfive</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Andy Eshiet</p>
+                <p class="stack">Android Developer <br />@Groove.ng</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Iheonye Chukwuemeka</p>
+                <p class="stack">UI/UX Designer <br />@Traindemy</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Chukwuemeka Somto Promise</p>
+                <p class="stack">UI/UX  Designer <br />@Konga</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Everistus Olumese</p>
+                <p class="stack">Senior Software Engineer <br />@Stears</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Orie Chinedu</p>
+                <p class="stack">Software Developer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Juliet Chidimma Ezekwe</p>
+                <p class="stack">Software Developer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Edidiong Udombat</p>
+                <p class="stack">Software Developer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Victor Ugweze</p>
+                <p class="stack">Software Developer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Celestine Ekor-Ordan</p>
+                <p class="stack">Software Developer <br />@Andela</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Destiny Ihejirika</p>
+                <p class="stack"> .NET and ESQL DEVELOPER <br />@FCMB</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Ifeoluwasimi Olusola</p>
+                <p class="stack"> Product Designer <br />@Hotels.ng</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Onwuorah Okechukwu</p>
+                <p class="stack"> Software Engineer <br />@Epidalert</p>
+            </div>  
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">OLASUPO Abdulhakeem</p>
+                <p class="stack"> Product Designer <br />@Tribesquare.co</p>
+            </div> 
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Namnso Ukpanah</p>
+                <p class="stack"> Product Designer <br />@Flutterwave</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Odusanya ’Tomi</p>
+                <p class="stack"> Software Engineer <br />@Paystack</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Shalvah</p>
+                <p class="stack"> Software Engineer</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">David Inyangetoh</p>
+                <p class="stack"> Software Engineer <br />@Start Innovation Hub</p>
+            </div> 
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Emem Brownson</p>
+                <p class="stack"> Software Engineer <br />@Start Innovation Hub</p>
+            </div>
+            <div class="intern">
+                <img class="card-img-top" style=" object-fit: cover" src="http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg" alt="Card image cap">
+                <p class="name">Stephen Afam Osemene</p>
+                <p class="stack"> Software Engineer <br />@Africastalking</p>
+            </div>
+
         </div>
 
         
