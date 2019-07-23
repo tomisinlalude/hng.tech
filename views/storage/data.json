@@ -335,6 +335,20 @@
 	"picture": "https://res.cloudinary.com/jeffogah/image/upload/v1563876250/new-dp.png",
 	"company": "",
 	"company_url": ""
+},{
+	"name": "Michael Okoh",
+	"stack": "DevOps/PHP/Laravel/NodeJS",
+	"role": "Product Support Engineer ",
+	"picture": "https://res.cloudinary.com/jeffogah/image/upload/v1563876250/new-dp.png",
+	"company": "SafeBoda",
+	"company_url": "safeboda.com"
+},{
+	"name": "Motunrayo Da-costa",
+    "stack": "HTML/CSS/Js",
+    "role":"Interface Developer",
+    "picture":"https://res.cloudinary.com/dxikrojwn/image/upload/v1554311651/Motun.jpg",
+    "company":"Softcom Ltd",
+    "company_url":"https://softcom.ng"
 }
 
 
