@@ -70,12 +70,30 @@ h3 {
         height: 50px;
     }
     .carousel img {
+        height: 25px;
+        max-width: 80%;
+        /* margin: 0 3%; */
+    }
+    .card {
         height: 30px;
+        margin: 0;
+    }
+    .button-wrapper button {
+       font-size: 23px;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        height: 50px;
+    }
+    .carousel img {
+        height: 15px;
         max-width: 80%;
         /* margin: 0 3%; */
     }
     .button-wrapper button {
-       font-size: 28px;
+       font-size: 18px;
     }
 }
 
@@ -95,12 +113,29 @@ h3 {
     height: 180px;
 }
 .intern .name {
-    font-size: 17px;
+    font-size: 16px;
     margin-top: 8px;
     margin-bottom: -4px;
 }
 .intern .stack {
     font-size: 11px;
+}
+
+@media (max-width: 425px) {
+    .intern {
+        width: 45vw;
+    }
+    .intern .name {
+        font-size: 12px;
+    }
+    .intern {
+        margin-top: 10px;
+    }
+    .intern img,
+    .intern .img {
+        width: 45vh;
+        height: 175px;
+    }
 }
 
 /* Filters */
