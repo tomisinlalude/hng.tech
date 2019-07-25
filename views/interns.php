@@ -24,37 +24,8 @@
            </div>
        </div>
         
-        <!-- Filters -->
-        <!-- <div class="row filters">
-            <select class="select-css">
-                <option>Company</option>
-                <option>Andela</option>
-                <option>Hotels.ng</option>
-                <option>Gloopro</option>
-                <option>Tizeti</option>
-                <option>Sprinble</option>
-                <option>Oranges</option>
-                <option>Oranges</option>
-                <option>Oranges</option>
-            </select>
-            <select class="select-css">
-                <option>Stack</option>
-                <option>Frontend</option>
-                <option>Backend</option>
-                <option>Fullstack</option>
-                <option>Designer</option>
-            </select>
-            <select class="select-css">
-                <option>Internship</option>
-                <option>Internship 1</option>
-                <option>Internship 2</option>
-                <option>Internship 3</option>
-                <option>Internship 4</option>
-                <option>Internship 4</option>
-            </select>
+      
 
-
-        </div> -->
         
         <div class="row cards interns">
 
