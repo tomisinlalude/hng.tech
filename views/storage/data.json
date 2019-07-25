@@ -349,6 +349,13 @@
     "picture":"https://res.cloudinary.com/dxikrojwn/image/upload/v1554311651/Motun.jpg",
     "company":"Softcom Ltd",
     "company_url":"https://softcom.ng"
+},{
+	"name": "Emmanuel Nwankwo",
+    	"stack": "NodeJS/.Net",
+    	"role":"Business Automation Asst. Developer",
+    	"picture":"https://res.cloudinary.com/enwankwo/image/upload/v1559099713/Profile.jpg",
+    	"company":"FCMB",
+    	"company_url":"https://www.fcmb.com"
 }
 
 
