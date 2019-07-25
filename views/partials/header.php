@@ -23,6 +23,7 @@ $products = '../products';
 	<link rel="stylesheet" href="../app/css/app.css" type="text/css"/>
 	<link rel="stylesheet" href="../app/css/hng5-finalists.css" type="text/css"/>
 	<link rel="stylesheet" href="../app/css/interns.css" type="text/css"/>
+	<link rel="stylesheet" href="../app/css/past-interns.css" type="text/css"/>
 	<link rel="shortcut icon" type="image/png" href="../app/img/fav.png" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
