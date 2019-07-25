@@ -120,11 +120,12 @@
 					<p class="sp-partners-text">The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship. The interns use this money to finance their participation in the internship.</p>
 				</div>
 				<div class="sp-partners-container">
-					<div class=""><img src="../app/img/hng.svg"></div>
-					<div class=""><img src="../app/img/akwa-ibom.png" style="width:100px;"></div>
+					<div class=""><img src="../app/img/hng.svg" style="width:150px;"></div>
+					<div class=""><img src="../app/img/akwa-ibom.png" style="width:95px;"></div>
 					<div class=""><img src="../app/img/oracle.svg"></div>
-					<div class=""><img src="../app/img/figma.svg"></div>
+					<div class=""><img src="../app/img/figma.svg" ></div>
 					<div class=""><img src="../app/img/bluechip.svg"></div>
+					<div class=""><img src="../app/img/flutterwave.png" style="width:160px;"></div>
 					<div class=""><img src="../app/img/verifi_logo.svg" style="width:100px;"></div>
 				</div>
 			</div>
