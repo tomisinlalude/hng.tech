@@ -9,11 +9,64 @@
         <header class="head">
          
             <h3>Our Past Interns</h3>
+            <h5>Our Interns and the Impact They Have Made</h5>
 
         </header>
 
-        <!-- Logo Slider  -->
-        <div >
+       
+        
+        <!-- Filters -->
+        <!-- <div class="row filters">
+            <select class="select-css">
+                <option>Company</option>
+                <option>Andela</option>
+                <option>Hotels.ng</option>
+                <option>Gloopro</option>
+                <option>Tizeti</option>
+                <option>Sprinble</option>
+                <option>Oranges</option>
+                <option>Oranges</option>
+                <option>Oranges</option>
+            </select>
+            <select class="select-css">
+                <option>Stack</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+                <option>Designer</option>
+            </select>
+            <select class="select-css">
+                <option>Internship</option>
+                <option>Internship 1</option>
+                <option>Internship 2</option>
+                <option>Internship 3</option>
+                <option>Internship 4</option>
+                <option>Internship 4</option>
+            </select>
+
+
+        </div> -->
+        
+        <div class="row cards interns">
+
+            <?php
+            
+            $data = file_get_contents(__DIR__ . '/storage/data.json'); 
+            $interns = json_decode($data); 
+
+            foreach($interns as $intern){
+
+                echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+
+            }
+            ?>
+
+        </div>
+
+
+         <!-- Logo Slider  -->
+         <div >
         <div class="wrapper">
         <ul class="carousel" data-target="carousel">
           <li class="card" data-target="card">
@@ -98,57 +151,15 @@
         </div>
       </div>
     </div>
-        
-        <!-- Filters -->
-        <!-- <div class="row filters">
-            <select class="select-css">
-                <option>Company</option>
-                <option>Andela</option>
-                <option>Hotels.ng</option>
-                <option>Gloopro</option>
-                <option>Tizeti</option>
-                <option>Sprinble</option>
-                <option>Oranges</option>
-                <option>Oranges</option>
-                <option>Oranges</option>
-            </select>
-            <select class="select-css">
-                <option>Stack</option>
-                <option>Frontend</option>
-                <option>Backend</option>
-                <option>Fullstack</option>
-                <option>Designer</option>
-            </select>
-            <select class="select-css">
-                <option>Internship</option>
-                <option>Internship 1</option>
-                <option>Internship 2</option>
-                <option>Internship 3</option>
-                <option>Internship 4</option>
-                <option>Internship 4</option>
-            </select>
 
+    <div class="container links">
+            <a class="bi-btn primary-button" href="past-interns">More Past Interns</a>
+            <a class="bi-btn primary-button" href="hng5-finalists">Most Recent Finalists</a>
+            <a class="bi-btn primary-button" href="contact">Recruit Our Interns</a>
+					<!-- <a class="bi-btn primary-button" href="join-now">Join now</a> -->
+	</div>
 
-        </div> -->
-        
-        <div class="row cards interns">
-
-<?php
- 
-  $data = file_get_contents(__DIR__ . '/storage/data.json'); 
-  $interns = json_decode($data); 
-
-  foreach($interns as $intern){
-
-    echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
-    <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
-
-  }
-?>
-
-           
-
-        </div>
+    
 
         
 	</div>
