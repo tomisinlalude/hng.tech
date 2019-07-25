@@ -14,13 +14,14 @@
         </header>
 
        <div class="container company">
-           <div class="logo-container">
-                <img src="../app/img/interns/kodehauz-logo.png" alt="andela logo">
-           </div>
+           
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
                 Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
                 Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
             </p>
+            <div class="logo-container">
+                <img src="../app/img/interns/andela.png" alt="andela logo">
+           </div>
        </div>
         
         <!-- Filters -->

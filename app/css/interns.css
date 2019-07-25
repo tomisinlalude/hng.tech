@@ -13,6 +13,7 @@ h5 {
 /* Company Logo and bio */
 .company {
     display: flex;
+    flex-direction: row-reverse;
 }
 .company .logo-container {
     width: 14%;
@@ -23,10 +24,11 @@ h5 {
 }
 .company p {
     font-size: 18px;
-    width: 80%;
+    width: 85%;
     margin-left: 20px;
     border-left: 1px solid black;
     padding-left: 20px;
+    text-justify: justify;
 }
 
 /* Logo Carousel */
