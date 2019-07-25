@@ -8,9 +8,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="about-text col-md-6">
-							<h1 class="hp-header">What is the Internship?</h1>
-							<h3 class="hp-subheader ap-subheader"><strong>We find the most talented African developers</strong></h3>
-							<p class="hp-header-text">. . .and give them the opportunity to excel.</p>
+							<h1 class="hp-header text-left">What is the Internship?</h1>
+							<h3 class="hp-subheader ap-subheader text-left"><strong>We find the most talented African developers</strong></h3>
+							<p class="hp-header-text text-left">. . .and give them the opportunity to excel.</p>
 						</div>
 						<div class="col-md-6 ap-toon">
 							<img class="toon-default" src="../app/img/ladytoon-office.svg" alt="lady">
