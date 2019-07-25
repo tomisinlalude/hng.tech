@@ -6,13 +6,6 @@
     "company":"StayBusy Tech",
     "company_url":"https://staybusy.io"
 }, {
-	"name": "Oluwabukola Ajishebiyawo",
-    "stack": "PHP / ReactJS",
-    "role":"Software Developer",
-    "picture":"https://res.cloudinary.com/djvzkeset/image/upload/e_grayscale/v1558225291/IMG_2550.jpg",
-    "company":"Tizani",
-    "company_url":""
-}, {
 	"name": "Ominiabohs E David",
     "stack": "",
     "role":"Back End Developer",
@@ -95,6 +88,13 @@
     "role":"Full Stack Developer",
     "picture":"https://res.cloudinary.com/dwde2t6ef/image/upload/e_grayscale/v1557860963/IMG_8707_1_a2ahuk.jpg",
     "company":"",
+    "company_url":""
+},{
+	"name": "Oluwabukola Ajishebiyawo",
+    "stack": "PHP / ReactJS",
+    "role":"Software Developer",
+    "picture":"https://res.cloudinary.com/djvzkeset/image/upload/e_grayscale/v1558225291/IMG_2550.jpg",
+    "company":"Tizani",
     "company_url":""
 },{
 	"name": "Shafi Abdulrahman",
