@@ -20,26 +20,12 @@
     "company":"",
     "company_url":""
 },{
-	"name": "Oghenero Paul-Ejukorlem",
-    "stack": "",
-    "role":"Full Stack Developer",
-    "picture":"https://res.cloudinary.com/drlcfqzym/image/upload/e_grayscale/v1557833609/LRM_EXPORT_69521434596572_20190428_192942547.jpg",
-    "company":"",
-    "company_url":""
-},{
 	"name": "Edidiong Udombat",
     "stack": "NodeJs/ReactJs/ExpressJs/RubyonRails",
     "role":"Software Developer",
     "picture":"https://res.cloudinary.com/nedy123/image/upload/e_grayscale/v1558000126/my_dp_zz5dbu.jpg",
     "company":"Andela",
     "company_url":"https://www.andela.com"
-},{
-	"name": "Ikechukwu Nwakanma",
-    "stack": "",
-    "role":"Back end Developer",
-    "picture":"https://res.cloudinary.com/dvggqzsvj/image/upload/e_grayscale/v1549669716/potrait_flkkue.jpg",
-    "company":"",
-    "company_url":""
 },{
 	"name": "Samfield Hawb",
     "stack": "",
