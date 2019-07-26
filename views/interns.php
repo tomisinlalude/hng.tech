@@ -23,8 +23,6 @@
                 <img src="../app/img/interns/andela.png" alt="andela logo">
            </div>
        </div>
-        
-      
 
         
         <div class="row cards interns">
@@ -35,25 +33,100 @@
             $interns = json_decode($data); 
 
             foreach($interns as $intern){
-
-                echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
-                <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+                if($intern->company == 'Andela'){
+                    echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                    <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+                }
+               
 
             }
             ?>
 
         </div>
 
+        <div class="container company">
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
+               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
+               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           </p>
+           <div class="logo-container">
+               <img src="../app/img/interns/hotels.ng.png" alt="Hotels logo">
+          </div>
+      </div>
+
+       
+       <div class="row cards interns">
+
+           <?php
+
+           foreach($interns as $intern){
+               if($intern->company == 'Hotels.ng'){
+                   echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                   <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+               }
+           }
+           ?>
+
+       </div>
+
+       <div class="container company">
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
+               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
+               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           </p>
+           <div class="logo-container">
+               <img src="../app/img/verifi_logo.svg" alt="Verifi.ng logo">
+          </div>
+      </div>
+
+       
+       <div class="row cards interns">
+
+           <?php
+
+           foreach($interns as $intern){
+               if($intern->company == 'verifi.ng'){
+                   echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                   <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+               }
+           }
+           ?>
+
+       </div>
+       <div class="container company">
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
+               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
+               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           </p>
+           <div class="logo-container">
+               <img src="../app/img/fcmb-logo.png" alt="FCMB logo">
+          </div>
+      </div>
+
+       
+       <div class="row cards interns">
+
+           <?php
+
+           foreach($interns as $intern){
+               if($intern->company == 'FCMB'){
+                   echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                   <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+               }
+           }
+           ?>
+
+       </div>
+
 
          <!-- Logo Slider  -->
          <div >
         <div class="wrapper">
         <ul class="carousel" data-target="carousel">
-          <li class="card" data-target="card">
-                <a href="https://www.hotels.ng">
-                    <img src="../app/img/interns/freeme.png" alt="hotels.ng logo">
-                </a>
-          </li>
+         
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
                     <img src="../app/img/interns/andela.png" alt="andela logo">

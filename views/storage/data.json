@@ -252,65 +252,65 @@
     "company_url":"#"
 },{
 	"name": "Ifeoluwasimi Olusola",
-    "stack": "",
+    "stack": "Figma",
     "role":"Product Designer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128974/0_ulznvg.jpg",
     "company":"Hotels.ng",
-    "company_url":"#"
+    "company_url":"https://www.hotels.ng"
 },{
 	"name": "Onwuorah Okechukwu",
-    "stack": "",
+    "stack": "JS/Angular/Python",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/benjorah/image/upload/e_grayscale/v1563978692/personal.jpg",
     "company":"Epidalert",
     "company_url":"#"
 },{
 	"name": "OLASUPO Abdulhakeem",
-    "stack": "",
+    "stack": "Figma",
     "role":"Product Designer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128765/6d83d6a8-3867-4967-b117-ab27b2c1d41d_mgw6bs.webp",
     "company":"Tribesquare",
     "company_url":"#"
 },{
 	"name": "Namnso Ukpanah",
-    "stack": "",
+    "stack": "UI/UX/Figma/Adobe",
     "role":"Product Designer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128686/avatar_wy9ax8.jpg",
     "company":"Flutterwave",
-    "company_url":"#"
+    "company_url":"https://flutterwave.com"
 },{
 	"name": "Odusanya ’Tomi",
-    "stack": "",
+    "stack": "JS/HTML/CSS",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128535/22182946_tzul83.jpg",
     "company":"Paystack",
-    "company_url":"#"
+    "company_url":"https://paystack.com"
 },{
 	"name": "Shalvah",
-    "stack": "",
+    "stack": "PHP/JS/Ruby",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
-    "company":"",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128471/87936f32-1b89-4d87-97af-09dfe698930d_fbavx8.webp",
+    "company":"StartUp Founder",
     "company_url":"#"
 },{
 	"name": "David Inyangetoh",
     "stack": "",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128367/1_mxULtv3c30vy9-HyS3L7Rg_cyqcwq.jpg",
     "company":"Start Hub",
     "company_url":"#"
 },{
 	"name": "Emem Brownson",
     "stack": "",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128299/4vF4gGXZ_400x400_ik1jrj.jpg",
     "company":"Start Hub",
     "company_url":"#"
 },{
 	"name": "Stephen Afam Osemene",
     "stack": "",
     "role":"Software Engineer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128235/02036892-8705-49b6-b9c4-c3daf28b0f1e_du8ftn.webp",
     "company":"Africastalking",
     "company_url":"#"
 }
@@ -325,7 +325,7 @@
 	"name": "Thelma Dike",
     "stack": "",
     "role":"Interface designer",
-    "picture":"http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128122/vHfwpBQl_400x400_zvp4dw.jpg",
     "company":"softcom",
     "company_url":"https://softcom.ng"
 },{
@@ -339,26 +339,37 @@
 	"name": "Michael Okoh",
 	"stack": "DevOps/PHP/Laravel/NodeJS",
 	"role": "Product Support Engineer ",
-	"picture": "http://mho6nxweoblkn351jmpbb12y.wpengine.netdna-cdn.com/wp-content/uploads/2018/09/male-placeholder.jpg",
+	"picture": "https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564127950/26685147_1559979610751119_8930520266487161226_o_fzsask.jpg",
 	"company": "SafeBoda",
 	"company_url": "safeboda.com"
 },{
 	"name": "Motunrayo Da-costa",
     "stack": "HTML/CSS/Js",
     "role":"Interface Developer",
-    "picture":"https://res.cloudinary.com/dxikrojwn/image/upload/v1554311651/Motun.jpg",
+    "picture":"https://res.cloudinary.com/dxikrojwn/image/upload/e_grayscale/v1554311651/Motun.jpg",
     "company":"Softcom Ltd",
     "company_url":"https://softcom.ng"
 },{
 	"name": "Emmanuel Nwankwo",
     	"stack": "NodeJS/.Net",
     	"role":"Business Automation Asst. Developer",
-    	"picture":"https://res.cloudinary.com/enwankwo/image/upload/v1559099713/Profile.jpg",
+    	"picture":"https://res.cloudinary.com/enwankwo/image/upload/e_grayscale/v1559099713/Profile.jpg",
     	"company":"FCMB",
     	"company_url":"https://www.fcmb.com"
+},{
+	"name": "Friday Godswill",
+    	"stack": "PHP/Laravel/JS/Django",
+    	"role":"Lead dev",
+    	"picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564127369/friday_utnxj1.jpg",
+    	"company":"Hotels.ng",
+    	"company_url":"https://www.hotels.ng"
+},{
+	"name": "Chuks Opia",
+    	"stack": "HTML/JS/ReactJS/Vue",
+    	"role":"Fotware Engineer",
+    	"picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564127382/Szgi16L-_400x400_a8tfmb.jpg",
+    	"company":"Andela",
+    	"company_url":"https://www.andela.com"
 }
-
-
-
 
 ] 
