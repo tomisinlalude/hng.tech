@@ -24,7 +24,7 @@
 					<h1 class="hng-title">The HNG Internship</h1>
 					<h2 class="hp-subheader">Become an Intern.</h2>
 					<p class="hp-header-text">Learn, grow and scale your software developer career with real world experience.</p>
-					<p class="hp-header-text"> The Next Internship starts in August. Click on the link below to join </p>
+					<p class="hp-header-text"> The Next Internship starts soon. Click on the link below to join </p>
 					<br>
 					<a class="bi-btn primary-button" href="https://start.ng/" target="_blank">Join now</a><br><br>
 				</div>
