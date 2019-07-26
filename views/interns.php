@@ -15,9 +15,7 @@
 
        <div class="container company">
            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
-                Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
-                Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+            <p>Andela invests in Africa’s most talented software engineers to help companies solve the technical talent shortage and build high-performing distributed engineering teams. Andela builds distributed engineering teams with Africa's most talented software developers
             </p>
             <div class="logo-container">
                 <img src="../app/img/interns/andela.png" alt="andela logo">
@@ -46,9 +44,7 @@
 
         <div class="container company">
            
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
-               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
-               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           <p>We are an online travel agency specialising in hotel bookings within Nigeria. We help customers book hotel rooms online, provide comprehensive help and support to our clients and make the hotel booking process smooth and easy. We also provide hotel recommendations and reviews, making sure that our clients stay in good, clean and safe hotels all over the country.
            </p>
            <div class="logo-container">
                <img src="../app/img/interns/hotels.ng.png" alt="Hotels logo">
@@ -72,9 +68,7 @@
 
        <div class="container company">
            
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
-               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
-               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           <p>Verifi is a payment protection and management firm founded in 2005. It is based in Los Angeles, California, and has close to 9000 accounts.The company’s primary product offering is Cardholder Dispute Resolution Network (CDRN), which helps connect financial organizations and merchants, allowing merchants to act in real time to issue refunds, work to clear up equivocal transaction histories, or initiate traditional chargeback procedures.
            </p>
            <div class="logo-container">
                <img src="../app/img/verifi_logo.svg" alt="Verifi.ng logo">
@@ -97,9 +91,7 @@
        </div>
        <div class="container company">
            
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis aliquet erat, quis dignissim risus.  
-               Donec suscipit libero ut dignissim eleifend. Nullam non felis non urna pharetra euismod. 
-               Proin consequat suscipit orci nec dignissim. Sed tempor sem a lectus auctor, in sagittis tellus scelerisque. 
+           <p>First City Monument Bank (FCMB) Ltd is a full service banking group, headquartered in Lagos, with the vision ‘to be the premier financial services group of African origin’.FCMB is a large financial services provider in Nigeria, offering retail banking, corporate banking and investment banking services to large corporations, small and medium enterprises, as well as individuals. 
            </p>
            <div class="logo-container">
                <img src="../app/img/fcmb-logo.png" alt="FCMB logo">
@@ -121,17 +113,40 @@
 
        </div>
 
+       <div class="container company">
+           
+           <p>Innovation Growth Hub is a Business, Creative and Technology Hub in NIgeria with locations in Aba and Onitsha. We are contributing to fulfilling Sustainable Development Goals Four and Eight which stands for Promoting Lifelong Learning Opportunities for all and Promoting Sustainable economic growth & decent work for all respectively 
+           </p>
+           <div class="logo-container">
+               <img src="../app/img/lg.png" alt="ighubafrica logo">
+          </div>
+      </div>
 
+       
+       <div class="row cards interns">
+
+           <?php
+
+           foreach($interns as $intern){
+               if($intern->company == 'ighubafrica'){
+                   echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                   <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+               }
+           }
+           ?>
+
+       </div>
+
+       <header class="head">
+       
+         <h5>Other companies that have trusted us</h5>
+
+     </header>
          <!-- Logo Slider  -->
          <div >
         <div class="wrapper">
         <ul class="carousel" data-target="carousel">
-         
-          <li class="card" data-target="card">
-                <a href="https://hotels.ng">
-                    <img src="../app/img/interns/andela.png" alt="andela logo">
-                </a>
-          </li>
+        
           <li class="card" data-target="card">
                 <a href="https://hotels.ng">
                     <img src="../app/img/interns/freeme.png" alt="freeme logo">
