@@ -7,7 +7,11 @@
 		<header class="pi-header">
 			<h1 class="h1">Our Interns and the Impact They Have Made</h1>			
 		</header>
-
+        <?php
+            
+            $data = file_get_contents(__DIR__ . '/storage/data.json'); 
+            $interns = json_decode($data); 
+        ?>
 
 		<section class="row pi-banner">
 			<div class="col-md-9">
@@ -22,55 +26,20 @@
 			</article>
 
 			<div class="col-md-12">
-				<div class="pi-interns">
+            <div class="pi-interns">
+            <?php 
 
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/gabumoh/image/upload/v1557903161/gabumoh_rmmy8z.jpg" alt="Gabriel Umoh" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Gabriel Umoh</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 3</p>
-						</article>
-					</div>
+            foreach($interns as $intern){
 
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/djvzkeset/image/upload/v1558225291/IMG_2550.jpg" alt="Oluwabukola Ajishebiyawo" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Oluwabukola Ajishebiyawo</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 3</p>
-						</article>
-					</div>
+                if($intern->company == 'Hotels.ng'){
+                    echo "<div class='pi-intern'><figure><img src='".$intern->picture."' alt='".$intern->name."' /></figure><article><p class='pi-intern-name'>".$intern->name."</p><p>".$intern->stack."</p><p>".$intern->role."<br />" . $intern->company. "</p></article></div>";
+               
+                }
+               
 
+            }
+            ?>
 
-
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/opheus/image/upload/v1558065110/_BLE6686.jpg" alt="Ominiabohs E David" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Ominiabohs E David</p>
-							<p>Back End Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
-
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/samuelweke/image/upload/v1523620154/2017-11-13_21.01.13.jpg" alt="Weke Samuel Olusegun" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Weke Samuel Olusegun</p>
-							<p>Front End Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
-
-				</div>
 			</div>
 		</section>
 
@@ -87,108 +56,52 @@
 					</article>
 				</div>
 				<div class="pi-partner-interns">
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/drlcfqzym/image/upload/v1557833609/LRM_EXPORT_69521434596572_20190428_192942547.jpg" alt="Oghenero Paul-Ejukorlem" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Oghenero Paul-Ejukorlem</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 4</p>
-						</article>
+
+                <?php 
+
+                    foreach($interns as $intern){
+
+                        if($intern->company == 'Andela'){
+                            echo "<div class='pi-intern'><figure><img src='".$intern->picture."' alt='".$intern->name."' /></figure><article><p class='pi-intern-name'>".$intern->name."</p><p>".$intern->stack."</p><p>".$intern->role."<br />" . $intern->company. "</p></article></div>";
+                    
+                        }
+                    
+
+                    }
+                ?>
 					</div>
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/nedy123/image/upload/v1558000126/my_dp_zz5dbu.jpg" alt="Edidiong Udombat" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Edidiong Udombat</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/dkkn9xzk7/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1557940249/Victor_tydbgo.jpg" alt="Victor Ugwueze" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Victor Ugwueze</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
-				</div>
 			</div>
 
 			<div class="pi-partner">
 				<div class="pi-partner-interns">
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/dvggqzsvj/image/upload/v1549669716/potrait_flkkue.jpg" alt="Ikechukwu Nwakanma" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Ikechukwu Nwakanma</p>
-							<p>Back end Developer</p>
-							<p>Internship 3</p>
-						</article>
-					</div>
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/samfield/image/upload/v1554317342/samfield.jpg" alt="Samfield Hawb" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Samfield Hawb</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 3</p>
-						</article>
-					</div>
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/maaj/image/upload/v1557996071/muheez-jimoh.jpg" alt="Jimoh Muheez" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Jimoh Muheez</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
+					
+                <?php 
+
+                foreach($interns as $intern){
+
+                    if($intern->company == 'verifi.ng'){
+                        echo "<div class='pi-intern'><figure><img src='".$intern->picture."' alt='".$intern->name."' /></figure><article><p class='pi-intern-name'>".$intern->name."</p><p>".$intern->stack."</p><p>".$intern->role."<br />" . $intern->company. "</p></article></div>";
+
+                    }
+
+
+                }
+                ?>
+					
 				</div>
 				<div class="pi-partner-details">
 					<div class="pi-block pi-hotels">
-						<img src="../app/img/hotels.svg" alt="hotels.ng banner" />
+						<img src="../app/img/verifi_logo.svg" alt="verifi banner" />
 					</div>
 					<article>
-						<h3>Hotels.ng</h3>
-						<p>An online travel agency specialised in hotel bookings within Nigeria.&nbsp;&nbsp;<a href="https://hotels.ng/">Learn More</a></p>
+						<h3>Verifi</h3>
+						<p>Verifi is a payment protection and management firm founded in 2005. It is based in Los Angeles, California, and has close to 9000 accounts.The company’s primary product offering is Cardholder Dispute Resolution Network (CDRN), which helps connect financial organizations and merchants, allowing merchants to act in real time to issue refunds, work to clear up equivocal transaction histories, or initiate traditional chargeback procedures.&nbsp;&nbsp;<a href="https://verifi.com/">Learn More</a></p>
 					</article>
 				</div>
 
 			</div>
 
-			<div class="pi-partner">
-				<div class="pi-partner-details">
-					<div class="pi-block pi-paga">
-						<img src="https://www.gloopro.com/images/gloopro-logo.svg" alt="gloopro banner" style="height:100%;"/>
-					</div>
-					<article>
-						<h3>Gloopro</h3>
-						<p>Gloopro simplifies purchasing for large enterprises with eProcurement and commerce solutions.&nbsp;&nbsp;<a href="https://www.gloopro.com">Learn More</a></p>
-					</article>
-				</div>
-				<div class="pi-partner-interns">
-					<div class="pi-intern">
-						<figure>
-							<img class="" src="https://res.cloudinary.com/dqscsuyyn/image/upload/v1557837172/IMG_20181206_113029.jpg" alt="Chigozie Ekwonu" />
-						</figure>
-						<article class="">
-							<p class="pi-intern-name">Chigozie Ekwonu</p>
-							<p>Full Stack Developer</p>
-							<p>Internship 4</p>
-						</article>
-					</div>
-				</div>
-			</div>
-
+			
 			<div class="pi-partner">
 				<div class="pi-partner-interns">
 					<div class="pi-intern">

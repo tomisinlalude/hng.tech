@@ -21,7 +21,7 @@
     "company_url":""
 },{
 	"name": "Edidiong Udombat",
-    "stack": "NodeJs/ReactJs/ExpressJs/RubyonRails",
+    "stack": "NodeJs/ReactJs/ExpressJs",
     "role":"Software Developer",
     "picture":"https://res.cloudinary.com/nedy123/image/upload/e_grayscale/v1558000126/my_dp_zz5dbu.jpg",
     "company":"Andela",
@@ -381,6 +381,13 @@
     "name": "Chibuike Emmanuel",
     "stack": "PHP/Laravel/JS/HTML/CSS/Blockchain",
     "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564138515/DLKGEf0k_400x400_lwmm80.jpg",
+    "company":"schoolableHQ",
+    "company_url":"schoolable.allprotech.co"
+},{
+    "name": "Okoye Chidi B",
+    "stack": "HTML/CSS/JS",
+    "role":"PM & Front-End Developer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564138515/DLKGEf0k_400x400_lwmm80.jpg",
     "company":"schoolableHQ",
     "company_url":"schoolable.allprotech.co"
