@@ -384,5 +384,12 @@
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564138515/DLKGEf0k_400x400_lwmm80.jpg",
     "company":"schoolableHQ",
     "company_url":"schoolable.allprotech.co"
+},{
+    "name": "Abigail Adeboga",
+    "stack": "Html, CSS, Js, VueJs",
+    "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/bogadeji/image/upload/e_grayscale/v1523637511/IMG-20180126-WA0034_l5jquv.jpg",
+    "company":"Gloopro",
+    "company_url":"https://gloopro.com"
 }
 ] 
