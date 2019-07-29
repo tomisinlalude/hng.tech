@@ -3,13 +3,18 @@
         .hp-partners {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             height: 50px;
             margin-top: -60px;
             margin-bottom: 10px;
         }
+        .hp-partners p {
+            font-size: 18px;
+            font-weight: bold;
+        }
         .hp-partners img {
             max-width: 15%;
-            
+            max-height: 40px;
         }
     </style>
     <?php include 'partials/header.php'; ?>
@@ -47,9 +52,9 @@
                     <p>Our Partners</p>
                     <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
                     <img src="../app/img/interns/andela.png" alt="hotels.ng logo" target="_blank" >
-                    <img src="../app/img/interns/flutterwave.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/flutterwave.png" alt="hotels.ng logo" target="_blank" >
                     <img src="../app/img/interns/tizeti.png" alt="hotels.ng logo" target="_blank" >
-                    <img src="../app/img/interns/gloopro.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/fcmb-logo.png" alt="hotels.ng logo" target="_blank" >
                     <img src="../app/img/interns/freeme.png" alt="hotels.ng logo" target="_blank" >
 
 
