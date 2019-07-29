@@ -1,4 +1,17 @@
 <html>
+    <style>
+        .hp-partners {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            margin-top: -60px;
+            margin-bottom: 10px;
+        }
+        .hp-partners img {
+            max-width: 15%;
+            
+        }
+    </style>
     <?php include 'partials/header.php'; ?>
     <body>
         <div class="hp-jumbotron no-scroll">
@@ -29,6 +42,17 @@
                 </div>
                 <div class="">
                     <img src="app/img/floor.svg" width="100%" height="">
+                </div>
+                <div class="hp-partners container" >
+                    <p>Our Partners</p>
+                    <img src="../app/img/interns/hotels.ng.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/andela.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/flutterwave.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/tizeti.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/gloopro.png" alt="hotels.ng logo" target="_blank" >
+                    <img src="../app/img/interns/freeme.png" alt="hotels.ng logo" target="_blank" >
+
+
                 </div>
             </div>
                 <!--floor-->
