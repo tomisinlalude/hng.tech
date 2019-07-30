@@ -4,7 +4,7 @@
 <body class="pi">
 	<?php include 'partials/navbar.php'; ?>
 	<div class="container intern-body">
-
+    
         <!-- Header -->
         <header class="head">
          
@@ -31,7 +31,7 @@
 			
 					foreach($interns as $intern){
 					if($intern->company == $company->name){
-						echo "<div class='intern'><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+						echo "<div class='intern' style='float:left;' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
 						<p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
 					}
 					
@@ -56,7 +56,7 @@
 
 	<?php include 'partials/footer.php'; ?>
 
-    <script>
+    <!-- <script>
           // Select the carousel you'll need to manipulate and the buttons you'll add events to
             const carousel = document.querySelector("[data-target='carousel']");
             const card = carousel.querySelector("[data-target='card']");
@@ -91,7 +91,7 @@
                 carousel.style.transform = `translateX(${offset}px)`;
             }
             })
-      </script>
+      </script> -->
 </body>
 
 

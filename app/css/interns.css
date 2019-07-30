@@ -129,11 +129,12 @@ h5 {
 .interns {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 21px 0 75px 0;
 }
 .intern {
     margin-top: 15px;
+    float: left;
 }
 .intern img,
 .intern .img {
