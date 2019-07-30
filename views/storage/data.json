@@ -338,10 +338,10 @@
 },{
 	"name": "Adolphus Chris",
     "stack": "Mobile Developer/Product Designer",
-    "role":"",
+    "role":"Product Designer",
     "picture":"https://res.cloudinary.com/Iyabz/image/upload/e_grayscale/v1563966291/Chris.jpg",
-    "company":"",
-    "company_url":""
+    "company":"Epump",
+    "company_url":"epump.com.ng"
 },{
 	"name": "Edmund Ekott",
     "stack": "HTML/CSS/SASS/JavaScript/VueJs",
@@ -433,6 +433,13 @@
     "picture":"https://res.cloudinary.com/maaj/image/upload/e_grayscale/v1557996071/muheez-jimoh.jpg",
     "company":"Hotels.ng",
     "company_url":"https://hotels.ng"
+},{
+    "name": "Arinze George",
+    "stack": "Android/Kotlin/Java",
+    "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/arinzedroid/image/upload/v1564486237/1560594323657_1_vp5sy9.jpg",
+    "company":"Upperlink",
+    "company_url":"upperlink.ng"
 }
 
 ] 

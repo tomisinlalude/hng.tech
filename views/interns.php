@@ -26,21 +26,30 @@
 
 			foreach($companies as $company){
 
-				echo "<div class='container company'><p>".$company->about."</p><div class='logo-container'><img src='".$company->logo."' alt='".$company->name." logo'></div>
+				echo "<div class='each-company'><div class='container company'><p>".$company->about."</p><div class='logo-container'><img src='".$company->logo."' alt='".$company->name." logo'></div>
                        </div>";
-			
+                echo "<div class='interns'>";
 					foreach($interns as $intern){
                         if($intern->company == $company->name){
                             echo "<div class='intern' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
                             <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
                             }
                         }
+                echo "</div>";
 			        }
             
-                   
+                echo "</div>"
             ?>
 
         </div>
+
+    
+     <div class="company"> logo + description</div>
+     <div class="interns">
+         <div class="intern"></div>
+         <div class="intern"></div>
+     </div>
+
 
         <div class="row cards inters">
         <?php foreach($interns as $intern){
