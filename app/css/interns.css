@@ -31,6 +31,20 @@ h5 {
     text-justify: justify;
 }
 
+@media (max-width: 768px) {
+    .company {
+        display: inline-flex;
+        flex-direction: column-reverse;
+    }
+    .logo-container {
+        width: 50%;
+    }
+    img {
+        max-height: 200px ;
+        margin-top: 5px;
+    }
+}
+
 /* Logo Carousel */
 .wrapper {
     height: 100px;
@@ -133,8 +147,7 @@ h5 {
     margin: 21px 0 75px 0;
 }
 .intern {
-    margin-top: 15px;
-    margin-right: 10px;
+    margin: 15px 10px 0;
     float: left;
 }
 .intern img,

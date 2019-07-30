@@ -28,7 +28,6 @@
 
 				echo "<div class='container company'><p>".$company->about."</p><div class='logo-container'><img src='".$company->logo."' alt='".$company->name." logo'></div>
                        </div>";
-                       "<div class='interns'>";
 			
 					foreach($interns as $intern){
 					if($intern->company == $company->name){
@@ -36,7 +35,6 @@
 						<p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
                         }
                     }
-                    "</div>";
 			}
 			
            
