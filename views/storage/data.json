@@ -34,13 +34,6 @@
     "company":"",
     "company_url":""
 },{
-	"name": "Jimoh Muheez",
-    "stack": "",
-    "role":"Full Stack Developer",
-    "picture":"https://res.cloudinary.com/maaj/image/upload/e_grayscale/v1557996071/muheez-jimoh.jpg",
-    "company":"",
-    "company_url":""
-},{
 	"name": "Chigozie Ekwonu",
     "stack": "",
     "role":"Full Stack Developer",
@@ -393,7 +386,7 @@
     "company_url":"https://gloopro.com"
 },{
     "name": "Lucky Ozoka",
-    "stack": "PHP/Laravel/JS/HTML/CSS/Blockchain",
+    "stack": "PHP/Laravel/VueJS",
     "role":"Software Engineer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564484031/Capture_tbcll2.png",
     "company":"schoolableHQ",
@@ -426,5 +419,20 @@
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564485061/Capture_mxulsz.png",
     "company":"Formplus",
     "company_url":"https://formpl.us"
+},{
+    "name": "Timothy Onyiuke",
+    "role": "Software Engineer",
+    "stack": "PHP/NodeJS/Rust",
+    "picture": "https://pbs.twimg.com/profile_images/957239811194093568/KY49Q3lR_400x400.jpg",
+    "company": "Andela",
+    "company_url": "https://andela.com"
+},{
+    "name": "Muheez Jimoh",
+    "stack": "PHP/Laravel/JS/Python",
+    "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/maaj/image/upload/e_grayscale/v1557996071/muheez-jimoh.jpg",
+    "company":"Hotels.ng",
+    "company_url":"https://hotels.ng"
 }
+
 ] 
