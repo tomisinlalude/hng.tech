@@ -391,5 +391,12 @@
     "picture":"https://res.cloudinary.com/bogadeji/image/upload/e_grayscale/v1523637511/IMG-20180126-WA0034_l5jquv.jpg",
     "company":"Gloopro",
     "company_url":"https://gloopro.com"
+},{
+    "name": "Lucky Ozoka",
+    "stack": "PHP/Laravel/JS/HTML/CSS/Blockchain",
+    "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564484031/Capture_tbcll2.png",
+    "company":"schoolableHQ",
+    "company_url":"schoolable.allprotech.co"
 }
 ] 
