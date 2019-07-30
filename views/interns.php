@@ -43,14 +43,6 @@
 
         </div>
 
-    
-     <div class="company"> logo + description</div>
-     <div class="interns">
-         <div class="intern"></div>
-         <div class="intern"></div>
-     </div>
-
-
         <div class="row cards inters">
         <?php foreach($interns as $intern){
                 if($intern->company == ""){
