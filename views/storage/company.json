@@ -121,6 +121,11 @@
         "name":"Neukleos",
         "about":"We are the digital agency of the future, focusing on developing strategy and content that build brands and creating meaningful digital experiences. ",
         "logo":"https://neukleos.com/assets/icons/Neukleos_flame.png"
+    },
+    {
+        "name":"Formplus",
+        "about":"Create Forms that Collect Data Online and Offline",
+        "logo":"https://formpl.us/static/images/logo/formplus-logo.png"
     }
 
 ]

@@ -416,8 +416,15 @@
     "name": "Chidi Okoye",
     "stack": "HTML/CSS/JavaScript/ReactJs/Project Management",
     "role":"JavaScript Developer",
-    "picture":"https://res.cloudinary.com/okoyecb/image/upload/v1564474752/okoyecb.jpg",
+    "picture":"https://res.cloudinary.com/okoyecb/image/upload/e_grayscale/v1564474752/okoyecb.jpg",
     "company":"Neukleos",
     "company_url":"https://neukleos.com/"
+},{
+    "name": "Adeola Adeyemo",
+    "stack": "ReactJS/JS/HTML/CSS/Blockchain",
+    "role":"FrontEnd/ UX Engineer",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564485061/Capture_mxulsz.png",
+    "company":"Formplus",
+    "company_url":"https://formpl.us"
 }
 ] 
