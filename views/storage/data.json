@@ -179,14 +179,14 @@
     "role":"UI/UX Designer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564131342/NZ75kbEB_ebizxh.png",
     "company":"Konga",
-    "company_url":"#"
+    "company_url":"https://konga.com"
 },{
 	"name": "Everistus Olumese",
     "stack": "PHP/Laravel/ReactJS/NodeJS",
     "role":"Senior Software Engineer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564131294/c2c4b578-9b80-4f38-b31c-86f8726055f3_letuex.webp",
     "company":"Stears",
-    "company_url":"#"
+    "company_url":"https://www.stearsng.com/"
 },{
 	"name": "Orie Chinedu",
     "stack": "",
@@ -298,7 +298,7 @@
     "stack": "Figma",
     "role":"Interface designer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128122/vHfwpBQl_400x400_zvp4dw.jpg",
-    "company":"softcom",
+    "company":"Softcom",
     "company_url":"https://softcom.ng"
 },{
 	"name": "Jeffrey Ogah",
@@ -319,7 +319,7 @@
     "stack": "HTML/CSS/Js",
     "role":"Interface Developer",
     "picture":"https://res.cloudinary.com/dxikrojwn/image/upload/e_grayscale/v1554311651/Motun.jpg",
-    "company":"Softcom Ltd",
+    "company":"Softcom",
     "company_url":"https://softcom.ng"
 },{
 	"name": "Emmanuel Nwankwo",
@@ -385,12 +385,11 @@
     "company":"schoolableHQ",
     "company_url":"schoolable.allprotech.co"
 },{
-    "name": "Okoye Chidi B",
-    "stack": "HTML/CSS/JS",
-    "role":"PM & Front-End Developer",
-    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564138515/DLKGEf0k_400x400_lwmm80.jpg",
-    "company":"schoolableHQ",
-    "company_url":"schoolable.allprotech.co"
+    "name": "Abigail Adeboga",
+    "stack": "Html, CSS, Js, VueJs",
+    "role":"Software Engineer",
+    "picture":"https://res.cloudinary.com/bogadeji/image/upload/e_grayscale/v1523637511/IMG-20180126-WA0034_l5jquv.jpg",
+    "company":"Gloopro",
+    "company_url":"https://gloopro.com"
 }
-
 ] 
