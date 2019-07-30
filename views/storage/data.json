@@ -112,11 +112,11 @@
     "company_url":"https://ighub.com.ng/"
 },{
 	"name": "Oluwatomisin Lalude",
-    "stack": "dotnet",
-    "role":"Software Engineer",
-    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564130913/38674977_a4yjc2.png",
-    "company":"Kessintech",
-    "company_url":"#"
+    "stack": "HTML/CSS/JS/NodeJS/Django/Laravel",
+    "role": "Front End Web Engineer",
+    "picture": "https://res.cloudinary.com/do9i9xfku/image/upload/e_grayscale/v1554310773/Passport.png",
+    "company": "Kessintech",
+    "company_url": "www.kessintech.com"
 },{
 	"name": "Albert",
     "stack": "",
@@ -283,8 +283,8 @@
     "stack": "PHP/Laravel/Go/JS",
     "role":"Software Engineer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564128235/02036892-8705-49b6-b9c4-c3daf28b0f1e_du8ftn.webp",
-    "company":"Africastalking",
-    "company_url":"https://africastalking.com"
+    "company":"",
+    "company_url":""
 }
 ,{
 	"name": "Seyi Onifade",
@@ -398,5 +398,26 @@
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564484031/Capture_tbcll2.png",
     "company":"schoolableHQ",
     "company_url":"schoolable.allprotech.co"
+},{
+    "name": "Abdulrahman Abdulkarim",
+    "stack": "Android/Java/Kotlin",
+    "role":"Android Engineer",
+    "picture":"https://res.cloudinary.com/lanre01/image/upload/c_scale,e_grayscale,q_100,w_400/v1564475403/IMG_-1w31u9_y7yqtq.jpg",
+    "company":"ARCA Payments",
+    "company_url":"arca.network"
+},{
+    "name": "Nwanze Franklin",
+    "stack": "PHP/Laravel, React Native, Devops",
+    "role":"Software Engineer",
+    "picture":"https://avatars3.githubusercontent.com/u/11983788?s=400&u=3e2b00cb1a7884b211c11d28e5a6930753e7bca5&v=4",
+    "company":"Binary Hills",
+    "company_url":"https://binaryhills.org"
+},{
+    "name": "Chidi Okoye",
+    "stack": "HTML/CSS/JavaScript/ReactJs/Project Management",
+    "role":"JavaScript Developer",
+    "picture":"https://res.cloudinary.com/okoyecb/image/upload/v1564474752/okoyecb.jpg",
+    "company":"Neukleos",
+    "company_url":"https://neukleos.com/"
 }
 ] 
