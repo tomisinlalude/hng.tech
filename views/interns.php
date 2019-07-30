@@ -30,20 +30,28 @@
                        </div>";
 			
 					foreach($interns as $intern){
-					if($intern->company == $company->name){
-						echo "<div class='intern' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
-						<p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+                        if($intern->company == $company->name){
+                            echo "<div class='intern' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                            <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+                            }
                         }
-                    }
-			}
-			
-           
+			        }
+            
+                   
             ?>
 
         </div>
 
-
-    
+        <div class="row cards inters">
+        <?php foreach($interns as $intern){
+                if($intern->company == ""){
+                    echo "<div class='intern' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
+                    <p class='stack'>".$intern->stack."<br />".$intern->role." @<a style='font-size: 12px' href='".$intern->company_url."'>".$intern->company."</a></p></div>";
+                    }
+                }
+         
+            ?>
+            </div>
        
     </div>
 
