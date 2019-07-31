@@ -14,14 +14,18 @@ h5 {
     width: 100%;
     
 }
+.each-company:nth-of-type(even) {
+    border-left: 1px;
+  }
 
 /* Each Company */
 .each-company {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     width: 48%;
+    margin: 20px 10px;
 }
 
 /* Company Logo and bio */
