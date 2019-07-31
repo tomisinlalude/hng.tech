@@ -14,9 +14,9 @@ h5 {
     width: 100%;
     
 }
-.each-company:nth-of-type(even) {
+/* .each-company:nth-of-type(even) {
     border-left: 1px;
-  }
+  } */
 
 /* Each Company */
 .each-company {
