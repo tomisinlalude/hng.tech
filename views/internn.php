@@ -17,7 +17,7 @@
        
 
         
-       <div class="row inters">
+       <div class="e-company inters">
             <div class='each-company'>
                     <div class=' company'>
                       <p>Andela invests in Africa’s most talented software engineers to help companies solve the technical talent shortage and build high-performing distributed engineering teams. Andela builds distributed engineering teams with Africa's most talented software developers</p>
@@ -133,7 +133,7 @@
         </div>
 
 
-        <div class="row inters">
+        <div class=" inters">
         <?php 
         
         $data = file_get_contents(__DIR__ . '/storage/data.json'); 

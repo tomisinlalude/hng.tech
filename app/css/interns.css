@@ -11,7 +11,7 @@ h5 {
 }
 
 .e-company {
-    
+    width: 100%;
     
 }
 
@@ -19,7 +19,7 @@ h5 {
 .each-company {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 48%;
 }
