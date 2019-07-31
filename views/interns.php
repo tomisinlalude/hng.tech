@@ -51,7 +51,7 @@
      </div>
 
 
-        <div class="row cards inters">
+        <div class="row cards interns">
         <?php foreach($interns as $intern){
                 if($intern->company == ""){
                     echo "<div class='intern' ><img class='card-img-top' style='object-fit: cover' src='".$intern->picture."' alt='Card image cap'><p class='name'>".$intern->name."</p>
