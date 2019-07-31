@@ -26,7 +26,7 @@
                       </div>
                     </div>
                       
-                    <div class='interns'>
+                    <div class='inters'>
                          <div class='intern' >
                               <img class='card-img-top' style='object-fit: cover' src='https://res.cloudinary.com/nedy123/image/upload/e_grayscale/v1558000126/my_dp_zz5dbu.jpg' alt='greeno image'>
                               <p class='name'>Edidiong Udombat</p>
@@ -63,7 +63,7 @@
                       </div>
                     </div>
                       
-                    <div class='interns'>
+                    <div class='inters'>
                          <div class='intern' >
                               <img class='card-img-top' style='object-fit: cover' src='https://res.cloudinary.com/nedy123/image/upload/e_grayscale/v1558000126/my_dp_zz5dbu.jpg' alt='greeno image'>
                               <p class='name'>Edidiong Udombat</p>
@@ -133,7 +133,7 @@
         </div>
 
 
-        <div class="row cards inters">
+        <div class="row inters">
         <?php 
         
         $data = file_get_contents(__DIR__ . '/storage/data.json'); 
