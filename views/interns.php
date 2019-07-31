@@ -13,7 +13,8 @@
 
         </header>
 
-            <?php
+
+        <?php
             
             $data = file_get_contents(__DIR__ . '/storage/data.json'); 
 			$interns = json_decode($data); 
@@ -38,7 +39,7 @@
                 echo "</div>";
             ?>
 
-     
+        
 
         <div class="row cards interns">
         <?php foreach($interns as $intern){
@@ -49,7 +50,7 @@
                 }
          
             ?>
-            </div>
+        </div>
        
     </div>
 
