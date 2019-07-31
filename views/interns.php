@@ -13,9 +13,6 @@
 
         </header>
 
-            
-        <div class="row cards inters">
-
             <?php
             
             $data = file_get_contents(__DIR__ . '/storage/data.json'); 
@@ -25,9 +22,9 @@
 			$companies = json_decode($more_data); 
 
 			foreach($companies as $company){
+                echo "<div class='each-company'>";
 
-				echo "<div class='each-company'><div class='container company'><p>".$company->about."</p><div class='logo-container'><img src='".$company->logo."' alt='".$company->name." logo'></div>
-                       </div>";
+				echo "<div class='container company'><p>".$company->about."</p><div class='logo-container'><img src='".$company->logo."' alt='".$company->name." logo'></div></div>";
                 echo "<div class='interns'>";
 					foreach($interns as $intern){
                         if($intern->company == $company->name){
@@ -38,18 +35,10 @@
                 echo "</div>";
 			        }
             
-                echo "</div>"
+                echo "</div>";
             ?>
 
-        </div>
-
-    
-     <div class="company"> logo + description</div>
-     <div class="interns">
-         <div class="intern"></div>
-         <div class="intern"></div>
-     </div>
-
+     
 
         <div class="row cards interns">
         <?php foreach($interns as $intern){

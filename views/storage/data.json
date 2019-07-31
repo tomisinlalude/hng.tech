@@ -111,7 +111,7 @@
     "company": "Kessintech",
     "company_url": "www.kessintech.com"
 },{
-	"name": "Albert",
+	"name": "Albert Oboh",
     "stack": "",
     "role":"Mobile developer",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564131063/Capture_qfqn7e.png",
@@ -213,6 +213,13 @@
     "stack": ".NET and ESQL DEVELOPER",
     "role":".NET, ESQL DEVELOPER",
     "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564130284/download_hndcqs.jpg",
+    "company":"FCMB",
+    "company_url":"#"
+},{
+	"name": "Adeboye Blessing",
+    "stack": "Adobe/Figma",
+    "role":"Product Designer",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564489994/47522357_v2wzw6.jpg",
     "company":"FCMB",
     "company_url":"#"
 },{
@@ -330,7 +337,7 @@
     	"company_url":"https://www.hotels.ng"
 },{
 	"name": "Chuks Opia",
-    	"stack": "HTML/JS/ReactJS/Vue",
+    	"stack": "HTML/JS/Angular/Ruby",
     	"role":"Software Engineer",
     	"picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564127382/Szgi16L-_400x400_a8tfmb.jpg",
     	"company":"Andela",
@@ -437,9 +444,23 @@
     "name": "Arinze George",
     "stack": "Android/Kotlin/Java",
     "role":"Software Engineer",
-    "picture":"https://res.cloudinary.com/arinzedroid/image/upload/v1564486237/1560594323657_1_vp5sy9.jpg",
+    "picture":"https://res.cloudinary.com/arinzedroid/image/upload/e_grayscale/v1564486237/1560594323657_1_vp5sy9.jpg",
     "company":"Upperlink",
     "company_url":"upperlink.ng"
+},{
+    "name": "Alexander Garuba",
+    "stack": "",
+    "role":"Software Developer",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/e_grayscale/v1564490438/ZQNRSZ-H_400x400_uflnat.jpg",
+    "company":"Hotels.ng",
+    "company_url":"https://hotels.ng"
+},{
+    "name": "Patrick Aziken",
+    "stack": "HTML/CSS",
+    "role":"UI Designer",
+    "picture":"https://res.cloudinary.com/skylarng89/image/upload/v1564518276/IMG_20181105_142352_917.jpg",
+    "company":"",
+    "company_url":""
 }
 
 ] 
