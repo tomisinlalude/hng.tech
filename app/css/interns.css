@@ -173,6 +173,10 @@ h5 {
 }
 
 /* Interns */
+.other-interns {
+    margin-top: 75px;
+}
+
 .interns {
     display: flex;
     flex-wrap: wrap;

@@ -133,7 +133,7 @@
         </div>
 
 
-        <div class="">
+        <div class="other-interns">
         <?php 
         
         $data = file_get_contents(__DIR__ . '/storage/data.json'); 
