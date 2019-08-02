@@ -22,7 +22,7 @@
 					<p class="text-center detail">
 					The Ultimate LightWeight Content Platform. LUCID was built on the premise that ownership and privacy is about respect and that it is your right.</p>
 					<div class="text-center">
-						<a href="https://getlucid.app" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
+						<a href="https://lucid.blog/" target="blank"><button type="button" class="btn btn-custom mr-0">Learn more</button></a>
 					</div>
 				</div>
 			</div>
