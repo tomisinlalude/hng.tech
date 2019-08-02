@@ -12,11 +12,11 @@ h5 {
 
 .e-company {
     width: 100%;
-    
 }
-/* .each-company:nth-of-type(even) {
-    border-left: 1px;
-  } */
+.each-company:nth-of-type(even) {
+    border-left: 1px solid rgba(55, 59, 59, 0.116);
+    padding-left: 17px;
+  }
 
 /* Each Company */
 .each-company {
@@ -25,7 +25,7 @@ h5 {
     /* justify-content: space-between; */
     flex-wrap: wrap;
     width: 48%;
-    margin: 20px 10px;
+    margin: 15px 0px 15px 8px;
 }
 
 /* Company Logo and bio */
@@ -50,7 +50,11 @@ h5 {
     text-justify: justify;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
+    .each-company {
+        width: 95%;
+        margin-left: 15px;
+    }
     .company {
         display: inline-flex;
         flex-direction: column-reverse;
