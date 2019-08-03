@@ -134,6 +134,34 @@
         "name":"Epump",
         "about":"E-pump is a product of Fuelmetrics Limited, a leading automation and solution development company located in Lagos, Nigeria. The company was born out of a need to fill the gap in the provision of top-notch automation and software solution, particularly in the downstream oil and gas sector",
         "logo":"https://res.cloudinary.com/xyluz/image/upload/v1564488069/Capture_xo615v.png"
+    },{
+        "name": "Swipe",
+        "about": "We're a product design and software company in Lagos, Nigeria. We work with amazing companies, startups and people to build great things.",
+        "logo": "https://swipemax.com/images/logo.svg"
+    },{
+        "name": "Korapay",
+        "about": "Faster, cheaper & reliable transfers with no hidden fees.",
+        "logo": "https://korapay.com/assets/images/kpy-logo-dark.svg"
+    },{
+        "name": "Whogohost",
+        "about": "WhoGoHost is a web solutions company",
+        "logo": "https://www.whogohost.com/assets/images/whlogo.png"
+    },{
+        "name": "Chaka",
+        "about": "Trade and investments",
+        "logo": "https://chaka.ng/img/logo.96e5c596.svg"
+    },{
+        "name": "TeamApt",
+        "about": "TeamApt Limited is a financial technology company specialized in the development, designing and selling of Digital Banking, Digital Business solutions and running Payment Infrastructure for Africa",
+        "logo": "https://www.teamapt.com//assets/img/logo.svg"
+    },{
+        "name": "pingexpress",
+        "about": "Instant transfers. Low fees. Efficient Service.",
+        "logo": "https://www.ping-express.com/images/homepics/Ping-espress_logo.png"
+    },{
+        "name": "INTELLITECH",
+        "about": "INTELLITECH is an information Technology Company, focused on providing optimal, Contemporary and Prospective ICT solutions in the World.",
+        "logo": ""
     }
 
 ]
