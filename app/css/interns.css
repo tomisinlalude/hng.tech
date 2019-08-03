@@ -14,7 +14,7 @@ h5 {
     width: 100%;
 }
 .each-company:nth-of-type(even) {
-    border-left: 1px solid rgba(55, 59, 59, 0.116);
+    border-left: 3px solid rgba(55, 59, 59, 0.116);
     padding-left: 12px;
   }
 
