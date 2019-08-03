@@ -37,7 +37,7 @@
               <img src='".$company->logo."' alt='".$company->name." logo'>
               </div>
               </div>";
-                      echo "<div class='interns'>";
+                      echo "<div class='inters'>";
                 foreach($interns as $intern){
                               if($intern->company == $company->name){
                                   echo "<div class='intern' >
