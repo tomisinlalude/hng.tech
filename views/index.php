@@ -6,9 +6,9 @@
             <div class="container hp-container">
                 <div class="row">
                     <div class="col-md-6 hp-jumbotron-text">
-                        <h1 class="hp-header">The HNG Internship</h1>
-                        <h3 class="hp-subheader"><strong>Perfection is always under construction</strong></h1>
-                        <p class="hp-header-text">The HNG Internship is an ambitious attempt to change the way education is done in Africa.
+                        <h1 class="hp-header text-left">The HNG Internship</h1>
+                        <h3 class="hp-subheader text-left"><strong>Perfection is always under construction</strong></h1>
+                        <p class="hp-header-text text-left">The HNG Internship is an ambitious attempt to change the way education is done in Africa.
                         It’s the bridge between learning to code, and becoming the best in the world.</p>
                     </div>
                 </div>
