@@ -3,7 +3,7 @@
     "stack": "PHP/Laravel/Phalcon/DevOps",
     "role":"Web Developer",
     "picture":"https://res.cloudinary.com/gabumoh/image/upload/v1557903161/gabumoh_rmmy8z.jpg",
-    "company":"Phree Media Technology",
+    "company":"Phree Media",
     "company_url":"https://www.phreetech.com"
 }, {
 	"name": "Ominiabohs E David",
@@ -487,14 +487,14 @@
     "stack": "PHP",
     "role":"Backend Developer ",
     "picture":"http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,e_art:incognito,h_340,q_100,w_330/v1519764764/IMG_20180227_214951_697_o3buej.jpg",
-    "company":"Whogohost Limited ",
+    "company":"Whogohost",
     "company_url":"http://whogohost.com"
 },{
     "name": "Janet Arisah",
     "stack": "JavaScript / Vue.js",
     "role":"Frontend Developer",
-    "picture":"https://drive.google.com/file/d/1IwvHye1SxQURr19peslcM32g9hbSMi9X/view?usp=drivesdk",
-    "company":"Chaka Technologies",
+    "picture":"https://res.cloudinary.com/xyluz/image/upload/v1564906159/20180123_091758_yvczlr.jpg",
+    "company":"Chaka",
     "company_url":"https://chaka.ng"
 },{
     "name": "Kelvin Chikezie",
@@ -514,7 +514,7 @@
     "name": "Joe-smith Essang",
     "stack": "Mobile Developer | Android",
     "role":"Technical Writer & SEO ",
-    "picture":"https://bit.ly/2LV6LUm",
+    "picture":"https://res.cloudinary.com/jsmyth/image/upload/v1564694361/2019-07-20_17.17.38_eiddzo.jpg",
     "company":"Bellestoreinc",
     "company_url":"https://store.bellestoreinc.com"
 },{
@@ -543,7 +543,7 @@
     "stack": "Angular, Java, golang, python.",
     "role":"Software Engineer ",
     "picture":"https://media.licdn.com/dms/image/C5603AQGNeWimAnwugw/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=iLUwNrPLopc6dYtrcLej9QN2asRtmKWRGVQ1CWiv5Tc",
-    "company":"Teamapt Ltd ",
+    "company":"TeamApt",
     "company_url":"http://www.teamapt.com"
 },{
     "name": "Adesanya Adetomiwa Victor",
@@ -606,7 +606,7 @@
     "stack": "",
     "role":"Frontend Developer",
     "picture":"https://res.cloudinary.com/intellitech/image/upload/v1523779243/admiral.jpg",
-    "company":"INTELLITECH TECHNOLOGIES LIMITED",
+    "company":"INTELLITECH",
     "company_url":"https://intellitech.ng"
 }
 
