@@ -1,10 +1,10 @@
 [{
 	"name": "Gabriel Umoh",
-    "stack": "PHP / DevOps",
-    "role":"Software Engineer",
-    "picture":"https://res.cloudinary.com/gabumoh/image/upload/e_grayscale/v1557903161/gabumoh_rmmy8z.jpg",
-    "company":"StayBusy Tech",
-    "company_url":"https://staybusy.io"
+    "stack": "PHP/Laravel/Phalcon/DevOps",
+    "role":"Web Developer",
+    "picture":"https://res.cloudinary.com/gabumoh/image/upload/v1557903161/gabumoh_rmmy8z.jpg",
+    "company":"Phree Media Technology",
+    "company_url":"https://www.phreetech.com"
 }, {
 	"name": "Ominiabohs E David",
     "stack": "",
@@ -234,8 +234,8 @@
     "stack": "JS/Angular/Python",
     "role":"Software Engineer",
     "picture":"https://res.cloudinary.com/benjorah/image/upload/e_grayscale/v1563978692/personal.jpg",
-    "company":"Epidalert",
-    "company_url":"#"
+    "company":"Andela",
+    "company_url":"https://andela.com"
 },{
 	"name": "OLASUPO Abdulhakeem",
     "stack": "Figma",
