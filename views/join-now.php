@@ -94,7 +94,7 @@
                                     <option value="Web Development">Web Development</option>
                                     <option value="Mobile Development">Mobile Development</option>
                                     <option value="Machine Learning">Machine Learning</option>
-                                    <option value="UI/UX Design">UI/UX Design</option>
+                                    <!-- <option value="UI/UX Design">UI/UX Design</option> -->
                                     <option value="Digital Marketing">Digital Marketing</option>
                                 </select>
                             </div>
