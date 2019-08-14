@@ -128,12 +128,12 @@ $(document).ready(() => {
                     lastname: lname,
                     label: "HNG Internship",
     
-                    // callback: function(response){
-                    //     alert('success. transaction ref is ' + response.reference);
-                    // },
-                    // onClose: function(){
-                    //     alert('window closed');
-                    // }
+                    callback: function(response){
+                        alert('success. transaction ref is ' + response.reference);
+                    },
+                    onClose: function(){
+                        alert('window closed');
+                    }
                 });
                 paystack_handler.openIframe();
             }
@@ -142,7 +142,7 @@ $(document).ready(() => {
             let email = $('#donatorEmail').val()
             let fname = $('#donatorFname').val()
             let lname = $('#donatorLname').val()
-            if (price == '' || email == '' || fname =='' || lname == ''){
+/*             if (price == '' || email == '' || fname =='' || lname == ''){
                 $('.modal-error').css('display', 'block')
             }
             else{
@@ -150,7 +150,7 @@ $(document).ready(() => {
                 $('.modal-error').css('display', 'none')
                 paystack(email, price, fname, lname)
                 
-            }
+            } */
         })
         
     })
