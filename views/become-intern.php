@@ -26,7 +26,8 @@
 					<p class="hp-header-text">Learn, grow and scale your software developer career with real world experience.</p>
 					<p class="hp-header-text"> The Next Internship starts in September. Click on the link below to join the waiting list.</p>
 					<br>
-					<a class="bi-btn primary-button" href="join-now" target="_blank">Join now</a><br><br>
+					<a class="bi-btn primary-button" href="https://forms.gle/XHdS1aPL5piMcaDP6" target="_blank">Join now</a><br><br>
+					<!-- <a class="bi-btn primary-button" href="join-now" target="_blank">Join now</a><br><br> -->
 				</div>
 			</div>
 		</div>
@@ -136,8 +137,8 @@
 				<div class="">
 					<p class="h3 last-text1">Get started on your tech career</p>
 					<p class="bi-join-info">The HNG Internship 6.0 starts in September. Click on this link to join the waiting list.</p>
-					<!-- <a class="bi-btn primary-button" href="https://start.ng/" target="_blank">Join now</a><br><br> -->
-					<a class="bi-btn primary-button" href="join-now">Join now</a>
+					<a class="bi-btn primary-button" href="https://forms.gle/XHdS1aPL5piMcaDP6" target="_blank">Join now</a><br><br>
+					<!-- <a class="bi-btn primary-button" href="join-now">Join now</a> -->
 				</div>
 					
 			</div>
