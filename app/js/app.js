@@ -119,7 +119,7 @@ $(document).ready(() => {
         $('#paystackProcessPayment').click(()=>{
             var paystack = (email,price, fname, lname) => {
                 // paystack configuration
-                var paystack_handler = PaystackPop.setup({
+                var handler = PaystackPop.setup({
                     key: 'pk_live_1eb3adccefc3273c3d11bc4895c38997f3161539',
                     email: email,
                     amount: Number(price + '00'),
@@ -135,14 +135,14 @@ $(document).ready(() => {
                         alert('window closed');
                     }
                 });
-                paystack_handler.openIframe();
+                handler.openIframe();
             }
 
             let price = $('#donateAmount').val()
             let email = $('#donatorEmail').val()
             let fname = $('#donatorFname').val()
             let lname = $('#donatorLname').val()
-/*             if (price == '' || email == '' || fname =='' || lname == ''){
+            if (price == '' || email == '' || fname =='' || lname == ''){
                 $('.modal-error').css('display', 'block')
             }
             else{
@@ -150,7 +150,7 @@ $(document).ready(() => {
                 $('.modal-error').css('display', 'none')
                 paystack(email, price, fname, lname)
                 
-            } */
+            }
         })
         
     })
