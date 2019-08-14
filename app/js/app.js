@@ -120,7 +120,7 @@ $(document).ready(() => {
             var paystack = (email,price, fname, lname) => {
                 // paystack configuration
                 var paystack_handler = PaystackPop.setup({
-                    key: 'pk_test_aa0092528d2fa94abd90cba7de025b6f82e357d7',
+                    key: 'pk_live_1eb3adccefc3273c3d11bc4895c38997f3161539',
                     email: email,
                     amount: Number(price + '00'),
                     currency: "NGN",
