@@ -119,8 +119,8 @@ $(document).ready(() => {
         $('#paystackProcessPayment').click(()=>{
             var paystack = (email,price, fname, lname) => {
                 // paystack configuration
-                var paystack_handler = PaystackPop.setup({
-                    key: 'pk_test_aa0092528d2fa94abd90cba7de025b6f82e357d7',
+                var handler = PaystackPop.setup({
+                    key: 'pk_live_1eb3adccefc3273c3d11bc4895c38997f3161539',
                     email: email,
                     amount: Number(price + '00'),
                     currency: "NGN",
@@ -128,14 +128,14 @@ $(document).ready(() => {
                     lastname: lname,
                     label: "HNG Internship",
     
-                    // callback: function(response){
-                    //     alert('success. transaction ref is ' + response.reference);
-                    // },
-                    // onClose: function(){
-                    //     alert('window closed');
-                    // }
+                    callback: function(response){
+                        alert('success. transaction ref is ' + response.reference);
+                    },
+                    onClose: function(){
+                        alert('window closed');
+                    }
                 });
-                paystack_handler.openIframe();
+                handler.openIframe();
             }
 
             let price = $('#donateAmount').val()
