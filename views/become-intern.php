@@ -135,7 +135,7 @@
 			<div class="container bi-join-container">
 				<div class="">
 					<p class="h3 last-text1">Get started on your tech career</p>
-					<p class="bi-join-info">The HNG Internship 6.0 starts in August. Click on this link to join the waiting list</p>
+					<p class="bi-join-info">The HNG Internship 6.0 starts soon. Click on this link to join the waiting list</p>
 					<!-- <a class="bi-btn primary-button" href="https://start.ng/" target="_blank">Join now</a><br><br> -->
 					<a class="bi-btn primary-button" href="join-now">Join now</a>
 				</div>
