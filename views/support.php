@@ -35,18 +35,19 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="sp-contribute-box stripe-payment" >
 							<div class="sp-contribute-img">
-								<img src="../app/img/stripe.svg" alt="stripe" >
+								<a href="https://rave.flutterwave.com/pay/hngtechltd3tcl"><img src="https://flutterwave.com/wp-content/uploads/2018/07/FLW-logo.svg" alt="stripe" ></a>
 							</div>
-							<h6 class="sp-contribute-text" style="">Support the Internship and pay with Stripe.</h6>
-							<div class="sp-contribute-arrow">
+							<h6 class="sp-contribute-text" style="cursor: pointer">Support the Internship.</h6>
+							
+							<!-- <div class="sp-contribute-arrow">
 								<svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M23 22L34 12M34 12L23 2M34 12H0" stroke="#00AEFF" stroke-width="4"/>
 								</svg>
-							</div>
+							</div> -->
 
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<!-- <div class="col-md-3 col-xs-6">
 						<div class="sp-contribute-box paystack-payment">
 							<div class="sp-contribute-img">
 								<img src="../app/img/paystack.svg" alt="paystack" class="">
@@ -58,7 +59,7 @@
 								</svg>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<!-- <div class="col-md-3 col-xs-6">
 						<div class="sp-contribute-box">
 							<div class="sp-contribute-img">
