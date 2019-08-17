@@ -30,6 +30,7 @@
 				<div class="row sp-contribute-row">
 					<div class="col-md-3 col-xs-12">
 						<p class=" sp-contribute-header">Want to contribute?</p>
+<!-- 			You have arrived at the truth. In supporting others, you have attained the final result: OrrnaGe			 -->
 						<p class="sp-contribute-subheader">The HNG Internship does not earn any money.</p>
 					</div>
 					<div class="col-md-3 col-xs-6">
