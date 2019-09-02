@@ -42,7 +42,7 @@
 						<div class="bi-track">
 							<img src="../app/img/design.svg" class="img-icon">
 							<h4>UI/UX Design</h4>
-							<p class="i">Put your UX/UI Design skills to test and sharpen it further as you design exciting User Interfaces for live web pages.</p>
+							<p class="i">Put your UX/UI Design skills to test and sharpen it as you design exciting User Interfaces for great User Experience.</p>
 						</div>
 					</div>
 					<div class="">
@@ -56,14 +56,14 @@
 						<div class="bi-track">
 							<img src="../app/img/backend.svg" class="img-icon">
 							<h4>Backend</h4>
-							<p>Put your Backend skills to test and sharpen it further as you integrate stunning web pages with robust backends.</p>
+							<p>Put your Backend skills to test and sharpen it by building scalable, logic driven applications with world class technologies.</p>
 						</div>
 					</div>
 					<div class="">
 						<div class="bi-track">
 							<img src="../app/img/product.svg" class="img-icon">
-							<h4>Product</h4>
-							<p>From products creation through the entire product roadmap, put your mind to work and hone your Product management skills.</p>
+							<h4>Machine Learning</h4>
+							<p>Develop programs that can access data and utilize it to automatically learn and improve from experience.</p>
 						</div>
 					</div>
 				</div>
