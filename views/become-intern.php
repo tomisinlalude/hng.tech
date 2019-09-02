@@ -56,7 +56,7 @@
 						<div class="bi-track">
 							<img src="../app/img/backend.svg" class="img-icon">
 							<h4>Backend</h4>
-							<p>Put your Backend skills to test and sharpen it further as you integrate exciting UI Designs into stunning web pages.</p>
+							<p>Put your Backend skills to test and sharpen it further as you integrate stunning web pages with robust backends.</p>
 						</div>
 					</div>
 					<div class="">
