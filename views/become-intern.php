@@ -42,21 +42,21 @@
 						<div class="bi-track">
 							<img src="../app/img/design.svg" class="img-icon">
 							<h4>UI/UX Design</h4>
-							<p class="i">The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
+							<p class="i">Put your UX/UI Design skills to test and sharpen it further as you design exciting User Interfaces for live web pages</p>
 						</div>
 					</div>
 					<div class="">
 						<div class="bi-track">
 							<img src="../app/img/frontend.svg" class="img-icon">
 							<h4>Frontend</h4>
-							<p>The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
+							<p>Put your Frontend skills to test and sharpen it further as you turn exciting UI Designs into stunning web pages</p>
 						</div>
 					</div>
 					<div class="">
 						<div class="bi-track">
 							<img src="../app/img/backend.svg" class="img-icon">
 							<h4>Backend</h4>
-							<p>The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
+							<p>The HNG Internship puts your UX/UI Design skills to test and sharpen it further as you work on live projects.</p>
 						</div>
 					</div>
 					<div class="">
