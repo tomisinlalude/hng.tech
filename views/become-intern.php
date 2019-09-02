@@ -63,7 +63,7 @@
 						<div class="bi-track">
 							<img src="../app/img/product.svg" class="img-icon">
 							<h4>Product</h4>
-							<p>From products creation through the entire product roadmap, put your maind to work and become the product manager we been talking about.</p>
+							<p>From products creation through the entire product roadmap, put your mind to work and hone your Product management skills.</p>
 						</div>
 					</div>
 				</div>
