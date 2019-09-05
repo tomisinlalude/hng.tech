@@ -124,6 +124,7 @@
 				<div class="sp-partners-container">
 					<div class=""><img src="../app/img/hng.svg" style="width:150px;"></div>
 					<div class=""><img src="../app/img/akwa-ibom.png" style="width:95px;"></div>
+					<div class=""><img src="../app/img/imo-logo.png" style="width:95px;"></div>
 					<div class=""><img src="../app/img/oracle.svg"></div>
 					<div class=""><img src="../app/img/figma.svg" ></div>
 					<div class=""><img src="../app/img/bluechip.svg"></div>
