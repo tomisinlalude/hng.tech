@@ -19,7 +19,7 @@
 					</article>
 					<div class="col-md-5">
 						<img class="sp-intro-img" src="../app/img/support/intro.png" />
-						<a class="sp-btn primary-button" href="#"> Download Deck</a>
+						<a class="sp-btn primary-button" href="../app/download/HNGInternship5_PitchDeck-min.pdf" download> Download Deck</a>
 					</div>
 				</div>
 			</div>
