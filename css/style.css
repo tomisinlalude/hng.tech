@@ -3,9 +3,11 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-section{
+
+section {
     width: 100%
 }
+
 .header {
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
@@ -89,7 +91,6 @@ section{
 .find_out_more button {
     background: #fFFFFF;
     border-radius: 4px;
-    margin: ;
     width: 281px;
     height: 52px;
     border: none;
@@ -243,7 +244,7 @@ find_more_btn_box {
 }
 
 .avatar_caption p {
-    
+
     margin-top: -50px;
     font-weight: 600;
 }
@@ -359,18 +360,27 @@ find_more_btn_box {
 /**/
 @media only screen and (max-width: 750px) {
     .find_out_more {
+        padding: ;
         text-align: center;
-        font-size: 30px;
+    }
+
+    .find_out_more h1 {
+        font-size: 35px;
     }
 
     .find_out_more button {
         width: 150px;
         height: 40px;
         border: none;
+
         font-size: 15px;
         font-weight: 700;
         line-height: 25px;
         color: #00AEFF;
+    }
+
+    .find_more_btn_box {
+        margin-top: -90px;
     }
 
     .about_us {
@@ -431,82 +441,183 @@ find_more_btn_box {
     }
 
     .testimony {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .testimony_badge {
+        height: auto;
+
+        margin: 5px 40px;
+        padding: 20px 10px 40px 10px;
+        color: #fff;
+        font-size: 15px;
+
+    }
+
+    .testimony_title {
+        margin: 40px 0;
+        padding-top: 1px;
+    }
+
+
+    .avatar_caption p {
+
+        font-weight: 600;
+        margin-top: -50px;
+    }
+
+    .subscribe {
+        text-align: center;
+        height: auto;
+        padding: 100px 30px;
+        background-color: #00AEFF;
+    }
+
+    .subscribe_text {
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .subscribe input[type=text] {
+        width: 100px;
+    }
+
+    .subscribe button {
+        width: 100px;
+        font-size: 13px;
+        border-left: 2px solid #ccc;
+
+    }
+
+
+    .subscribe input::placeholder {
+        font-size: 14px;
+    }
+
+    .contact_us {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        height: 400px;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 96px;
+        padding: 15px 20px;
+    }
 
 }
 
-.testimony_badge {
-    height: auto;
-    
-    margin: 5px 40px;
-    padding: 20px 10px 40px 10px;
-    color: #fff;
-    font-size: 15px;
-    
-}
+@media only screen and (max-width: 400px) {
+    .header {
+        height: 80vh;
+    }
 
-.testimony_title {
-    margin: 40px 0 ;
-    padding-top: 1px;
-}
+    .navmenu img {
+        width: 30vw;
+    }
 
+    .navmenu button {
+        width: 30vw;
+        font-size: 3vw;
+    }
 
-.avatar_caption p {
-    
-    font-weight: 600;
-    margin-top: -50px;
-}
+    .header_caption h1,
+    .about_us h3,
+    .service_subhead,
+    .testimony_title,
+    .subscribe_text {
+        font-size: 6vw;
+        padding: 0 10%
+    }
 
-.subscribe {
-    text-align: center;
-    height: auto;
-    padding: 100px 30px;
-    background-color: #00AEFF;
-}
+    .header_caption p,
+    .about_us p,
+    .service_head {
+        font-size: 4vw;
+        padding: 0 10%;
+    }
 
-.subscribe_text {
-    color: #fff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
-}
+    .find_out_more {
+        padding: 0 10%
+    }
 
-.subscribe input[type=text] {
-    width: 100px;
-}
+    .find_out_more h1 {
+        font-size: 8vw;
+        padding: 0;
+    }
 
-.subscribe button {
-    width: 100px;
-    font-size: 13px;
-    border-left: 2px solid #ccc;
-    
-}
+    .about_us {
+        padding: 10% 7%;
+        text-align: center
+    }
 
+    .about_us h3,
+    .service_subhead {
+        line-height: 1.5
+    }
 
-.subscribe input::placeholder {
-    font-size: 14px;
-}
+    .our_services {
+        padding: 10% 0;
+    }
 
-.contact_us {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    height: 400px;
-}
+    .bullet_heading {
+        margin-bottom: 0;
 
+    }
 
-.footer {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    height: 96px;
-    padding: 15px 20px;
-}
+    .services_bullet {
+        margin-bottom: 9vw;
+        text-align: center;
+    }
 
+    .subscribe {
+        padding: 10% 0;
+    }
+
+    .subscribe input[type=text] {
+        font-size: 3vw;
+        height: 30px;
+        width: 70%;
+            padding: 16px;
+    }
+
+    .subscribe button {
+        font-size: 3vw;
+        width: 20vw;
+    }
+
+    .contact_us {
+        font-size: 4vw;
+        height: auto;
+        padding: 10%
+    }
+    .contact_us button{
+        font-size: 3vw;
+    }
+
+    .footer {
+        height: auto;
+        text-align: center;
+        padding: 5%;
+        font-size: 3vw;
+    }
+
+    .footer img {
+        padding-bottom: 10px;
+        width: 20px;
+    }
 }
