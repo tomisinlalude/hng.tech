@@ -3,9 +3,13 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
+section{
+    width: 100%
+}
 .header {
     background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 860px;
 }
 
@@ -213,6 +217,8 @@ find_more_btn_box {
     display: flex;
     align-items: center;
     background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 179.98px;
     margin: 0 97px;
     padding: 20px 100px;
