@@ -4,10 +4,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-section {
-    width: 100vw
-}
 
+.row{
+    margin-right: 0px;
+    margin-left: px;
+}
 .header {
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
@@ -24,6 +25,7 @@ section {
 
 .navmenu button {
     padding: 8px 20px;
+    border-radius: 4px;
     color: white;
     background-color: #00AEFF;
     font-family: 'Lato', sans-serif;
@@ -63,6 +65,7 @@ section {
 .header_caption button {
     padding: 8px 20px;
     color: white;
+    border-radius: 4px;
     background-color: #00AEFF;
     font-family: 'Lato', sans-serif;
     border: none;
@@ -136,7 +139,6 @@ find_more_btn_box {
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: -1px;
     color: #54565A;
 }
 
@@ -158,11 +160,10 @@ find_more_btn_box {
 
 .service_head {
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 26px;
     text-align: center;
-    text-transform: uppercase;
     color: #7E8085;
 }
 
@@ -186,9 +187,10 @@ find_more_btn_box {
 
 .services_bullet {
     margin-left: 70px;
+    margin-bottom:;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -199,7 +201,7 @@ find_more_btn_box {
 .bullet_heading {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -271,7 +273,7 @@ find_more_btn_box {
     align-items: center;
     justify-content: space-between;
     height: 302px;
-    padding: 100px 100px;
+    padding: 0 100px;
     background-color: #00AEFF;
 }
 
@@ -279,7 +281,7 @@ find_more_btn_box {
     color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 60px;
 
 }
@@ -333,6 +335,7 @@ find_more_btn_box {
 
 .contact_us button {
     padding: 8px 20px;
+    border-radius: 4px;
     color: white;
     background-color: #00AEFF;
     font-family: 'Lato', sans-serif;
@@ -561,7 +564,7 @@ find_more_btn_box {
     }
 
     .about_us {
-        padding: 10% 7%;
+        padding: 10% 10px;
         text-align: center
     }
 
@@ -572,16 +575,20 @@ find_more_btn_box {
 
     .our_services {
         padding: 10% 0;
+        margin: 0;
     }
 
     .bullet_heading {
-        margin-bottom: 0;
+        margin: ;
+        font-size:  
 
     }
-
+    .service_box{
+        margin: 5%
+    }
     .services_bullet {
         margin-bottom: 9vw;
-        text-align: center;
+        text-align: ;
     }
 
     .subscribe {
@@ -592,7 +599,7 @@ find_more_btn_box {
         font-size: 3vw;
         height: 30px;
         width: 70%;
-            padding: 16px;
+        padding: 16px;
     }
 
     .subscribe button {
@@ -605,7 +612,8 @@ find_more_btn_box {
         height: auto;
         padding: 10%
     }
-    .contact_us button{
+
+    .contact_us button {
         font-size: 3vw;
     }
 
