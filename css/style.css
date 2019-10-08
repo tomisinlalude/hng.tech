@@ -6,8 +6,8 @@ body {
 
 
 .row {
-    margin-right: 0px;
-    margin-left: px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .header {
@@ -404,9 +404,13 @@ find_more_btn_box {
         line-height: 2px;
         color: #084482;
     }
-
 }
 
+@media only screen and (max-width: 990px){
+    .subscribe_text{
+     text-align: center;   
+    }
+}
 /*media responsiveness*/
 /**/
 /**/
@@ -473,7 +477,7 @@ find_more_btn_box {
     }
 
     .service_box {
-        margin: 30px 70px 0 70px;
+        margin: 30px 5vmin 0 5vmin;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -486,10 +490,16 @@ find_more_btn_box {
 
     .service_bullet_box {
         margin-top: 40px;
+        
     }
-
+    .bullet_heading h4{
+        font-size: 4vmin;
+    }
     .services_bullet {
         margin-left: 0;
+        font-size: 2.5vmin;
+        line-height: 5vw;
+        padding: 5vmin 2vmin
     }
 
     .testimony {
