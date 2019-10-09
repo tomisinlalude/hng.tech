@@ -30,9 +30,12 @@ $router->add([
   '/template' => 'interns/template.php',
   '/test' => 'interns/test.php',
   '/blog' => 'blog.php',
-  '/hng5/finalists' => 'hng5-finalists.php'
+  '/hng5/finalists' => 'hng5-finalists.php',
+  'design'=>'design.php'
 ]);
+	
 $request = $_SERVER['REQUEST_URI'];
+	
 if (strlen($request) > 1) {
   $request = rtrim($request, '/');
 }
