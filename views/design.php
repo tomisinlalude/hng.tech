@@ -29,10 +29,10 @@
         <div class="header_caption">
             <div>
                 <h1 class="mb-4">
-                    The user interface of a website can<br> make all the difference between a<br> good and bad experience.
+                "People ignore designs that ignore people” <br>Frank Chimero - UX Designer
                 </h1>
                 <p class="mb-5">
-                    We help you discover design bugs that negatively impacts<br> usability at an affordable rate
+                We uncover the snags in your design that negatively impact <br>your website’s usability and <br>suggest possible solutions.
                 </p>
             </div>
             <a href="https://hng.tech/views/contact.php"><button>GET A QUOTE</button></a>
@@ -58,7 +58,7 @@
         <div class="col-lg-6">
             <p>ABOUT US</p>
             <h3>Our design choices offer far more than an appealing interface, they impact businesses</h3>
-            <p class="mt-4">We are a team of UI/UX designers with a primary focus on design error detection on websites that can be fixed by their coding team.</p>
+            <p class="mt-4">Our operative team of UI/UX designers employ stellar attention to detail in assessing your website.</p>
         </div>
         <div class="col-lg-6 d-flex justify-content-center">
             <img src="img/asset_agbo.png" alt="">
@@ -80,18 +80,18 @@
                 <div class="services_bullet mb-5">
                     <span class="bullet_heading">
                         <img src="img/bullet1.png" alt="">
-                        <h4 class="ml-4">Usability Testing &amp; Design Flaw Detection</h4>
+                        <h4 class="ml-4">Design Flaw Detection</h4>
                     </span>
 
-                    <p>We conduct tests to evaluate how easy your website is to use. With huge number of professional UI and UX designers at our disposal, we make sure all design flaws are detected. </p>
+                    <p>We comb through your website, performing necessary diagnostics and providing you with actionable insights to inform design strategies. </p>
                 </div>
                 <div class="services_bullet mb-5">
                     <span class="bullet_heading">
                         <img src="img/bullet2.png" alt="">
-                        <h4 class="ml-4">User Interface Design</h4>
+                        <h4 class="ml-4">Usability Testing</h4>
                     </span>
 
-                    <p>Our team of designers focus on building interfaces users will find highly usable and efficient. We lay emphasis on User-Centered design and apply Design thinking principles in our approch to design </p>
+                    <p>We verify that your entire product- the technical functionalities and the design- is responsive and consistent with what is required by a user.</p>
                 </div>
 
                 <div class="services_bullet">
@@ -105,7 +105,7 @@
             </div>
         </div>
     </section>
-  
+<!--  
     <section style="text-align: center" class="testimony mb-5">
         <h3 class="testimony_title">WHAT OTHERS ARE SAYING</h3>
         <div class=" owl-carousel owl-theme">
@@ -121,8 +121,7 @@
                 </div>
             </div>
         </div>
-<!--        ______________________-->
-<!--       ---------------------------->
+
        <div>
             <div class="testimony_badge">
                 <p>HNG Tech has made a huge difference to our website and business with their good knowledge of design and User experience. Our website bounce rate is great and user spend more time on our website.<br>
@@ -135,8 +134,7 @@
                 </div>
             </div>
         </div>
-<!--        __________________________________-->
-<!--       _____________________________________-->
+
        <div>
             <div class="testimony_badge">
                 <p>HNG Design Team provided us with a comprehensive and well detailed design report that helped our development team ahead to our company branding and standards. <br>
