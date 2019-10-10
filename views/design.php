@@ -29,10 +29,10 @@
         <div class="header_caption">
             <div>
                 <h1 class="mb-4">
-                    Successful brands understand <br>the importance of <br>good design.
+                "People ignore designs that ignore people” <br>Frank Chimero - UX Designer
                 </h1>
                 <p class="mb-5">
-                We help companies discover design bugs that negatively impact <br> the experiences of your users and <br>suggest possible solutions.
+                We uncover the snags in your design that negatively impact <br>your website’s usability and <br>suggest possible solutions.
                 </p>
             </div>
             <a href="https://hng.tech/views/contact.php"><button>GET A QUOTE</button></a>
@@ -58,7 +58,7 @@
         <div class="col-lg-6">
             <p>ABOUT US</p>
             <h3>Our design choices offer far more than an appealing interface, they impact businesses</h3>
-            <p class="mt-4">We are a strong team of UI/UX designers. Our primary focus is to analyze websites for design errors.</p>
+            <p class="mt-4">Our operative team of UI/UX designers employ stellar attention to detail in assessing your website.</p>
         </div>
         <div class="col-lg-6 d-flex justify-content-center">
             <img src="img/asset_agbo.png" alt="">
