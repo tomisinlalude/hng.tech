@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #11144C;
+}
+
+header > .navbar {
+    background-color: #11144C;
+}
+
+main > span {
+    color: #FFA800;
+}
+
+hr {
+    border: 0.5px solid #ffffff;
+}
+
+main > h3 {
+    color: #00AEFF;
+}

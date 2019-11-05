@@ -1,0 +1,29 @@
+
+body {
+    overflow: hidden;
+    background: #00A7F4;
+}
+
+header > .navbar {
+    background-color: #00A7F4;
+}
+
+hr {
+    border: 0.5px solid #333333;
+}
+
+main {
+    color: #ffffff;
+}
+
+main > span {
+    color: #11144C;
+}
+
+footer {
+    color: #ffffff;
+}
+
+nav div {
+    color: #ffffff;
+}

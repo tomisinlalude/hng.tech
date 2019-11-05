@@ -1,0 +1,19 @@
+
+body {
+    overflow: hidden;
+    background: url('assets/HNG.svg');
+}
+
+header {
+    background: #00AEFF;
+    left: 0;
+    top: 0;
+}
+
+hr {
+    border: 0.5px solid #333333;
+}
+
+main > h3 {
+    color: #00AEFF;
+}
