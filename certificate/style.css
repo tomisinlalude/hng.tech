@@ -1,0 +1,74 @@
+/**
+* Generic styles
+*
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Quintessential|Roboto&display=swap');
+
+
+.mt-3 {
+    margin-top: 3% !important;
+}
+.mt-5 {
+    margin-top: 5% !important;
+}
+
+.mt-8 {
+    margin-top: 8% !important;
+}
+
+main > h2 {
+    font: bold 23px/2.0 'Roboto', sans-serif;
+}
+
+main > h3 {
+    font: bold 40px/1.7 'Roboto', sans-serif;
+}
+
+main > span {
+    font: bold 43px/1.5 'Cookie', cursive;
+}
+
+main > p {
+    font: bold 17px/1.7 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.issueDate {
+    font: bold 14px/1.5 'Montserrat', sans-serif;
+}
+
+section > h3 {
+    font: 27px/1.0 'Quintessential', cursive;
+}
+
+section .ceo-name {
+    font: bold 16px/1.5 'Montserrat', sans-serif;
+}
+
+section .ceo-title {
+    font: bold 16px/1.5 'Roboto', sans-serif;
+}
+
+aside > img {
+    position: absolute;
+    width: 12%;
+    left: 2%;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer p a {
+    color: #00AEFF;
+}
+
+hr {
+    width: 30%;
+    margin-top: -10px;
+}
