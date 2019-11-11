@@ -1,23 +1,25 @@
 <html>
     <head>
-        <title>HNGi Certificate for Intermediate</title>
+
+        <title>HNGi Certificate for Beginners</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="expert_cert.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ asset('css/certificate/beginner_cert.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/certificate/style.css')}}">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     </head>
     <body>
-        <section class="container-fluid">
+        <section>
 
             <!--Certificate Header-->
-            <header>
+            <header class="m-0 p-0">
                 <nav class="navbar">
-                    <img class="navbar-brand img-fluid" src="assets/logo-beginner.svg" alt="HNG logo" >
-                    <div class="float-right issueDate">Issued October 20, 2019</div>
+                    <img class="navbar-brand img-fluid" src="{{ asset('css/certificate/assets/logo-beginner.svg')}}" alt="HNG logo" >
+                    <div class="float-right issueDate">Issued October 20, 2019 </div>
                 </nav>
             </header>
             <!--End Of Certificate Header-->
@@ -26,14 +28,14 @@
             <main class="text-center mx-auto mt-5">
                 <h2>This is to certify that</h2>
                 <span>Seyi Onifade</span>
-                <p>participated in HNGi 6.0 and is rated an Expert in</p>
+                <p>participated in HNGi 6.0 and is rated a Beginner in</p>
                 <h3>UI/UX Design</h3>
             </main>
             <!--End Of Certificate Info-->
 
              <!--HNG Seal-->
              <aside class="mt-3">
-                    <img src="assets/seal.svg" alt="HNG seal">
+                    <img src="{{ asset('/css/certificate/assets/seal.svg') }}" alt="HNG seal">
                 </aside>
                 <!--End Of HNG Seal-->
 

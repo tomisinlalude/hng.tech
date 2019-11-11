@@ -53,3 +53,69 @@ Route::get('products', function () {
 Route::get('design', function () {
     return view('design');
 });
+Route::get('/certificate', 'CertificateController@index');
+
+Route::post('/certification', 'DataController@certificate');
+
+Route::get('/certification/{slug}', function($slug) {
+
+    $intern_json = Storage::get('start-intern-data.json');
+    $array = json_decode($intern_json,true);
+
+    for ($i=0; $i < count($array); $i++) {
+        if ($array[$i]['slug'] == $slug) {
+            $obj = $array[$i];
+            return view('certificate')->with('name',$obj);
+            break;
+        }
+        else {
+            continue;
+        }
+    }
+
+    return view('404');
+});
+
+Route::get('/certification/{slug}/download', "DataController@exportPDF");
+
+Route::get('/certification/{slug}/view', function($slug) {
+    $intern_json = Storage::get('start-intern-data.json');
+        $array = json_decode($intern_json,true);
+
+        for ($i=0; $i < count($array); $i++) {
+            if ($array[$i]['slug'] == $slug) {
+                $obj = $array[$i];
+                return view('certificate_pdf')->with('data',$obj);
+                break;
+            }
+            else {
+                continue;
+            }
+        }
+
+        return view('404');
+});
+
+Route::get('/certificate/{slug}/download', "DataController@export");
+
+Route::get('/confirmation/{slug}', function($slug) {
+    $intern_json = Storage::get('start-intern-data.json');
+    $array = json_decode($intern_json,true);
+
+    for ($i=0; $i < count($array); $i++) {
+        if ($array[$i]['slug'] == $slug) {
+            $obj = $array[$i];
+            return view('verification')->with('name',$obj);
+            break;
+        }
+        else {
+            continue;
+        }
+    }
+
+    return view('404');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
