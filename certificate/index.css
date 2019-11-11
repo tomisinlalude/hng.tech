@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    background: #FFF;
+    overflow-x: hidden;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+}
+
+nav > a, .cert-overview > a {
+    color: #FFF;
+    background: #00AEFF !important;
+    text-transform: uppercase;
+    border: 1px solid #00AEFF;
+}
+
+.cert-overview {
+    background: #F5FCFF;
+    height: 300px;
+}
+
+.cert-overview > h2 {
+    text-transform: uppercase;
+    color: #0F054C;
+    padding-top: 5%;
+}
+
+.cert-overview > h6 {
+    line-height: 3.0;
+    word-wrap: break-word;
+}
+
+.cert-overview .verify-cert {
+    width: 40%;
+    border: none;
+}
+
+.verify {
+    margin-top: 6%;
+    height: 250px;
+}
+.verify-cert a, .donate div {
+    background: #00AEFF;
+    color: #FFF;
+    border: 1px solid #00AEFF;
+    text-decoration: none;
+}
+
+.cert-category {
+    height: 60%;
+    margin-top: 10%;
+}
+
+.cert-category h3 {
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+
+.cert-category div img {
+    width: 80%;
+}
+
+.support h3, .donate h3 {
+    text-transform: uppercase;
+}
+
+.support div img {
+    margin-left: 7%;
+}
+
+.donate .btn {
+    margin-top: 2%;
+    width: 120px;
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    text-transform: uppercase;
+}
+
+footer {
+    background: #00AEFF;
+    height: 40px;
+    color: #FFF;
+}
+
+footer p {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
